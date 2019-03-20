@@ -28,33 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            //this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
-            //this.SuspendLayout();
-            //// 
-            //// reportViewer1
-            //// 
-            //this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            //this.reportViewer1.Location = new System.Drawing.Point(0, 0);
-            //this.reportViewer1.Name = "reportViewer1";
-            //this.reportViewer1.Size = new System.Drawing.Size(986, 524);
-            //this.reportViewer1.TabIndex = 0;
-            //// 
-            //// ReportAuditLog
-            //// 
-            //this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            //this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            //this.ClientSize = new System.Drawing.Size(986, 524);
-            //this.Controls.Add(this.reportViewer1);
-            //this.Name = "ReportAuditLog";
-            //this.Text = "ReportAuditLog";
-            //this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            //this.Load += new System.EventHandler(this.ReportAuditLog_Load);
-            //this.ResumeLayout(false);
+            this.components = new System.ComponentModel.Container();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.ReportsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.ReportsBindingSource)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // reportViewer1
+            // 
+            this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            reportDataSource1.Name = "Reports";
+            reportDataSource1.Value = this.ReportsBindingSource;
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "ALMIS.Viewer.rptAuditLog.rdlc";
+            this.reportViewer1.Location = new System.Drawing.Point(0, 0);
+            this.reportViewer1.Name = "reportViewer1";
+            this.reportViewer1.Size = new System.Drawing.Size(935, 522);
+            this.reportViewer1.TabIndex = 0;
+            // 
+            // ReportsBindingSource
+            // 
+            this.ReportsBindingSource.DataSource = typeof(ALMIS.BusinessEntities.Reports);
+            // 
+            // ReportAuditLog
+            // 
+            this.ClientSize = new System.Drawing.Size(935, 522);
+            this.Controls.Add(this.reportViewer1);
+            this.Name = "ReportAuditLog";
+            this.Load += new System.EventHandler(this.ReportAuditLog_Load_1);
+            ((System.ComponentModel.ISupportInitialize)(this.ReportsBindingSource)).EndInit();
+            this.ResumeLayout(false);
 
         }
 
+        private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
+        private System.Windows.Forms.BindingSource ReportsBindingSource;
+
         #endregion
 
-       // private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
+        // private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
     }
 }
