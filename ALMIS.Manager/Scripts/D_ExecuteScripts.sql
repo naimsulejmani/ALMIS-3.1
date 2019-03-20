@@ -1,0 +1,2 @@
+EXEC Almis.usp_InstallAlmisConfig
+EXEC Almis.usp_AuditUpdateTextColumnToVarcharForAllDatabase
