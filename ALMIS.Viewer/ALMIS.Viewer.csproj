@@ -26,7 +26,7 @@
     <InstallUrl>http://localhost:8081/</InstallUrl>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationRevision>3</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -164,9 +164,9 @@
     <EmbeddedResource Include="ReportAuditLog.resx">
       <DependentUpon>ReportAuditLog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="rptAuditLog.rdlc">
+    <Content Include="rptAuditLog.rdlc">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
+    </Content>
     <None Include="ALMIS.Viewer_TemporaryKey.pfx" />
     <None Include="Help\Almis.Viewer.chm">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
