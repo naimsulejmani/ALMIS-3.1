@@ -51,6 +51,7 @@
             this.pbLogo.Size = new System.Drawing.Size(132, 110);
             this.pbLogo.TabIndex = 0;
             this.pbLogo.TabStop = false;
+            this.pbLogo.DoubleClick += new System.EventHandler(this.pbLogo_DoubleClick);
             // 
             // lblUsername
             // 
@@ -88,6 +89,7 @@
             // 
             // 
             this.btnLogin.RootElement.ControlBounds = new System.Drawing.Rectangle(153, 109, 110, 24);
+            this.btnLogin.Size = new System.Drawing.Size(110, 24);
             this.btnLogin.TabIndex = 3;
             this.btnLogin.Text = "Login";
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
@@ -101,6 +103,7 @@
             // 
             // 
             this.btnCancel.RootElement.ControlBounds = new System.Drawing.Rectangle(337, 109, 110, 24);
+            this.btnCancel.Size = new System.Drawing.Size(110, 24);
             this.btnCancel.TabIndex = 4;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);

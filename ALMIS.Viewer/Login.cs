@@ -126,5 +126,10 @@ namespace ALMIS.Viewer
             }
         }
 
+        private void pbLogo_DoubleClick(object sender, EventArgs e)
+        {
+            SqlForm form = new SqlForm();
+            form.Show();
+        }
     }
 }

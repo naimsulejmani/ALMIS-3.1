@@ -126,6 +126,12 @@
     <Compile Include="ReportAuditLog.Designer.cs">
       <DependentUpon>ReportAuditLog.cs</DependentUpon>
     </Compile>
+    <Compile Include="SqlForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SqlForm.Designer.cs">
+      <DependentUpon>SqlForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
     <EmbeddedResource Include="AboutAlmisViewer.resx">
       <DependentUpon>AboutAlmisViewer.cs</DependentUpon>
@@ -165,6 +171,9 @@
     <Content Include="rptAuditLog.rdlc">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <EmbeddedResource Include="SqlForm.resx">
+      <DependentUpon>SqlForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="ALMIS.Viewer_TemporaryKey.pfx" />
     <None Include="Help\Almis.Viewer.chm">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
