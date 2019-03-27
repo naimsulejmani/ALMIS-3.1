@@ -23,10 +23,10 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>http://localhost:8081/</InstallUrl>
+    <InstallUrl>http://localhost:8013/</InstallUrl>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationRevision>5</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -55,7 +55,7 @@
     <ApplicationIcon>images\Acidrums4-Betelgeuse-Apps-graphics-viewer-document.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>5783BFF4196F9E5370ADEC2487E9CF2B6190F7E6</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>F0C59A8410AA0DED2EB1BD3BC7922A94B81FC107</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestKeyFile>ALMIS.Viewer_TemporaryKey.pfx</ManifestKeyFile>

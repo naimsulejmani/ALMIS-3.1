@@ -4,6 +4,7 @@ using System.Data;
 using System.Data.Odbc;
 using System.Data.OleDb;
 using System.Data.SqlClient;
+
 using ALMIS.BusinessEntities.Constants;
 
 namespace ALMIS.DataAccess
@@ -11,7 +12,6 @@ namespace ALMIS.DataAccess
     public class DataConnection
     {
         #region variables
-
         private static string _connectionString =
             ConfigurationManager.ConnectionStrings["cstr"].ConnectionString;
 

@@ -36,10 +36,12 @@ namespace ALMIS.DataAccess
                 const string sqlQuery = "SELECT * FROM " + AlmisViewAuditLog;
                 IDbCommand command = DataConnection.Command(connection, sqlQuery);
                 connection.Open();
-                IDataReader reader = command.ExecuteReader();
-                while (reader != null && reader.Read())
+                using (IDataReader reader = command.ExecuteReader())
                 {
-                    result.Add(ToObject(reader));
+                    while (reader.Read())
+                    {
+                        result.Add(ToObject(reader));
+                    }
                 }
             }
             return result;
@@ -50,14 +52,16 @@ namespace ALMIS.DataAccess
             var result = new BE();
             using (IDbConnection connection = DataConnection.Connection())
             {
-                String sqlQuery = String.Format("SELECT * FROM {0} WHERE {1}=@auditLogID", AlmisViewAuditLog, AuditLogID);
+                string sqlQuery = $"SELECT * FROM {AlmisViewAuditLog} WHERE {AuditLogID}=@auditLogID";
                 IDbCommand command = DataConnection.Command(connection, sqlQuery);
                 AddParameter(command, "auditLogID", auditLogID);
                 connection.Open();
-                IDataReader reader = command.ExecuteReader();
-                while (reader != null && reader.Read())
+                using (IDataReader reader = command.ExecuteReader())
                 {
-                    result = ToObject(reader);
+                    while (reader.Read())
+                    {
+                        result =ToObject(reader);
+                    }
                 }
             }
             return result;
@@ -69,8 +73,7 @@ namespace ALMIS.DataAccess
             using (IDbConnection connection = DataConnection.Connection())
             {
                 String sqlQuery =
-                    String.Format(
-                        "EXEC Almis.usp_GetAuditLogBy @tableName,@columnName,@userName,@hostName,@applicationName,@rowKey,@event,@before,@after,@maximum");
+                    "EXEC Almis.usp_GetAuditLogBy @tableName,@columnName,@userName,@hostName,@applicationName,@rowKey,@event,@before,@after,@maximum";
                 IDbCommand command = DataConnection.Command(connection, sqlQuery);
                 AddParameter(command, "tableName", reports.TableName != "" ? reports.TableName : null);
                 AddParameter(command, "columnName", reports.ColumnName != "" ? reports.ColumnName : null);
@@ -83,10 +86,12 @@ namespace ALMIS.DataAccess
                 AddParameter(command, "after", after);
                 AddParameter(command, "maximum", maximum);
                 connection.Open();
-                IDataReader reader = command.ExecuteReader();
-                while (reader != null && reader.Read())
+                using (IDataReader reader = command.ExecuteReader())
                 {
-                    result.Add(ToObject(reader));
+                    while (reader.Read())
+                    {
+                        result.Add(ToObject(reader));
+                    }
                 }
             }
             return result;
@@ -100,7 +105,7 @@ namespace ALMIS.DataAccess
             var result = new List<BE>();
             using (IDbConnection connection = DataConnection.Connection())
             {
-                String sqlQuery = String.Format("SELECT * FROM {0} WHERE {1}=@value", AlmisViewAuditLog, fieldName.ToString());
+                string sqlQuery = $"SELECT * FROM {AlmisViewAuditLog} WHERE {fieldName.ToString()}=@value";
                 IDbCommand command = DataConnection.Command(connection, sqlQuery);
                 AddParameter(command, "value", value);
                 IDataReader reader = command.ExecuteReader();
@@ -117,7 +122,8 @@ namespace ALMIS.DataAccess
             var result = new List<BE>();
             using (IDbConnection connection = DataConnection.Connection())
             {
-                String sqlQuery = String.Format("SELECT * FROM {0} WHERE {1}=@value1 AND {2}=@value2", AlmisViewAuditLog, fieldName1.ToString(), fieldName2.ToString());
+                string sqlQuery =
+                    $"SELECT * FROM {AlmisViewAuditLog} WHERE {fieldName1.ToString()}=@value1 AND {fieldName2.ToString()}=@value2";
                 IDbCommand command = DataConnection.Command(connection, sqlQuery);
                 AddParameter(command, "value1", value1);
                 AddParameter(command, "value2", value2);
@@ -135,15 +141,18 @@ namespace ALMIS.DataAccess
             var result = new List<BE>();
             using (IDbConnection connection = DataConnection.Connection())
             {
-                String sqlQuery = String.Format("SELECT * FROM {0} WHERE {1}=@value1 AND {2}=@value2 and {3}=@value3", AlmisViewAuditLog, fieldName1.ToString(), fieldName2.ToString(), fieldName3.ToString());
+                String sqlQuery =
+                    $"SELECT * FROM {AlmisViewAuditLog} WHERE {fieldName1.ToString()}=@value1 AND {fieldName2.ToString()}=@value2 and {fieldName3.ToString()}=@value3";
                 IDbCommand command = DataConnection.Command(connection, sqlQuery);
                 AddParameter(command, "value1", value1);
                 AddParameter(command, "value2", value2);
                 AddParameter(command, "value3", value3);
-                IDataReader reader = command.ExecuteReader();
-                while (reader != null && reader.Read())
+                using (IDataReader reader = command.ExecuteReader())
                 {
-                    result.Add(ToObject(reader));
+                    while (reader.Read())
+                    {
+                        result.Add(ToObject(reader));
+                    }
                 }
             }
             return result;

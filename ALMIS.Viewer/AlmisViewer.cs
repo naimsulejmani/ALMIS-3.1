@@ -70,7 +70,7 @@ namespace ALMIS.Viewer
             //Nese eshte help kursori hape helpin per ndryshe vazhdo
             if (IsHelpClick((Control)sender)) return;
 
-            //Krijojm nje objekt nga fitlrat te cilat i kemi dhene 
+            //Krijojm nje objekt nga fitlrat te cilat i kemi dhene
             var reports = new BE
                 {
                     ApplicationName = cbApplication.Text,
@@ -199,7 +199,7 @@ namespace ALMIS.Viewer
             }
         }
 
-        //Print Privie metoda 
+        //Print Privie metoda
         private void btnPrintPriview_Click(object sender, EventArgs e)
         {
             if (IsHelpClick((Control)sender)) return;
