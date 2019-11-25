@@ -117,20 +117,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="rmiLogOff.AccessibleDescription" xml:space="preserve">
-    <value>Disconnect</value>
-  </data>
   <data name="rmiLogOff.AccessibleName" xml:space="preserve">
     <value>Disconnect</value>
+  </data>
+  <data name="rmiLogOff.HintText" xml:space="preserve">
+    <value>Ctrl+L</value>
   </data>
   <data name="rmiLogOff.Text" xml:space="preserve">
     <value>&amp;LogOff</value>
   </data>
-  <data name="rmiExit.AccessibleDescription" xml:space="preserve">
-    <value>Exit</value>
-  </data>
   <data name="rmiExit.AccessibleName" xml:space="preserve">
     <value>Exit</value>
+  </data>
+  <data name="rmiExit.HintText" xml:space="preserve">
+    <value>Alt+X</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="rmiExit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -149,35 +149,29 @@
   <data name="rmiExit.Text" xml:space="preserve">
     <value>&amp;Exit</value>
   </data>
-  <data name="rmiContents.AccessibleDescription" xml:space="preserve">
-    <value>Contents</value>
-  </data>
   <data name="rmiContents.AccessibleName" xml:space="preserve">
     <value>Contents</value>
+  </data>
+  <data name="rmiContents.HintText" xml:space="preserve">
+    <value>F1</value>
   </data>
   <data name="rmiContents.Text" xml:space="preserve">
     <value>&amp;View Help</value>
   </data>
-  <data name="rmiAbout.AccessibleDescription" xml:space="preserve">
-    <value>About</value>
-  </data>
   <data name="rmiAbout.AccessibleName" xml:space="preserve">
     <value>About</value>
   </data>
+  <data name="rmiAbout.HintText" xml:space="preserve">
+    <value>Ctrl+A</value>
+  </data>
   <data name="rmiAbout.Text" xml:space="preserve">
     <value>&amp;About</value>
-  </data>
-  <data name="rmiFile.AccessibleDescription" xml:space="preserve">
-    <value>File</value>
   </data>
   <data name="rmiFile.AccessibleName" xml:space="preserve">
     <value>File</value>
   </data>
   <data name="rmiFile.Text" xml:space="preserve">
     <value>&amp;File</value>
-  </data>
-  <data name="rmiHelp.AccessibleDescription" xml:space="preserve">
-    <value>Help</value>
   </data>
   <data name="rmiHelp.AccessibleName" xml:space="preserve">
     <value>Help</value>
@@ -207,44 +201,17 @@
   <data name="radButton1.Location" type="System.Drawing.Point, System.Drawing">
     <value>1041, 14</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="radButton1.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="radButton1.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="radButton1.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="radButton1.RootElement.AngleTransform" type="System.Single, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="radButton1.RootElement.FlipText" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="radButton1.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="radButton1.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="radButton1.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="radButton1.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
-    <value>Horizontal</value>
-  </data>
   <data name="radButton1.Size" type="System.Drawing.Size, System.Drawing">
     <value>67, 154</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="radButton1.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
   </data>
   <data name="radButton1.Text" xml:space="preserve">
     <value>Help</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="radButton1.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
     <value>ImageBeforeText</value>
   </data>
@@ -252,7 +219,7 @@
     <value>radButton1</value>
   </data>
   <data name="&gt;&gt;radButton1.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2013.1.321.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;radButton1.Parent" xml:space="preserve">
     <value>splitPanel1</value>
@@ -299,33 +266,6 @@
   <data name="rbtnExportToCsv.Location" type="System.Drawing.Point, System.Drawing">
     <value>919, 70</value>
   </data>
-  <data name="rbtnExportToCsv.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="rbtnExportToCsv.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="rbtnExportToCsv.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
-  </data>
-  <data name="rbtnExportToCsv.RootElement.AngleTransform" type="System.Single, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="rbtnExportToCsv.RootElement.FlipText" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="rbtnExportToCsv.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="rbtnExportToCsv.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="rbtnExportToCsv.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="rbtnExportToCsv.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
-    <value>Horizontal</value>
-  </data>
   <data name="rbtnExportToCsv.Size" type="System.Drawing.Size, System.Drawing">
     <value>116, 46</value>
   </data>
@@ -342,7 +282,7 @@
     <value>rbtnExportToCsv</value>
   </data>
   <data name="&gt;&gt;rbtnExportToCsv.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2013.1.321.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;rbtnExportToCsv.Parent" xml:space="preserve">
     <value>splitPanel1</value>
@@ -393,33 +333,6 @@
   <data name="btnPrintPriview.Location" type="System.Drawing.Point, System.Drawing">
     <value>919, 124</value>
   </data>
-  <data name="btnPrintPriview.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="btnPrintPriview.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="btnPrintPriview.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
-  </data>
-  <data name="btnPrintPriview.RootElement.AngleTransform" type="System.Single, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="btnPrintPriview.RootElement.FlipText" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="btnPrintPriview.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="btnPrintPriview.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="btnPrintPriview.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="btnPrintPriview.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
-    <value>Horizontal</value>
-  </data>
   <data name="btnPrintPriview.Size" type="System.Drawing.Size, System.Drawing">
     <value>116, 44</value>
   </data>
@@ -436,7 +349,7 @@
     <value>btnPrintPriview</value>
   </data>
   <data name="&gt;&gt;btnPrintPriview.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2013.1.321.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;btnPrintPriview.Parent" xml:space="preserve">
     <value>splitPanel1</value>
@@ -504,33 +417,6 @@
   <data name="btnExcel.Location" type="System.Drawing.Point, System.Drawing">
     <value>919, 14</value>
   </data>
-  <data name="btnExcel.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="btnExcel.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="btnExcel.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
-  </data>
-  <data name="btnExcel.RootElement.AngleTransform" type="System.Single, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="btnExcel.RootElement.FlipText" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="btnExcel.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="btnExcel.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="btnExcel.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="btnExcel.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
-    <value>Horizontal</value>
-  </data>
   <data name="btnExcel.Size" type="System.Drawing.Size, System.Drawing">
     <value>116, 48</value>
   </data>
@@ -547,7 +433,7 @@
     <value>btnExcel</value>
   </data>
   <data name="&gt;&gt;btnExcel.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2013.1.321.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;btnExcel.Parent" xml:space="preserve">
     <value>splitPanel1</value>
@@ -632,33 +518,6 @@
   <data name="btnFind.Location" type="System.Drawing.Point, System.Drawing">
     <value>716, 102</value>
   </data>
-  <data name="btnFind.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="btnFind.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="btnFind.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
-  </data>
-  <data name="btnFind.RootElement.AngleTransform" type="System.Single, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="btnFind.RootElement.FlipText" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="btnFind.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="btnFind.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="btnFind.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="btnFind.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
-    <value>Horizontal</value>
-  </data>
   <data name="btnFind.Size" type="System.Drawing.Size, System.Drawing">
     <value>192, 66</value>
   </data>
@@ -675,13 +534,25 @@
     <value>btnFind</value>
   </data>
   <data name="&gt;&gt;btnFind.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2013.1.321.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;btnFind.Parent" xml:space="preserve">
     <value>splitPanel1</value>
   </data>
   <data name="&gt;&gt;btnFind.ZOrder" xml:space="preserve">
     <value>5</value>
+  </data>
+  <data name="nupMaxEntries.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 52</value>
+  </data>
+  <data name="nupMaxEntries.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 20</value>
+  </data>
+  <data name="nupMaxEntries.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="nupMaxEntries.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;nupMaxEntries.Name" xml:space="preserve">
     <value>nupMaxEntries</value>
@@ -695,6 +566,18 @@
   <data name="&gt;&gt;nupMaxEntries.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="txtLogEntries.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 25</value>
+  </data>
+  <data name="txtLogEntries.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 20</value>
+  </data>
+  <data name="txtLogEntries.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="txtLogEntries.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;txtLogEntries.Name" xml:space="preserve">
     <value>txtLogEntries</value>
   </data>
@@ -707,6 +590,21 @@
   <data name="&gt;&gt;txtLogEntries.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="lblMaximumEntries.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMaximumEntries.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 54</value>
+  </data>
+  <data name="lblMaximumEntries.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="lblMaximumEntries.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblMaximumEntries.Text" xml:space="preserve">
+    <value>Max entries:</value>
+  </data>
   <data name="&gt;&gt;lblMaximumEntries.Name" xml:space="preserve">
     <value>lblMaximumEntries</value>
   </data>
@@ -718,6 +616,21 @@
   </data>
   <data name="&gt;&gt;lblMaximumEntries.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="lblLogEntries.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLogEntries.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 28</value>
+  </data>
+  <data name="lblLogEntries.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="lblLogEntries.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lblLogEntries.Text" xml:space="preserve">
+    <value>Log entries:</value>
   </data>
   <data name="&gt;&gt;lblLogEntries.Name" xml:space="preserve">
     <value>lblLogEntries</value>
@@ -755,6 +668,21 @@
   <data name="&gt;&gt;gbLogEntryLimit.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
+  <data name="chbDelete.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 18</value>
+  </data>
+  <data name="chbDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 17</value>
+  </data>
+  <data name="chbDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chbDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
   <data name="&gt;&gt;chbDelete.Name" xml:space="preserve">
     <value>chbDelete</value>
   </data>
@@ -767,6 +695,21 @@
   <data name="&gt;&gt;chbDelete.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="chbUpdate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 18</value>
+  </data>
+  <data name="chbUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 17</value>
+  </data>
+  <data name="chbUpdate.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chbUpdate.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
   <data name="&gt;&gt;chbUpdate.Name" xml:space="preserve">
     <value>chbUpdate</value>
   </data>
@@ -778,6 +721,21 @@
   </data>
   <data name="&gt;&gt;chbUpdate.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="chbInsert.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbInsert.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 18</value>
+  </data>
+  <data name="chbInsert.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 17</value>
+  </data>
+  <data name="chbInsert.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chbInsert.Text" xml:space="preserve">
+    <value>Insert</value>
   </data>
   <data name="&gt;&gt;chbInsert.Name" xml:space="preserve">
     <value>chbInsert</value>
@@ -815,6 +773,21 @@
   <data name="&gt;&gt;gbEvent.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <data name="btnMoreDateTimeFilters.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnMoreDateTimeFilters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 21</value>
+  </data>
+  <data name="btnMoreDateTimeFilters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 49</value>
+  </data>
+  <data name="btnMoreDateTimeFilters.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="btnMoreDateTimeFilters.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
   <data name="&gt;&gt;btnMoreDateTimeFilters.Name" xml:space="preserve">
     <value>btnMoreDateTimeFilters</value>
   </data>
@@ -826,6 +799,21 @@
   </data>
   <data name="&gt;&gt;btnMoreDateTimeFilters.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="chbOccuredBefore.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbOccuredBefore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 53</value>
+  </data>
+  <data name="chbOccuredBefore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 17</value>
+  </data>
+  <data name="chbOccuredBefore.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="chbOccuredBefore.Text" xml:space="preserve">
+    <value>Occured before</value>
   </data>
   <data name="&gt;&gt;chbOccuredBefore.Name" xml:space="preserve">
     <value>chbOccuredBefore</value>
@@ -839,6 +827,21 @@
   <data name="&gt;&gt;chbOccuredBefore.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="chbOccuredAfter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbOccuredAfter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 24</value>
+  </data>
+  <data name="chbOccuredAfter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="chbOccuredAfter.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="chbOccuredAfter.Text" xml:space="preserve">
+    <value>Occured After</value>
+  </data>
   <data name="&gt;&gt;chbOccuredAfter.Name" xml:space="preserve">
     <value>chbOccuredAfter</value>
   </data>
@@ -851,11 +854,20 @@
   <data name="&gt;&gt;chbOccuredAfter.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="rtpOccuredBefore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 50</value>
+  </data>
+  <data name="rtpOccuredBefore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 20</value>
+  </data>
+  <data name="rtpOccuredBefore.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
   <data name="&gt;&gt;rtpOccuredBefore.Name" xml:space="preserve">
     <value>rtpOccuredBefore</value>
   </data>
   <data name="&gt;&gt;rtpOccuredBefore.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadTimePicker, Telerik.WinControls.UI, Version=2013.1.321.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadTimePicker, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;rtpOccuredBefore.Parent" xml:space="preserve">
     <value>gbDateTimeRange</value>
@@ -863,11 +875,20 @@
   <data name="&gt;&gt;rtpOccuredBefore.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="rtpOccuredAfter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 21</value>
+  </data>
+  <data name="rtpOccuredAfter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 20</value>
+  </data>
+  <data name="rtpOccuredAfter.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
   <data name="&gt;&gt;rtpOccuredAfter.Name" xml:space="preserve">
     <value>rtpOccuredAfter</value>
   </data>
   <data name="&gt;&gt;rtpOccuredAfter.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadTimePicker, Telerik.WinControls.UI, Version=2013.1.321.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadTimePicker, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;rtpOccuredAfter.Parent" xml:space="preserve">
     <value>gbDateTimeRange</value>
@@ -875,11 +896,23 @@
   <data name="&gt;&gt;rtpOccuredAfter.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="rdtpOccuredBefore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 50</value>
+  </data>
+  <data name="rdtpOccuredBefore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 20</value>
+  </data>
+  <data name="rdtpOccuredBefore.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="rdtpOccuredBefore.Text" xml:space="preserve">
+    <value>5/14/2013</value>
+  </data>
   <data name="&gt;&gt;rdtpOccuredBefore.Name" xml:space="preserve">
     <value>rdtpOccuredBefore</value>
   </data>
   <data name="&gt;&gt;rdtpOccuredBefore.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadDateTimePicker, Telerik.WinControls.UI, Version=2013.1.321.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadDateTimePicker, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;rdtpOccuredBefore.Parent" xml:space="preserve">
     <value>gbDateTimeRange</value>
@@ -887,11 +920,26 @@
   <data name="&gt;&gt;rdtpOccuredBefore.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="rdtpOccuredAfter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 21</value>
+  </data>
+  <data name="rdtpOccuredAfter.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="rdtpOccuredAfter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 20</value>
+  </data>
+  <data name="rdtpOccuredAfter.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="rdtpOccuredAfter.Text" xml:space="preserve">
+    <value>5/14/2013</value>
+  </data>
   <data name="&gt;&gt;rdtpOccuredAfter.Name" xml:space="preserve">
     <value>rdtpOccuredAfter</value>
   </data>
   <data name="&gt;&gt;rdtpOccuredAfter.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadDateTimePicker, Telerik.WinControls.UI, Version=2013.1.321.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadDateTimePicker, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;rdtpOccuredAfter.Parent" xml:space="preserve">
     <value>gbDateTimeRange</value>
@@ -923,6 +971,21 @@
   <data name="&gt;&gt;gbDateTimeRange.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
+  <data name="btnRowKeyList.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRowKeyList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 11</value>
+  </data>
+  <data name="btnRowKeyList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 23</value>
+  </data>
+  <data name="btnRowKeyList.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="btnRowKeyList.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
   <data name="&gt;&gt;btnRowKeyList.Name" xml:space="preserve">
     <value>btnRowKeyList</value>
   </data>
@@ -934,6 +997,15 @@
   </data>
   <data name="&gt;&gt;btnRowKeyList.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="cbRowKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 13</value>
+  </data>
+  <data name="cbRowKey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 21</value>
+  </data>
+  <data name="cbRowKey.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
   </data>
   <data name="&gt;&gt;cbRowKey.Name" xml:space="preserve">
     <value>cbRowKey</value>
@@ -971,6 +1043,18 @@
   <data name="&gt;&gt;gbRowKey.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <data name="btnApplicationList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 127</value>
+  </data>
+  <data name="btnApplicationList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 23</value>
+  </data>
+  <data name="btnApplicationList.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="btnApplicationList.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
   <data name="&gt;&gt;btnApplicationList.Name" xml:space="preserve">
     <value>btnApplicationList</value>
   </data>
@@ -982,6 +1066,18 @@
   </data>
   <data name="&gt;&gt;btnApplicationList.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="btnWorkstationList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 101</value>
+  </data>
+  <data name="btnWorkstationList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 23</value>
+  </data>
+  <data name="btnWorkstationList.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="btnWorkstationList.Text" xml:space="preserve">
+    <value>...</value>
   </data>
   <data name="&gt;&gt;btnWorkstationList.Name" xml:space="preserve">
     <value>btnWorkstationList</value>
@@ -995,6 +1091,18 @@
   <data name="&gt;&gt;btnWorkstationList.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="btnUserNameList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 75</value>
+  </data>
+  <data name="btnUserNameList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 23</value>
+  </data>
+  <data name="btnUserNameList.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="btnUserNameList.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
   <data name="&gt;&gt;btnUserNameList.Name" xml:space="preserve">
     <value>btnUserNameList</value>
   </data>
@@ -1006,6 +1114,18 @@
   </data>
   <data name="&gt;&gt;btnUserNameList.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="btnColumnList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 49</value>
+  </data>
+  <data name="btnColumnList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 23</value>
+  </data>
+  <data name="btnColumnList.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="btnColumnList.Text" xml:space="preserve">
+    <value>...</value>
   </data>
   <data name="&gt;&gt;btnColumnList.Name" xml:space="preserve">
     <value>btnColumnList</value>
@@ -1019,6 +1139,18 @@
   <data name="&gt;&gt;btnColumnList.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="btnTableList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 23</value>
+  </data>
+  <data name="btnTableList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 23</value>
+  </data>
+  <data name="btnTableList.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="btnTableList.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
   <data name="&gt;&gt;btnTableList.Name" xml:space="preserve">
     <value>btnTableList</value>
   </data>
@@ -1030,6 +1162,15 @@
   </data>
   <data name="&gt;&gt;btnTableList.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="cbApplication.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 129</value>
+  </data>
+  <data name="cbApplication.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 21</value>
+  </data>
+  <data name="cbApplication.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
   </data>
   <data name="&gt;&gt;cbApplication.Name" xml:space="preserve">
     <value>cbApplication</value>
@@ -1043,6 +1184,15 @@
   <data name="&gt;&gt;cbApplication.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="cbWorkstation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 103</value>
+  </data>
+  <data name="cbWorkstation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 21</value>
+  </data>
+  <data name="cbWorkstation.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
   <data name="&gt;&gt;cbWorkstation.Name" xml:space="preserve">
     <value>cbWorkstation</value>
   </data>
@@ -1054,6 +1204,15 @@
   </data>
   <data name="&gt;&gt;cbWorkstation.ZOrder" xml:space="preserve">
     <value>6</value>
+  </data>
+  <data name="cbUserName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 77</value>
+  </data>
+  <data name="cbUserName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 21</value>
+  </data>
+  <data name="cbUserName.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
   </data>
   <data name="&gt;&gt;cbUserName.Name" xml:space="preserve">
     <value>cbUserName</value>
@@ -1067,6 +1226,15 @@
   <data name="&gt;&gt;cbUserName.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <data name="cbColumn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 51</value>
+  </data>
+  <data name="cbColumn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 21</value>
+  </data>
+  <data name="cbColumn.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
   <data name="&gt;&gt;cbColumn.Name" xml:space="preserve">
     <value>cbColumn</value>
   </data>
@@ -1078,6 +1246,15 @@
   </data>
   <data name="&gt;&gt;cbColumn.ZOrder" xml:space="preserve">
     <value>8</value>
+  </data>
+  <data name="cbTable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 25</value>
+  </data>
+  <data name="cbTable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 21</value>
+  </data>
+  <data name="cbTable.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
   </data>
   <data name="&gt;&gt;cbTable.Name" xml:space="preserve">
     <value>cbTable</value>
@@ -1091,6 +1268,21 @@
   <data name="&gt;&gt;cbTable.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <data name="lblApplication.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblApplication.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 132</value>
+  </data>
+  <data name="lblApplication.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 13</value>
+  </data>
+  <data name="lblApplication.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lblApplication.Text" xml:space="preserve">
+    <value>Application</value>
+  </data>
   <data name="&gt;&gt;lblApplication.Name" xml:space="preserve">
     <value>lblApplication</value>
   </data>
@@ -1102,6 +1294,21 @@
   </data>
   <data name="&gt;&gt;lblApplication.ZOrder" xml:space="preserve">
     <value>10</value>
+  </data>
+  <data name="lblWorkstation.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblWorkstation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 106</value>
+  </data>
+  <data name="lblWorkstation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 13</value>
+  </data>
+  <data name="lblWorkstation.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblWorkstation.Text" xml:space="preserve">
+    <value>Workstation</value>
   </data>
   <data name="&gt;&gt;lblWorkstation.Name" xml:space="preserve">
     <value>lblWorkstation</value>
@@ -1115,6 +1322,21 @@
   <data name="&gt;&gt;lblWorkstation.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
+  <data name="lblUserName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblUserName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 80</value>
+  </data>
+  <data name="lblUserName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="lblUserName.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lblUserName.Text" xml:space="preserve">
+    <value>User Name</value>
+  </data>
   <data name="&gt;&gt;lblUserName.Name" xml:space="preserve">
     <value>lblUserName</value>
   </data>
@@ -1127,6 +1349,21 @@
   <data name="&gt;&gt;lblUserName.ZOrder" xml:space="preserve">
     <value>12</value>
   </data>
+  <data name="lblColumn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblColumn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 54</value>
+  </data>
+  <data name="lblColumn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 13</value>
+  </data>
+  <data name="lblColumn.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblColumn.Text" xml:space="preserve">
+    <value>Column</value>
+  </data>
   <data name="&gt;&gt;lblColumn.Name" xml:space="preserve">
     <value>lblColumn</value>
   </data>
@@ -1138,6 +1375,21 @@
   </data>
   <data name="&gt;&gt;lblColumn.ZOrder" xml:space="preserve">
     <value>13</value>
+  </data>
+  <data name="lblTable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 28</value>
+  </data>
+  <data name="lblTable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="lblTable.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lblTable.Text" xml:space="preserve">
+    <value>Table</value>
   </data>
   <data name="&gt;&gt;lblTable.Name" xml:space="preserve">
     <value>lblTable</value>
@@ -1178,36 +1430,9 @@
   <data name="splitPanel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="splitPanel1.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="splitPanel1.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="splitPanel1.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
-  </data>
-  <data name="splitPanel1.RootElement.AngleTransform" type="System.Single, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="splitPanel1.RootElement.FlipText" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="splitPanel1.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="splitPanel1.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
   <metadata name="officeShape1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>26, 17</value>
   </metadata>
-  <data name="splitPanel1.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="splitPanel1.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
-    <value>Horizontal</value>
-  </data>
   <data name="splitPanel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>1115, 182</value>
   </data>
@@ -1218,7 +1443,7 @@
     <value>splitPanel1</value>
   </data>
   <data name="&gt;&gt;splitPanel1.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.SplitPanel, Telerik.WinControls.UI, Version=2013.1.321.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.SplitPanel, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;splitPanel1.Parent" xml:space="preserve">
     <value>radSplitContainer1</value>
@@ -1253,33 +1478,6 @@
   <data name="splitPanel2.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 186</value>
   </data>
-  <data name="splitPanel2.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="splitPanel2.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="splitPanel2.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
-  </data>
-  <data name="splitPanel2.RootElement.AngleTransform" type="System.Single, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="splitPanel2.RootElement.FlipText" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="splitPanel2.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="splitPanel2.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="splitPanel2.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="splitPanel2.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
-    <value>Horizontal</value>
-  </data>
   <data name="splitPanel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>1115, 304</value>
   </data>
@@ -1290,7 +1488,7 @@
     <value>splitPanel2</value>
   </data>
   <data name="&gt;&gt;splitPanel2.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.SplitPanel, Telerik.WinControls.UI, Version=2013.1.321.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.SplitPanel, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;splitPanel2.Parent" xml:space="preserve">
     <value>radSplitContainer1</value>
@@ -1356,7 +1554,7 @@
     <value>4, 31</value>
   </data>
   <data name="lblOldValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 13</value>
+    <value>57, 13</value>
   </data>
   <data name="lblOldValue.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -1383,7 +1581,7 @@
     <value>4, 6</value>
   </data>
   <data name="lblNewValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 13</value>
+    <value>61, 13</value>
   </data>
   <data name="lblNewValue.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -1406,33 +1604,6 @@
   <data name="radPanel2.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 4</value>
   </data>
-  <data name="radPanel2.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="radPanel2.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="radPanel2.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
-  </data>
-  <data name="radPanel2.RootElement.AngleTransform" type="System.Single, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="radPanel2.RootElement.FlipText" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="radPanel2.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="radPanel2.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="radPanel2.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="radPanel2.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
-    <value>Horizontal</value>
-  </data>
   <data name="radPanel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>544, 100</value>
   </data>
@@ -1443,7 +1614,7 @@
     <value>radPanel2</value>
   </data>
   <data name="&gt;&gt;radPanel2.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadPanel, Telerik.WinControls.UI, Version=2013.1.321.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadPanel, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;radPanel2.Parent" xml:space="preserve">
     <value>splitPanel3</value>
@@ -1851,7 +2022,7 @@
     <value>196, 9</value>
   </data>
   <data name="lblDateTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 13</value>
+    <value>59, 13</value>
   </data>
   <data name="lblDateTime.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -1901,33 +2072,6 @@
   <data name="radPanel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>553, 4</value>
   </data>
-  <data name="radPanel1.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="radPanel1.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="radPanel1.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
-  </data>
-  <data name="radPanel1.RootElement.AngleTransform" type="System.Single, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="radPanel1.RootElement.FlipText" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="radPanel1.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="radPanel1.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="radPanel1.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="radPanel1.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
-    <value>Horizontal</value>
-  </data>
   <data name="radPanel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>562, 105</value>
   </data>
@@ -1938,7 +2082,7 @@
     <value>radPanel1</value>
   </data>
   <data name="&gt;&gt;radPanel1.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadPanel, Telerik.WinControls.UI, Version=2013.1.321.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadPanel, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;radPanel1.Parent" xml:space="preserve">
     <value>splitPanel3</value>
@@ -1948,33 +2092,6 @@
   </data>
   <data name="splitPanel3.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 494</value>
-  </data>
-  <data name="splitPanel3.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="splitPanel3.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="splitPanel3.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
-  </data>
-  <data name="splitPanel3.RootElement.AngleTransform" type="System.Single, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="splitPanel3.RootElement.FlipText" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="splitPanel3.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="splitPanel3.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="splitPanel3.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="splitPanel3.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
-    <value>Horizontal</value>
   </data>
   <data name="splitPanel3.Size" type="System.Drawing.Size, System.Drawing">
     <value>1115, 113</value>
@@ -1986,7 +2103,7 @@
     <value>splitPanel3</value>
   </data>
   <data name="&gt;&gt;splitPanel3.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.SplitPanel, Telerik.WinControls.UI, Version=2013.1.321.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.SplitPanel, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;splitPanel3.Parent" xml:space="preserve">
     <value>radSplitContainer1</value>
@@ -2003,47 +2120,17 @@
   <data name="radSplitContainer1.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
     <value>Horizontal</value>
   </data>
-  <data name="radSplitContainer1.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="radSplitContainer1.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="radSplitContainer1.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
-  </data>
-  <data name="radSplitContainer1.RootElement.AngleTransform" type="System.Single, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="radSplitContainer1.RootElement.FlipText" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="radSplitContainer1.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="radSplitContainer1.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="radSplitContainer1.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="radSplitContainer1.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
-    <value>Horizontal</value>
-  </data>
   <data name="radSplitContainer1.Size" type="System.Drawing.Size, System.Drawing">
     <value>1115, 607</value>
   </data>
   <data name="radSplitContainer1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="radSplitContainer1.Text" xml:space="preserve">
-    <value>radSplitContainer1</value>
-  </data>
   <data name="&gt;&gt;radSplitContainer1.Name" xml:space="preserve">
     <value>radSplitContainer1</value>
   </data>
   <data name="&gt;&gt;radSplitContainer1.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadSplitContainer, Telerik.WinControls.UI, Version=2013.1.321.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadSplitContainer, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;radSplitContainer1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -2051,914 +2138,8 @@
   <data name="&gt;&gt;radSplitContainer1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="nupMaxEntries.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 52</value>
-  </data>
-  <data name="nupMaxEntries.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 20</value>
-  </data>
-  <data name="nupMaxEntries.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="nupMaxEntries.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;nupMaxEntries.Name" xml:space="preserve">
-    <value>nupMaxEntries</value>
-  </data>
-  <data name="&gt;&gt;nupMaxEntries.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;nupMaxEntries.Parent" xml:space="preserve">
-    <value>gbLogEntryLimit</value>
-  </data>
-  <data name="&gt;&gt;nupMaxEntries.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="txtLogEntries.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 25</value>
-  </data>
-  <data name="txtLogEntries.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 20</value>
-  </data>
-  <data name="txtLogEntries.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="txtLogEntries.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;txtLogEntries.Name" xml:space="preserve">
-    <value>txtLogEntries</value>
-  </data>
-  <data name="&gt;&gt;txtLogEntries.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtLogEntries.Parent" xml:space="preserve">
-    <value>gbLogEntryLimit</value>
-  </data>
-  <data name="&gt;&gt;txtLogEntries.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="lblMaximumEntries.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblMaximumEntries.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 54</value>
-  </data>
-  <data name="lblMaximumEntries.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 13</value>
-  </data>
-  <data name="lblMaximumEntries.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="lblMaximumEntries.Text" xml:space="preserve">
-    <value>Max entries:</value>
-  </data>
-  <data name="&gt;&gt;lblMaximumEntries.Name" xml:space="preserve">
-    <value>lblMaximumEntries</value>
-  </data>
-  <data name="&gt;&gt;lblMaximumEntries.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblMaximumEntries.Parent" xml:space="preserve">
-    <value>gbLogEntryLimit</value>
-  </data>
-  <data name="&gt;&gt;lblMaximumEntries.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="lblLogEntries.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblLogEntries.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 28</value>
-  </data>
-  <data name="lblLogEntries.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 13</value>
-  </data>
-  <data name="lblLogEntries.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="lblLogEntries.Text" xml:space="preserve">
-    <value>Log entries:</value>
-  </data>
-  <data name="&gt;&gt;lblLogEntries.Name" xml:space="preserve">
-    <value>lblLogEntries</value>
-  </data>
-  <data name="&gt;&gt;lblLogEntries.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblLogEntries.Parent" xml:space="preserve">
-    <value>gbLogEntryLimit</value>
-  </data>
-  <data name="&gt;&gt;lblLogEntries.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="chbDelete.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="chbDelete.Location" type="System.Drawing.Point, System.Drawing">
-    <value>209, 18</value>
-  </data>
-  <data name="chbDelete.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 17</value>
-  </data>
-  <data name="chbDelete.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="chbDelete.Text" xml:space="preserve">
-    <value>Delete</value>
-  </data>
-  <data name="&gt;&gt;chbDelete.Name" xml:space="preserve">
-    <value>chbDelete</value>
-  </data>
-  <data name="&gt;&gt;chbDelete.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chbDelete.Parent" xml:space="preserve">
-    <value>gbEvent</value>
-  </data>
-  <data name="&gt;&gt;chbDelete.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="chbUpdate.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="chbUpdate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>109, 18</value>
-  </data>
-  <data name="chbUpdate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 17</value>
-  </data>
-  <data name="chbUpdate.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="chbUpdate.Text" xml:space="preserve">
-    <value>Update</value>
-  </data>
-  <data name="&gt;&gt;chbUpdate.Name" xml:space="preserve">
-    <value>chbUpdate</value>
-  </data>
-  <data name="&gt;&gt;chbUpdate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chbUpdate.Parent" xml:space="preserve">
-    <value>gbEvent</value>
-  </data>
-  <data name="&gt;&gt;chbUpdate.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="chbInsert.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="chbInsert.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 18</value>
-  </data>
-  <data name="chbInsert.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 17</value>
-  </data>
-  <data name="chbInsert.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="chbInsert.Text" xml:space="preserve">
-    <value>Insert</value>
-  </data>
-  <data name="&gt;&gt;chbInsert.Name" xml:space="preserve">
-    <value>chbInsert</value>
-  </data>
-  <data name="&gt;&gt;chbInsert.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chbInsert.Parent" xml:space="preserve">
-    <value>gbEvent</value>
-  </data>
-  <data name="&gt;&gt;chbInsert.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="btnMoreDateTimeFilters.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnMoreDateTimeFilters.Location" type="System.Drawing.Point, System.Drawing">
-    <value>321, 21</value>
-  </data>
-  <data name="btnMoreDateTimeFilters.Size" type="System.Drawing.Size, System.Drawing">
-    <value>25, 49</value>
-  </data>
-  <data name="btnMoreDateTimeFilters.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
-  </data>
-  <data name="btnMoreDateTimeFilters.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="&gt;&gt;btnMoreDateTimeFilters.Name" xml:space="preserve">
-    <value>btnMoreDateTimeFilters</value>
-  </data>
-  <data name="&gt;&gt;btnMoreDateTimeFilters.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnMoreDateTimeFilters.Parent" xml:space="preserve">
-    <value>gbDateTimeRange</value>
-  </data>
-  <data name="&gt;&gt;btnMoreDateTimeFilters.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="chbOccuredBefore.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="chbOccuredBefore.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 53</value>
-  </data>
-  <data name="chbOccuredBefore.Size" type="System.Drawing.Size, System.Drawing">
-    <value>106, 17</value>
-  </data>
-  <data name="chbOccuredBefore.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
-  </data>
-  <data name="chbOccuredBefore.Text" xml:space="preserve">
-    <value>Occured before</value>
-  </data>
-  <data name="&gt;&gt;chbOccuredBefore.Name" xml:space="preserve">
-    <value>chbOccuredBefore</value>
-  </data>
-  <data name="&gt;&gt;chbOccuredBefore.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chbOccuredBefore.Parent" xml:space="preserve">
-    <value>gbDateTimeRange</value>
-  </data>
-  <data name="&gt;&gt;chbOccuredBefore.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="chbOccuredAfter.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="chbOccuredAfter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 24</value>
-  </data>
-  <data name="chbOccuredAfter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 17</value>
-  </data>
-  <data name="chbOccuredAfter.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="chbOccuredAfter.Text" xml:space="preserve">
-    <value>Occured After</value>
-  </data>
-  <data name="&gt;&gt;chbOccuredAfter.Name" xml:space="preserve">
-    <value>chbOccuredAfter</value>
-  </data>
-  <data name="&gt;&gt;chbOccuredAfter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chbOccuredAfter.Parent" xml:space="preserve">
-    <value>gbDateTimeRange</value>
-  </data>
-  <data name="&gt;&gt;chbOccuredAfter.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="rtpOccuredBefore.Location" type="System.Drawing.Point, System.Drawing">
-    <value>228, 50</value>
-  </data>
-  <data name="rtpOccuredBefore.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="rtpOccuredBefore.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="rtpOccuredBefore.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
-  </data>
-  <data name="rtpOccuredBefore.RootElement.AngleTransform" type="System.Single, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="rtpOccuredBefore.RootElement.FlipText" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="rtpOccuredBefore.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="rtpOccuredBefore.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="rtpOccuredBefore.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="rtpOccuredBefore.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
-    <value>Horizontal</value>
-  </data>
-  <data name="rtpOccuredBefore.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 20</value>
-  </data>
-  <data name="rtpOccuredBefore.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="rtpOccuredBefore.Text" xml:space="preserve">
-    <value>radTimePicker2</value>
-  </data>
-  <data name="&gt;&gt;rtpOccuredBefore.Name" xml:space="preserve">
-    <value>rtpOccuredBefore</value>
-  </data>
-  <data name="&gt;&gt;rtpOccuredBefore.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadTimePicker, Telerik.WinControls.UI, Version=2013.1.321.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
-  </data>
-  <data name="&gt;&gt;rtpOccuredBefore.Parent" xml:space="preserve">
-    <value>gbDateTimeRange</value>
-  </data>
-  <data name="&gt;&gt;rtpOccuredBefore.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="rtpOccuredAfter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>228, 21</value>
-  </data>
-  <data name="rtpOccuredAfter.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="rtpOccuredAfter.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="rtpOccuredAfter.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
-  </data>
-  <data name="rtpOccuredAfter.RootElement.AngleTransform" type="System.Single, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="rtpOccuredAfter.RootElement.FlipText" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="rtpOccuredAfter.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="rtpOccuredAfter.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="rtpOccuredAfter.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="rtpOccuredAfter.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
-    <value>Horizontal</value>
-  </data>
-  <data name="rtpOccuredAfter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 20</value>
-  </data>
-  <data name="rtpOccuredAfter.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="rtpOccuredAfter.Text" xml:space="preserve">
-    <value>radTimePicker1</value>
-  </data>
-  <data name="&gt;&gt;rtpOccuredAfter.Name" xml:space="preserve">
-    <value>rtpOccuredAfter</value>
-  </data>
-  <data name="&gt;&gt;rtpOccuredAfter.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadTimePicker, Telerik.WinControls.UI, Version=2013.1.321.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
-  </data>
-  <data name="&gt;&gt;rtpOccuredAfter.Parent" xml:space="preserve">
-    <value>gbDateTimeRange</value>
-  </data>
-  <data name="&gt;&gt;rtpOccuredAfter.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="rdtpOccuredBefore.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 50</value>
-  </data>
-  <data name="rdtpOccuredBefore.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="rdtpOccuredBefore.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="rdtpOccuredBefore.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
-  </data>
-  <data name="rdtpOccuredBefore.RootElement.AngleTransform" type="System.Single, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="rdtpOccuredBefore.RootElement.FlipText" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="rdtpOccuredBefore.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="rdtpOccuredBefore.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="rdtpOccuredBefore.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="rdtpOccuredBefore.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
-    <value>Horizontal</value>
-  </data>
-  <data name="rdtpOccuredBefore.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 20</value>
-  </data>
-  <data name="rdtpOccuredBefore.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="rdtpOccuredBefore.Text" xml:space="preserve">
-    <value>14.05.2013</value>
-  </data>
-  <data name="&gt;&gt;rdtpOccuredBefore.Name" xml:space="preserve">
-    <value>rdtpOccuredBefore</value>
-  </data>
-  <data name="&gt;&gt;rdtpOccuredBefore.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadDateTimePicker, Telerik.WinControls.UI, Version=2013.1.321.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
-  </data>
-  <data name="&gt;&gt;rdtpOccuredBefore.Parent" xml:space="preserve">
-    <value>gbDateTimeRange</value>
-  </data>
-  <data name="&gt;&gt;rdtpOccuredBefore.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="rdtpOccuredAfter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 21</value>
-  </data>
-  <data name="rdtpOccuredAfter.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="rdtpOccuredAfter.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="rdtpOccuredAfter.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="rdtpOccuredAfter.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
-  </data>
-  <data name="rdtpOccuredAfter.RootElement.AngleTransform" type="System.Single, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="rdtpOccuredAfter.RootElement.FlipText" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="rdtpOccuredAfter.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="rdtpOccuredAfter.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="rdtpOccuredAfter.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="rdtpOccuredAfter.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
-    <value>Horizontal</value>
-  </data>
-  <data name="rdtpOccuredAfter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 20</value>
-  </data>
-  <data name="rdtpOccuredAfter.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="rdtpOccuredAfter.Text" xml:space="preserve">
-    <value>14.05.2013</value>
-  </data>
-  <data name="&gt;&gt;rdtpOccuredAfter.Name" xml:space="preserve">
-    <value>rdtpOccuredAfter</value>
-  </data>
-  <data name="&gt;&gt;rdtpOccuredAfter.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadDateTimePicker, Telerik.WinControls.UI, Version=2013.1.321.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
-  </data>
-  <data name="&gt;&gt;rdtpOccuredAfter.Parent" xml:space="preserve">
-    <value>gbDateTimeRange</value>
-  </data>
-  <data name="&gt;&gt;rdtpOccuredAfter.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="btnRowKeyList.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnRowKeyList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>321, 11</value>
-  </data>
-  <data name="btnRowKeyList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>25, 23</value>
-  </data>
-  <data name="btnRowKeyList.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="btnRowKeyList.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="&gt;&gt;btnRowKeyList.Name" xml:space="preserve">
-    <value>btnRowKeyList</value>
-  </data>
-  <data name="&gt;&gt;btnRowKeyList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnRowKeyList.Parent" xml:space="preserve">
-    <value>gbRowKey</value>
-  </data>
-  <data name="&gt;&gt;btnRowKeyList.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cbRowKey.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 13</value>
-  </data>
-  <data name="cbRowKey.Size" type="System.Drawing.Size, System.Drawing">
-    <value>300, 21</value>
-  </data>
-  <data name="cbRowKey.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="&gt;&gt;cbRowKey.Name" xml:space="preserve">
-    <value>cbRowKey</value>
-  </data>
-  <data name="&gt;&gt;cbRowKey.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbRowKey.Parent" xml:space="preserve">
-    <value>gbRowKey</value>
-  </data>
-  <data name="&gt;&gt;cbRowKey.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btnApplicationList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>304, 127</value>
-  </data>
-  <data name="btnApplicationList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>25, 23</value>
-  </data>
-  <data name="btnApplicationList.TabIndex" type="System.Int32, mscorlib">
-    <value>29</value>
-  </data>
-  <data name="btnApplicationList.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="&gt;&gt;btnApplicationList.Name" xml:space="preserve">
-    <value>btnApplicationList</value>
-  </data>
-  <data name="&gt;&gt;btnApplicationList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnApplicationList.Parent" xml:space="preserve">
-    <value>gbFilters</value>
-  </data>
-  <data name="&gt;&gt;btnApplicationList.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="btnWorkstationList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>304, 101</value>
-  </data>
-  <data name="btnWorkstationList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>25, 23</value>
-  </data>
-  <data name="btnWorkstationList.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
-  </data>
-  <data name="btnWorkstationList.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="&gt;&gt;btnWorkstationList.Name" xml:space="preserve">
-    <value>btnWorkstationList</value>
-  </data>
-  <data name="&gt;&gt;btnWorkstationList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnWorkstationList.Parent" xml:space="preserve">
-    <value>gbFilters</value>
-  </data>
-  <data name="&gt;&gt;btnWorkstationList.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btnUserNameList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>304, 75</value>
-  </data>
-  <data name="btnUserNameList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>25, 23</value>
-  </data>
-  <data name="btnUserNameList.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
-  </data>
-  <data name="btnUserNameList.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="&gt;&gt;btnUserNameList.Name" xml:space="preserve">
-    <value>btnUserNameList</value>
-  </data>
-  <data name="&gt;&gt;btnUserNameList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnUserNameList.Parent" xml:space="preserve">
-    <value>gbFilters</value>
-  </data>
-  <data name="&gt;&gt;btnUserNameList.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="btnColumnList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>304, 49</value>
-  </data>
-  <data name="btnColumnList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>25, 23</value>
-  </data>
-  <data name="btnColumnList.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="btnColumnList.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="&gt;&gt;btnColumnList.Name" xml:space="preserve">
-    <value>btnColumnList</value>
-  </data>
-  <data name="&gt;&gt;btnColumnList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnColumnList.Parent" xml:space="preserve">
-    <value>gbFilters</value>
-  </data>
-  <data name="&gt;&gt;btnColumnList.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="btnTableList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>304, 23</value>
-  </data>
-  <data name="btnTableList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>25, 23</value>
-  </data>
-  <data name="btnTableList.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="btnTableList.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="&gt;&gt;btnTableList.Name" xml:space="preserve">
-    <value>btnTableList</value>
-  </data>
-  <data name="&gt;&gt;btnTableList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnTableList.Parent" xml:space="preserve">
-    <value>gbFilters</value>
-  </data>
-  <data name="&gt;&gt;btnTableList.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="cbApplication.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 129</value>
-  </data>
-  <data name="cbApplication.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 21</value>
-  </data>
-  <data name="cbApplication.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="&gt;&gt;cbApplication.Name" xml:space="preserve">
-    <value>cbApplication</value>
-  </data>
-  <data name="&gt;&gt;cbApplication.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbApplication.Parent" xml:space="preserve">
-    <value>gbFilters</value>
-  </data>
-  <data name="&gt;&gt;cbApplication.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="cbWorkstation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 103</value>
-  </data>
-  <data name="cbWorkstation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 21</value>
-  </data>
-  <data name="cbWorkstation.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="&gt;&gt;cbWorkstation.Name" xml:space="preserve">
-    <value>cbWorkstation</value>
-  </data>
-  <data name="&gt;&gt;cbWorkstation.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbWorkstation.Parent" xml:space="preserve">
-    <value>gbFilters</value>
-  </data>
-  <data name="&gt;&gt;cbWorkstation.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="cbUserName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 77</value>
-  </data>
-  <data name="cbUserName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 21</value>
-  </data>
-  <data name="cbUserName.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;cbUserName.Name" xml:space="preserve">
-    <value>cbUserName</value>
-  </data>
-  <data name="&gt;&gt;cbUserName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbUserName.Parent" xml:space="preserve">
-    <value>gbFilters</value>
-  </data>
-  <data name="&gt;&gt;cbUserName.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="cbColumn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 51</value>
-  </data>
-  <data name="cbColumn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 21</value>
-  </data>
-  <data name="cbColumn.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="&gt;&gt;cbColumn.Name" xml:space="preserve">
-    <value>cbColumn</value>
-  </data>
-  <data name="&gt;&gt;cbColumn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbColumn.Parent" xml:space="preserve">
-    <value>gbFilters</value>
-  </data>
-  <data name="&gt;&gt;cbColumn.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="cbTable.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 25</value>
-  </data>
-  <data name="cbTable.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 21</value>
-  </data>
-  <data name="cbTable.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="&gt;&gt;cbTable.Name" xml:space="preserve">
-    <value>cbTable</value>
-  </data>
-  <data name="&gt;&gt;cbTable.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbTable.Parent" xml:space="preserve">
-    <value>gbFilters</value>
-  </data>
-  <data name="&gt;&gt;cbTable.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="lblApplication.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblApplication.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 132</value>
-  </data>
-  <data name="lblApplication.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 13</value>
-  </data>
-  <data name="lblApplication.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="lblApplication.Text" xml:space="preserve">
-    <value>Application</value>
-  </data>
-  <data name="&gt;&gt;lblApplication.Name" xml:space="preserve">
-    <value>lblApplication</value>
-  </data>
-  <data name="&gt;&gt;lblApplication.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblApplication.Parent" xml:space="preserve">
-    <value>gbFilters</value>
-  </data>
-  <data name="&gt;&gt;lblApplication.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="lblWorkstation.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblWorkstation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 106</value>
-  </data>
-  <data name="lblWorkstation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 13</value>
-  </data>
-  <data name="lblWorkstation.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="lblWorkstation.Text" xml:space="preserve">
-    <value>Workstation</value>
-  </data>
-  <data name="&gt;&gt;lblWorkstation.Name" xml:space="preserve">
-    <value>lblWorkstation</value>
-  </data>
-  <data name="&gt;&gt;lblWorkstation.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblWorkstation.Parent" xml:space="preserve">
-    <value>gbFilters</value>
-  </data>
-  <data name="&gt;&gt;lblWorkstation.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="lblUserName.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblUserName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 80</value>
-  </data>
-  <data name="lblUserName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 13</value>
-  </data>
-  <data name="lblUserName.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="lblUserName.Text" xml:space="preserve">
-    <value>User Name</value>
-  </data>
-  <data name="&gt;&gt;lblUserName.Name" xml:space="preserve">
-    <value>lblUserName</value>
-  </data>
-  <data name="&gt;&gt;lblUserName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblUserName.Parent" xml:space="preserve">
-    <value>gbFilters</value>
-  </data>
-  <data name="&gt;&gt;lblUserName.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="lblColumn.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblColumn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 54</value>
-  </data>
-  <data name="lblColumn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 13</value>
-  </data>
-  <data name="lblColumn.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="lblColumn.Text" xml:space="preserve">
-    <value>Column</value>
-  </data>
-  <data name="&gt;&gt;lblColumn.Name" xml:space="preserve">
-    <value>lblColumn</value>
-  </data>
-  <data name="&gt;&gt;lblColumn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblColumn.Parent" xml:space="preserve">
-    <value>gbFilters</value>
-  </data>
-  <data name="&gt;&gt;lblColumn.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="lblTable.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblTable.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 28</value>
-  </data>
-  <data name="lblTable.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 13</value>
-  </data>
-  <data name="lblTable.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="lblTable.Text" xml:space="preserve">
-    <value>Table</value>
-  </data>
-  <data name="&gt;&gt;lblTable.Name" xml:space="preserve">
-    <value>lblTable</value>
-  </data>
-  <data name="&gt;&gt;lblTable.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblTable.Parent" xml:space="preserve">
-    <value>gbFilters</value>
-  </data>
-  <data name="&gt;&gt;lblTable.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
   <data name="radMenu1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
-  </data>
-  <data name="radMenu1.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="radMenu1.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="radMenu1.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
-  </data>
-  <data name="radMenu1.RootElement.AngleTransform" type="System.Single, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="radMenu1.RootElement.FlipText" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="radMenu1.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="radMenu1.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="radMenu1.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="radMenu1.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
-    <value>Horizontal</value>
   </data>
   <data name="radMenu1.Size" type="System.Drawing.Size, System.Drawing">
     <value>1115, 20</value>
@@ -2966,14 +2147,11 @@
   <data name="radMenu1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="radMenu1.Text" xml:space="preserve">
-    <value>radMenu1</value>
-  </data>
   <data name="&gt;&gt;radMenu1.Name" xml:space="preserve">
     <value>radMenu1</value>
   </data>
   <data name="&gt;&gt;radMenu1.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadMenu, Telerik.WinControls.UI, Version=2013.1.321.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadMenu, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;radMenu1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -5695,33 +4873,6 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAA
 </value>
   </data>
-  <data name="AlmisViewer.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="AlmisViewer.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="AlmisViewer.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
-  </data>
-  <data name="AlmisViewer.RootElement.AngleTransform" type="System.Single, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="AlmisViewer.RootElement.FlipText" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="AlmisViewer.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="AlmisViewer.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="AlmisViewer.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="AlmisViewer.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
-    <value>Horizontal</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>AlmisViewer</value>
   </data>
@@ -5729,48 +4880,48 @@
     <value>rmiLogOff</value>
   </data>
   <data name="&gt;&gt;rmiLogOff.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2013.1.321.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;rmiExit.Name" xml:space="preserve">
     <value>rmiExit</value>
   </data>
   <data name="&gt;&gt;rmiExit.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2013.1.321.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;rmiContents.Name" xml:space="preserve">
     <value>rmiContents</value>
   </data>
   <data name="&gt;&gt;rmiContents.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2013.1.321.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;rmiAbout.Name" xml:space="preserve">
     <value>rmiAbout</value>
   </data>
   <data name="&gt;&gt;rmiAbout.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2013.1.321.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;rmiFile.Name" xml:space="preserve">
     <value>rmiFile</value>
   </data>
   <data name="&gt;&gt;rmiFile.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2013.1.321.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;rmiHelp.Name" xml:space="preserve">
     <value>rmiHelp</value>
   </data>
   <data name="&gt;&gt;rmiHelp.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2013.1.321.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;officeShape1.Name" xml:space="preserve">
     <value>officeShape1</value>
   </data>
   <data name="&gt;&gt;officeShape1.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.OfficeShape, Telerik.WinControls, Version=2013.1.321.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.OfficeShape, Telerik.WinControls, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>AlmisViewer</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadForm, Telerik.WinControls.UI, Version=2013.1.321.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadForm, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
 </root>

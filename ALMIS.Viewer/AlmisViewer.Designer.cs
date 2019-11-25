@@ -31,19 +31,19 @@ namespace ALMIS.Viewer
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AlmisViewer));
-            Telerik.WinControls.Keyboard.InputBinding inputBinding5 = new Telerik.WinControls.Keyboard.InputBinding();
-            Telerik.WinControls.Keyboard.Chord chord5 = new Telerik.WinControls.Keyboard.Chord();
-            Telerik.WinControls.Keyboard.ChordModifier chordModifier5 = new Telerik.WinControls.Keyboard.ChordModifier();
-            Telerik.WinControls.Elements.ClickCommand clickCommand2 = new Telerik.WinControls.Elements.ClickCommand();
-            Telerik.WinControls.Keyboard.InputBinding inputBinding6 = new Telerik.WinControls.Keyboard.InputBinding();
-            Telerik.WinControls.Keyboard.Chord chord6 = new Telerik.WinControls.Keyboard.Chord();
-            Telerik.WinControls.Keyboard.ChordModifier chordModifier6 = new Telerik.WinControls.Keyboard.ChordModifier();
-            Telerik.WinControls.Keyboard.InputBinding inputBinding7 = new Telerik.WinControls.Keyboard.InputBinding();
-            Telerik.WinControls.Keyboard.Chord chord7 = new Telerik.WinControls.Keyboard.Chord();
-            Telerik.WinControls.Keyboard.ChordModifier chordModifier7 = new Telerik.WinControls.Keyboard.ChordModifier();
-            Telerik.WinControls.Keyboard.InputBinding inputBinding8 = new Telerik.WinControls.Keyboard.InputBinding();
-            Telerik.WinControls.Keyboard.Chord chord8 = new Telerik.WinControls.Keyboard.Chord();
-            Telerik.WinControls.Keyboard.ChordModifier chordModifier8 = new Telerik.WinControls.Keyboard.ChordModifier();
+            Telerik.WinControls.Keyboard.InputBinding inputBinding1 = new Telerik.WinControls.Keyboard.InputBinding();
+            Telerik.WinControls.Keyboard.Chord chord1 = new Telerik.WinControls.Keyboard.Chord();
+            Telerik.WinControls.Keyboard.ChordModifier chordModifier1 = new Telerik.WinControls.Keyboard.ChordModifier();
+            Telerik.WinControls.Elements.ClickCommand clickCommand1 = new Telerik.WinControls.Elements.ClickCommand();
+            Telerik.WinControls.Keyboard.InputBinding inputBinding2 = new Telerik.WinControls.Keyboard.InputBinding();
+            Telerik.WinControls.Keyboard.Chord chord2 = new Telerik.WinControls.Keyboard.Chord();
+            Telerik.WinControls.Keyboard.ChordModifier chordModifier2 = new Telerik.WinControls.Keyboard.ChordModifier();
+            Telerik.WinControls.Keyboard.InputBinding inputBinding3 = new Telerik.WinControls.Keyboard.InputBinding();
+            Telerik.WinControls.Keyboard.Chord chord3 = new Telerik.WinControls.Keyboard.Chord();
+            Telerik.WinControls.Keyboard.ChordModifier chordModifier3 = new Telerik.WinControls.Keyboard.ChordModifier();
+            Telerik.WinControls.Keyboard.InputBinding inputBinding4 = new Telerik.WinControls.Keyboard.InputBinding();
+            Telerik.WinControls.Keyboard.Chord chord4 = new Telerik.WinControls.Keyboard.Chord();
+            Telerik.WinControls.Keyboard.ChordModifier chordModifier4 = new Telerik.WinControls.Keyboard.ChordModifier();
             this.rmiLogOff = new Telerik.WinControls.UI.RadMenuItem();
             this.rmiExit = new Telerik.WinControls.UI.RadMenuItem();
             this.rmiContents = new Telerik.WinControls.UI.RadMenuItem();
@@ -52,6 +52,7 @@ namespace ALMIS.Viewer
             this.rmiHelp = new Telerik.WinControls.UI.RadMenuItem();
             this.radSplitContainer1 = new Telerik.WinControls.UI.RadSplitContainer();
             this.splitPanel1 = new Telerik.WinControls.UI.SplitPanel();
+            this.radButton1 = new Telerik.WinControls.UI.RadButton();
             this.rbtnExportToCsv = new Telerik.WinControls.UI.RadButton();
             this.btnPrintPriview = new Telerik.WinControls.UI.RadButton();
             this.btnExcel = new Telerik.WinControls.UI.RadButton();
@@ -122,11 +123,11 @@ namespace ALMIS.Viewer
             this.lblDateTime = new System.Windows.Forms.Label();
             this.lblAuditID = new System.Windows.Forms.Label();
             this.radMenu1 = new Telerik.WinControls.UI.RadMenu();
-            this.radButton1 = new Telerik.WinControls.UI.RadButton();
             ((System.ComponentModel.ISupportInitialize)(this.radSplitContainer1)).BeginInit();
             this.radSplitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel1)).BeginInit();
             this.splitPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rbtnExportToCsv)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnPrintPriview)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnExcel)).BeginInit();
@@ -151,59 +152,54 @@ namespace ALMIS.Viewer
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).BeginInit();
             this.radPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radMenu1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
             // rmiLogOff
             // 
+            this.rmiLogOff.AccessibleDescription = "Disconnect";
             resources.ApplyResources(this.rmiLogOff, "rmiLogOff");
-            this.rmiLogOff.HintText = "Ctrl+L";
             this.rmiLogOff.Name = "rmiLogOff";
-            this.rmiLogOff.Visibility = Telerik.WinControls.ElementVisibility.Visible;
             this.rmiLogOff.Click += new System.EventHandler(this.rmiDisconnect_Click);
             // 
             // rmiExit
             // 
+            this.rmiExit.AccessibleDescription = "Exit";
             resources.ApplyResources(this.rmiExit, "rmiExit");
-            this.rmiExit.HintText = "Alt+X";
             this.rmiExit.Name = "rmiExit";
-            this.rmiExit.Visibility = Telerik.WinControls.ElementVisibility.Visible;
             this.rmiExit.Click += new System.EventHandler(this.rmiExit_Click);
             // 
             // rmiContents
             // 
+            this.rmiContents.AccessibleDescription = "Contents";
             resources.ApplyResources(this.rmiContents, "rmiContents");
-            this.rmiContents.HintText = "F1";
             this.rmiContents.Name = "rmiContents";
-            this.rmiContents.Visibility = Telerik.WinControls.ElementVisibility.Visible;
             this.rmiContents.Click += new System.EventHandler(this.rmiContents_Click);
             // 
             // rmiAbout
             // 
+            this.rmiAbout.AccessibleDescription = "About";
             resources.ApplyResources(this.rmiAbout, "rmiAbout");
-            this.rmiAbout.HintText = "Ctrl+A";
             this.rmiAbout.Name = "rmiAbout";
-            this.rmiAbout.Visibility = Telerik.WinControls.ElementVisibility.Visible;
             this.rmiAbout.Click += new System.EventHandler(this.rmiAbout_Click);
             // 
             // rmiFile
             // 
+            this.rmiFile.AccessibleDescription = "File";
             resources.ApplyResources(this.rmiFile, "rmiFile");
             this.rmiFile.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.rmiLogOff,
             this.rmiExit});
             this.rmiFile.Name = "rmiFile";
-            this.rmiFile.Visibility = Telerik.WinControls.ElementVisibility.Visible;
             // 
             // rmiHelp
             // 
+            this.rmiHelp.AccessibleDescription = "Help";
             resources.ApplyResources(this.rmiHelp, "rmiHelp");
             this.rmiHelp.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.rmiContents,
             this.rmiAbout});
             this.rmiHelp.Name = "rmiHelp";
-            this.rmiHelp.Visibility = Telerik.WinControls.ElementVisibility.Visible;
             // 
             // radSplitContainer1
             // 
@@ -215,17 +211,9 @@ namespace ALMIS.Viewer
             // 
             // 
             // 
-            this.radSplitContainer1.RootElement.AccessibleDescription = resources.GetString("radSplitContainer1.RootElement.AccessibleDescription");
-            this.radSplitContainer1.RootElement.AccessibleName = resources.GetString("radSplitContainer1.RootElement.AccessibleName");
-            this.radSplitContainer1.RootElement.Alignment = ((System.Drawing.ContentAlignment)(resources.GetObject("radSplitContainer1.RootElement.Alignment")));
-            this.radSplitContainer1.RootElement.AngleTransform = ((float)(resources.GetObject("radSplitContainer1.RootElement.AngleTransform")));
-            this.radSplitContainer1.RootElement.FlipText = ((bool)(resources.GetObject("radSplitContainer1.RootElement.FlipText")));
-            this.radSplitContainer1.RootElement.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("radSplitContainer1.RootElement.Margin")));
+            this.radSplitContainer1.RootElement.AccessibleDescription = null;
+            this.radSplitContainer1.RootElement.AccessibleName = null;
             this.radSplitContainer1.RootElement.MinSize = new System.Drawing.Size(25, 25);
-            this.radSplitContainer1.RootElement.Padding = ((System.Windows.Forms.Padding)(resources.GetObject("radSplitContainer1.RootElement.Padding")));
-            this.radSplitContainer1.RootElement.Text = resources.GetString("radSplitContainer1.RootElement.Text");
-            this.radSplitContainer1.RootElement.TextOrientation = ((System.Windows.Forms.Orientation)(resources.GetObject("radSplitContainer1.RootElement.TextOrientation")));
-            this.radSplitContainer1.SplitterWidth = 4;
             this.radSplitContainer1.TabStop = false;
             // 
             // splitPanel1
@@ -246,23 +234,15 @@ namespace ALMIS.Viewer
             // 
             // 
             // 
-            this.splitPanel1.RootElement.AccessibleDescription = resources.GetString("splitPanel1.RootElement.AccessibleDescription");
-            this.splitPanel1.RootElement.AccessibleName = resources.GetString("splitPanel1.RootElement.AccessibleName");
-            this.splitPanel1.RootElement.Alignment = ((System.Drawing.ContentAlignment)(resources.GetObject("splitPanel1.RootElement.Alignment")));
-            this.splitPanel1.RootElement.AngleTransform = ((float)(resources.GetObject("splitPanel1.RootElement.AngleTransform")));
+            this.splitPanel1.RootElement.AccessibleDescription = null;
+            this.splitPanel1.RootElement.AccessibleName = null;
             this.splitPanel1.RootElement.ApplyShapeToControl = true;
             this.splitPanel1.RootElement.ClickMode = Telerik.WinControls.ClickMode.Release;
             this.splitPanel1.RootElement.ClipDrawing = false;
-            this.splitPanel1.RootElement.FlipText = ((bool)(resources.GetObject("splitPanel1.RootElement.FlipText")));
-            this.splitPanel1.RootElement.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("splitPanel1.RootElement.Margin")));
             this.splitPanel1.RootElement.MinSize = new System.Drawing.Size(25, 25);
-            this.splitPanel1.RootElement.Padding = ((System.Windows.Forms.Padding)(resources.GetObject("splitPanel1.RootElement.Padding")));
             this.splitPanel1.RootElement.Shape = this.officeShape1;
             this.splitPanel1.RootElement.ShouldPaint = true;
             this.splitPanel1.RootElement.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighSpeed;
-            this.splitPanel1.RootElement.Text = resources.GetString("splitPanel1.RootElement.Text");
-            this.splitPanel1.RootElement.TextOrientation = ((System.Windows.Forms.Orientation)(resources.GetObject("splitPanel1.RootElement.TextOrientation")));
-            //this.splitPanel1.RootElement.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
             this.splitPanel1.SizeInfo.AutoSizeScale = new System.Drawing.SizeF(0F, -0.02949361F);
             this.splitPanel1.SizeInfo.SplitterCorrection = new System.Drawing.Size(0, -32);
             this.splitPanel1.TabStop = false;
@@ -272,6 +252,17 @@ namespace ALMIS.Viewer
             ((Telerik.WinControls.Primitives.FillPrimitive)(this.splitPanel1.GetChildAt(0).GetChildAt(0))).Shape = this.officeShape1;
             ((Telerik.WinControls.Primitives.BorderPrimitive)(this.splitPanel1.GetChildAt(0).GetChildAt(1))).Shape = this.officeShape1;
             // 
+            // radButton1
+            // 
+            resources.ApplyResources(this.radButton1, "radButton1");
+            this.radButton1.Name = "radButton1";
+            // 
+            // 
+            // 
+            this.radButton1.RootElement.AccessibleDescription = null;
+            this.radButton1.RootElement.AccessibleName = null;
+            this.radButton1.Click += new System.EventHandler(this.radButton1_Click);
+            // 
             // rbtnExportToCsv
             // 
             resources.ApplyResources(this.rbtnExportToCsv, "rbtnExportToCsv");
@@ -279,15 +270,8 @@ namespace ALMIS.Viewer
             // 
             // 
             // 
-            this.rbtnExportToCsv.RootElement.AccessibleDescription = resources.GetString("rbtnExportToCsv.RootElement.AccessibleDescription");
-            this.rbtnExportToCsv.RootElement.AccessibleName = resources.GetString("rbtnExportToCsv.RootElement.AccessibleName");
-            this.rbtnExportToCsv.RootElement.Alignment = ((System.Drawing.ContentAlignment)(resources.GetObject("rbtnExportToCsv.RootElement.Alignment")));
-            this.rbtnExportToCsv.RootElement.AngleTransform = ((float)(resources.GetObject("rbtnExportToCsv.RootElement.AngleTransform")));
-            this.rbtnExportToCsv.RootElement.FlipText = ((bool)(resources.GetObject("rbtnExportToCsv.RootElement.FlipText")));
-            this.rbtnExportToCsv.RootElement.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("rbtnExportToCsv.RootElement.Margin")));
-            this.rbtnExportToCsv.RootElement.Padding = ((System.Windows.Forms.Padding)(resources.GetObject("rbtnExportToCsv.RootElement.Padding")));
-            this.rbtnExportToCsv.RootElement.Text = resources.GetString("rbtnExportToCsv.RootElement.Text");
-            this.rbtnExportToCsv.RootElement.TextOrientation = ((System.Windows.Forms.Orientation)(resources.GetObject("rbtnExportToCsv.RootElement.TextOrientation")));
+            this.rbtnExportToCsv.RootElement.AccessibleDescription = null;
+            this.rbtnExportToCsv.RootElement.AccessibleName = null;
             this.rbtnExportToCsv.Click += new System.EventHandler(this.rbtnExportToCsv_Click);
             // 
             // btnPrintPriview
@@ -297,15 +281,8 @@ namespace ALMIS.Viewer
             // 
             // 
             // 
-            this.btnPrintPriview.RootElement.AccessibleDescription = resources.GetString("btnPrintPriview.RootElement.AccessibleDescription");
-            this.btnPrintPriview.RootElement.AccessibleName = resources.GetString("btnPrintPriview.RootElement.AccessibleName");
-            this.btnPrintPriview.RootElement.Alignment = ((System.Drawing.ContentAlignment)(resources.GetObject("btnPrintPriview.RootElement.Alignment")));
-            this.btnPrintPriview.RootElement.AngleTransform = ((float)(resources.GetObject("btnPrintPriview.RootElement.AngleTransform")));
-            this.btnPrintPriview.RootElement.FlipText = ((bool)(resources.GetObject("btnPrintPriview.RootElement.FlipText")));
-            this.btnPrintPriview.RootElement.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("btnPrintPriview.RootElement.Margin")));
-            this.btnPrintPriview.RootElement.Padding = ((System.Windows.Forms.Padding)(resources.GetObject("btnPrintPriview.RootElement.Padding")));
-            this.btnPrintPriview.RootElement.Text = resources.GetString("btnPrintPriview.RootElement.Text");
-            this.btnPrintPriview.RootElement.TextOrientation = ((System.Windows.Forms.Orientation)(resources.GetObject("btnPrintPriview.RootElement.TextOrientation")));
+            this.btnPrintPriview.RootElement.AccessibleDescription = null;
+            this.btnPrintPriview.RootElement.AccessibleName = null;
             this.btnPrintPriview.Click += new System.EventHandler(this.btnPrintPriview_Click);
             // 
             // btnExcel
@@ -315,15 +292,8 @@ namespace ALMIS.Viewer
             // 
             // 
             // 
-            this.btnExcel.RootElement.AccessibleDescription = resources.GetString("btnExcel.RootElement.AccessibleDescription");
-            this.btnExcel.RootElement.AccessibleName = resources.GetString("btnExcel.RootElement.AccessibleName");
-            this.btnExcel.RootElement.Alignment = ((System.Drawing.ContentAlignment)(resources.GetObject("btnExcel.RootElement.Alignment")));
-            this.btnExcel.RootElement.AngleTransform = ((float)(resources.GetObject("btnExcel.RootElement.AngleTransform")));
-            this.btnExcel.RootElement.FlipText = ((bool)(resources.GetObject("btnExcel.RootElement.FlipText")));
-            this.btnExcel.RootElement.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("btnExcel.RootElement.Margin")));
-            this.btnExcel.RootElement.Padding = ((System.Windows.Forms.Padding)(resources.GetObject("btnExcel.RootElement.Padding")));
-            this.btnExcel.RootElement.Text = resources.GetString("btnExcel.RootElement.Text");
-            this.btnExcel.RootElement.TextOrientation = ((System.Windows.Forms.Orientation)(resources.GetObject("btnExcel.RootElement.TextOrientation")));
+            this.btnExcel.RootElement.AccessibleDescription = null;
+            this.btnExcel.RootElement.AccessibleName = null;
             this.btnExcel.Click += new System.EventHandler(this.btnExcel_Click);
             // 
             // lblResult
@@ -338,15 +308,8 @@ namespace ALMIS.Viewer
             // 
             // 
             // 
-            this.btnFind.RootElement.AccessibleDescription = resources.GetString("btnFind.RootElement.AccessibleDescription");
-            this.btnFind.RootElement.AccessibleName = resources.GetString("btnFind.RootElement.AccessibleName");
-            this.btnFind.RootElement.Alignment = ((System.Drawing.ContentAlignment)(resources.GetObject("btnFind.RootElement.Alignment")));
-            this.btnFind.RootElement.AngleTransform = ((float)(resources.GetObject("btnFind.RootElement.AngleTransform")));
-            this.btnFind.RootElement.FlipText = ((bool)(resources.GetObject("btnFind.RootElement.FlipText")));
-            this.btnFind.RootElement.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("btnFind.RootElement.Margin")));
-            this.btnFind.RootElement.Padding = ((System.Windows.Forms.Padding)(resources.GetObject("btnFind.RootElement.Padding")));
-            this.btnFind.RootElement.Text = resources.GetString("btnFind.RootElement.Text");
-            this.btnFind.RootElement.TextOrientation = ((System.Windows.Forms.Orientation)(resources.GetObject("btnFind.RootElement.TextOrientation")));
+            this.btnFind.RootElement.AccessibleDescription = null;
+            this.btnFind.RootElement.AccessibleName = null;
             this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
             // 
             // gbLogEntryLimit
@@ -363,7 +326,7 @@ namespace ALMIS.Viewer
             // 
             resources.ApplyResources(this.nupMaxEntries, "nupMaxEntries");
             this.nupMaxEntries.Maximum = new decimal(new int[] {
-            5000,
+            15000,
             0,
             0,
             0});
@@ -471,20 +434,15 @@ namespace ALMIS.Viewer
             // rtpOccuredBefore
             // 
             resources.ApplyResources(this.rtpOccuredBefore, "rtpOccuredBefore");
+            this.rtpOccuredBefore.MaxValue = new System.DateTime(9999, 12, 31, 23, 59, 59, 0);
+            this.rtpOccuredBefore.MinValue = new System.DateTime(((long)(0)));
             this.rtpOccuredBefore.Name = "rtpOccuredBefore";
             this.rtpOccuredBefore.ReadOnly = true;
             // 
             // 
             // 
-            this.rtpOccuredBefore.RootElement.AccessibleDescription = resources.GetString("rtpOccuredBefore.RootElement.AccessibleDescription");
-            this.rtpOccuredBefore.RootElement.AccessibleName = resources.GetString("rtpOccuredBefore.RootElement.AccessibleName");
-            this.rtpOccuredBefore.RootElement.Alignment = ((System.Drawing.ContentAlignment)(resources.GetObject("rtpOccuredBefore.RootElement.Alignment")));
-            this.rtpOccuredBefore.RootElement.AngleTransform = ((float)(resources.GetObject("rtpOccuredBefore.RootElement.AngleTransform")));
-            this.rtpOccuredBefore.RootElement.FlipText = ((bool)(resources.GetObject("rtpOccuredBefore.RootElement.FlipText")));
-            this.rtpOccuredBefore.RootElement.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("rtpOccuredBefore.RootElement.Margin")));
-            this.rtpOccuredBefore.RootElement.Padding = ((System.Windows.Forms.Padding)(resources.GetObject("rtpOccuredBefore.RootElement.Padding")));
-            this.rtpOccuredBefore.RootElement.Text = resources.GetString("rtpOccuredBefore.RootElement.Text");
-            this.rtpOccuredBefore.RootElement.TextOrientation = ((System.Windows.Forms.Orientation)(resources.GetObject("rtpOccuredBefore.RootElement.TextOrientation")));
+            this.rtpOccuredBefore.RootElement.AccessibleDescription = null;
+            this.rtpOccuredBefore.RootElement.AccessibleName = null;
             this.rtpOccuredBefore.TabStop = false;
             this.rtpOccuredBefore.Value = new System.DateTime(2013, 5, 14, 22, 46, 26, 0);
             this.rtpOccuredBefore.Click += new System.EventHandler(this.rtpOccuredBefore_Click);
@@ -492,20 +450,15 @@ namespace ALMIS.Viewer
             // rtpOccuredAfter
             // 
             resources.ApplyResources(this.rtpOccuredAfter, "rtpOccuredAfter");
+            this.rtpOccuredAfter.MaxValue = new System.DateTime(9999, 12, 31, 23, 59, 59, 0);
+            this.rtpOccuredAfter.MinValue = new System.DateTime(((long)(0)));
             this.rtpOccuredAfter.Name = "rtpOccuredAfter";
             this.rtpOccuredAfter.ReadOnly = true;
             // 
             // 
             // 
-            this.rtpOccuredAfter.RootElement.AccessibleDescription = resources.GetString("rtpOccuredAfter.RootElement.AccessibleDescription");
-            this.rtpOccuredAfter.RootElement.AccessibleName = resources.GetString("rtpOccuredAfter.RootElement.AccessibleName");
-            this.rtpOccuredAfter.RootElement.Alignment = ((System.Drawing.ContentAlignment)(resources.GetObject("rtpOccuredAfter.RootElement.Alignment")));
-            this.rtpOccuredAfter.RootElement.AngleTransform = ((float)(resources.GetObject("rtpOccuredAfter.RootElement.AngleTransform")));
-            this.rtpOccuredAfter.RootElement.FlipText = ((bool)(resources.GetObject("rtpOccuredAfter.RootElement.FlipText")));
-            this.rtpOccuredAfter.RootElement.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("rtpOccuredAfter.RootElement.Margin")));
-            this.rtpOccuredAfter.RootElement.Padding = ((System.Windows.Forms.Padding)(resources.GetObject("rtpOccuredAfter.RootElement.Padding")));
-            this.rtpOccuredAfter.RootElement.Text = resources.GetString("rtpOccuredAfter.RootElement.Text");
-            this.rtpOccuredAfter.RootElement.TextOrientation = ((System.Windows.Forms.Orientation)(resources.GetObject("rtpOccuredAfter.RootElement.TextOrientation")));
+            this.rtpOccuredAfter.RootElement.AccessibleDescription = null;
+            this.rtpOccuredAfter.RootElement.AccessibleName = null;
             this.rtpOccuredAfter.TabStop = false;
             this.rtpOccuredAfter.Value = new System.DateTime(2013, 5, 14, 22, 46, 26, 0);
             this.rtpOccuredAfter.Click += new System.EventHandler(this.rtpOccuredAfter_Click);
@@ -519,15 +472,8 @@ namespace ALMIS.Viewer
             // 
             // 
             // 
-            this.rdtpOccuredBefore.RootElement.AccessibleDescription = resources.GetString("rdtpOccuredBefore.RootElement.AccessibleDescription");
-            this.rdtpOccuredBefore.RootElement.AccessibleName = resources.GetString("rdtpOccuredBefore.RootElement.AccessibleName");
-            this.rdtpOccuredBefore.RootElement.Alignment = ((System.Drawing.ContentAlignment)(resources.GetObject("rdtpOccuredBefore.RootElement.Alignment")));
-            this.rdtpOccuredBefore.RootElement.AngleTransform = ((float)(resources.GetObject("rdtpOccuredBefore.RootElement.AngleTransform")));
-            this.rdtpOccuredBefore.RootElement.FlipText = ((bool)(resources.GetObject("rdtpOccuredBefore.RootElement.FlipText")));
-            this.rdtpOccuredBefore.RootElement.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("rdtpOccuredBefore.RootElement.Margin")));
-            this.rdtpOccuredBefore.RootElement.Padding = ((System.Windows.Forms.Padding)(resources.GetObject("rdtpOccuredBefore.RootElement.Padding")));
-            this.rdtpOccuredBefore.RootElement.Text = resources.GetString("rdtpOccuredBefore.RootElement.Text");
-            this.rdtpOccuredBefore.RootElement.TextOrientation = ((System.Windows.Forms.Orientation)(resources.GetObject("rdtpOccuredBefore.RootElement.TextOrientation")));
+            this.rdtpOccuredBefore.RootElement.AccessibleDescription = null;
+            this.rdtpOccuredBefore.RootElement.AccessibleName = null;
             this.rdtpOccuredBefore.TabStop = false;
             this.rdtpOccuredBefore.Value = new System.DateTime(2013, 5, 14, 22, 46, 12, 400);
             this.rdtpOccuredBefore.ValueChanged += new System.EventHandler(this.rdtpOccuredBefore_ValueChanged);
@@ -541,15 +487,8 @@ namespace ALMIS.Viewer
             // 
             // 
             // 
-            this.rdtpOccuredAfter.RootElement.AccessibleDescription = resources.GetString("rdtpOccuredAfter.RootElement.AccessibleDescription");
-            this.rdtpOccuredAfter.RootElement.AccessibleName = resources.GetString("rdtpOccuredAfter.RootElement.AccessibleName");
-            this.rdtpOccuredAfter.RootElement.Alignment = ((System.Drawing.ContentAlignment)(resources.GetObject("rdtpOccuredAfter.RootElement.Alignment")));
-            this.rdtpOccuredAfter.RootElement.AngleTransform = ((float)(resources.GetObject("rdtpOccuredAfter.RootElement.AngleTransform")));
-            this.rdtpOccuredAfter.RootElement.FlipText = ((bool)(resources.GetObject("rdtpOccuredAfter.RootElement.FlipText")));
-            this.rdtpOccuredAfter.RootElement.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("rdtpOccuredAfter.RootElement.Margin")));
-            this.rdtpOccuredAfter.RootElement.Padding = ((System.Windows.Forms.Padding)(resources.GetObject("rdtpOccuredAfter.RootElement.Padding")));
-            this.rdtpOccuredAfter.RootElement.Text = resources.GetString("rdtpOccuredAfter.RootElement.Text");
-            this.rdtpOccuredAfter.RootElement.TextOrientation = ((System.Windows.Forms.Orientation)(resources.GetObject("rdtpOccuredAfter.RootElement.TextOrientation")));
+            this.rdtpOccuredAfter.RootElement.AccessibleDescription = null;
+            this.rdtpOccuredAfter.RootElement.AccessibleName = null;
             this.rdtpOccuredAfter.TabStop = false;
             this.rdtpOccuredAfter.Value = new System.DateTime(2013, 5, 14, 22, 46, 12, 400);
             this.rdtpOccuredAfter.ValueChanged += new System.EventHandler(this.rdtpOccuredAfter_ValueChanged);
@@ -695,6 +634,7 @@ namespace ALMIS.Viewer
             // 
             // officeShape1
             // 
+            this.officeShape1.IsRightToLeft = false;
             this.officeShape1.RoundedBottom = true;
             // 
             // splitPanel2
@@ -705,16 +645,9 @@ namespace ALMIS.Viewer
             // 
             // 
             // 
-            this.splitPanel2.RootElement.AccessibleDescription = resources.GetString("splitPanel2.RootElement.AccessibleDescription");
-            this.splitPanel2.RootElement.AccessibleName = resources.GetString("splitPanel2.RootElement.AccessibleName");
-            this.splitPanel2.RootElement.Alignment = ((System.Drawing.ContentAlignment)(resources.GetObject("splitPanel2.RootElement.Alignment")));
-            this.splitPanel2.RootElement.AngleTransform = ((float)(resources.GetObject("splitPanel2.RootElement.AngleTransform")));
-            this.splitPanel2.RootElement.FlipText = ((bool)(resources.GetObject("splitPanel2.RootElement.FlipText")));
-            this.splitPanel2.RootElement.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("splitPanel2.RootElement.Margin")));
+            this.splitPanel2.RootElement.AccessibleDescription = null;
+            this.splitPanel2.RootElement.AccessibleName = null;
             this.splitPanel2.RootElement.MinSize = new System.Drawing.Size(25, 25);
-            this.splitPanel2.RootElement.Padding = ((System.Windows.Forms.Padding)(resources.GetObject("splitPanel2.RootElement.Padding")));
-            this.splitPanel2.RootElement.Text = resources.GetString("splitPanel2.RootElement.Text");
-            this.splitPanel2.RootElement.TextOrientation = ((System.Windows.Forms.Orientation)(resources.GetObject("splitPanel2.RootElement.TextOrientation")));
             this.splitPanel2.SizeInfo.AutoSizeScale = new System.Drawing.SizeF(0F, 0.1741792F);
             this.splitPanel2.SizeInfo.SplitterCorrection = new System.Drawing.Size(0, 103);
             this.splitPanel2.TabStop = false;
@@ -744,16 +677,9 @@ namespace ALMIS.Viewer
             // 
             // 
             // 
-            this.splitPanel3.RootElement.AccessibleDescription = resources.GetString("splitPanel3.RootElement.AccessibleDescription");
-            this.splitPanel3.RootElement.AccessibleName = resources.GetString("splitPanel3.RootElement.AccessibleName");
-            this.splitPanel3.RootElement.Alignment = ((System.Drawing.ContentAlignment)(resources.GetObject("splitPanel3.RootElement.Alignment")));
-            this.splitPanel3.RootElement.AngleTransform = ((float)(resources.GetObject("splitPanel3.RootElement.AngleTransform")));
-            this.splitPanel3.RootElement.FlipText = ((bool)(resources.GetObject("splitPanel3.RootElement.FlipText")));
-            this.splitPanel3.RootElement.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("splitPanel3.RootElement.Margin")));
+            this.splitPanel3.RootElement.AccessibleDescription = null;
+            this.splitPanel3.RootElement.AccessibleName = null;
             this.splitPanel3.RootElement.MinSize = new System.Drawing.Size(25, 25);
-            this.splitPanel3.RootElement.Padding = ((System.Windows.Forms.Padding)(resources.GetObject("splitPanel3.RootElement.Padding")));
-            this.splitPanel3.RootElement.Text = resources.GetString("splitPanel3.RootElement.Text");
-            this.splitPanel3.RootElement.TextOrientation = ((System.Windows.Forms.Orientation)(resources.GetObject("splitPanel3.RootElement.TextOrientation")));
             this.splitPanel3.SizeInfo.AutoSizeScale = new System.Drawing.SizeF(0F, -0.1446856F);
             this.splitPanel3.SizeInfo.SplitterCorrection = new System.Drawing.Size(0, -71);
             this.splitPanel3.TabStop = false;
@@ -769,15 +695,8 @@ namespace ALMIS.Viewer
             // 
             // 
             // 
-            this.radPanel2.RootElement.AccessibleDescription = resources.GetString("radPanel2.RootElement.AccessibleDescription");
-            this.radPanel2.RootElement.AccessibleName = resources.GetString("radPanel2.RootElement.AccessibleName");
-            this.radPanel2.RootElement.Alignment = ((System.Drawing.ContentAlignment)(resources.GetObject("radPanel2.RootElement.Alignment")));
-            this.radPanel2.RootElement.AngleTransform = ((float)(resources.GetObject("radPanel2.RootElement.AngleTransform")));
-            this.radPanel2.RootElement.FlipText = ((bool)(resources.GetObject("radPanel2.RootElement.FlipText")));
-            this.radPanel2.RootElement.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("radPanel2.RootElement.Margin")));
-            this.radPanel2.RootElement.Padding = ((System.Windows.Forms.Padding)(resources.GetObject("radPanel2.RootElement.Padding")));
-            this.radPanel2.RootElement.Text = resources.GetString("radPanel2.RootElement.Text");
-            this.radPanel2.RootElement.TextOrientation = ((System.Windows.Forms.Orientation)(resources.GetObject("radPanel2.RootElement.TextOrientation")));
+            this.radPanel2.RootElement.AccessibleDescription = null;
+            this.radPanel2.RootElement.AccessibleName = null;
             // 
             // txtOldValue
             // 
@@ -829,15 +748,8 @@ namespace ALMIS.Viewer
             // 
             // 
             // 
-            this.radPanel1.RootElement.AccessibleDescription = resources.GetString("radPanel1.RootElement.AccessibleDescription");
-            this.radPanel1.RootElement.AccessibleName = resources.GetString("radPanel1.RootElement.AccessibleName");
-            this.radPanel1.RootElement.Alignment = ((System.Drawing.ContentAlignment)(resources.GetObject("radPanel1.RootElement.Alignment")));
-            this.radPanel1.RootElement.AngleTransform = ((float)(resources.GetObject("radPanel1.RootElement.AngleTransform")));
-            this.radPanel1.RootElement.FlipText = ((bool)(resources.GetObject("radPanel1.RootElement.FlipText")));
-            this.radPanel1.RootElement.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("radPanel1.RootElement.Margin")));
-            this.radPanel1.RootElement.Padding = ((System.Windows.Forms.Padding)(resources.GetObject("radPanel1.RootElement.Padding")));
-            this.radPanel1.RootElement.Text = resources.GetString("radPanel1.RootElement.Text");
-            this.radPanel1.RootElement.TextOrientation = ((System.Windows.Forms.Orientation)(resources.GetObject("radPanel1.RootElement.TextOrientation")));
+            this.radPanel1.RootElement.AccessibleDescription = null;
+            this.radPanel1.RootElement.AccessibleName = null;
             // 
             // txtRowKey
             // 
@@ -949,84 +861,54 @@ namespace ALMIS.Viewer
             // 
             // radMenu1
             // 
-            chordModifier5.AltModifier = false;
-            chordModifier5.ControlModifier = true;
-            chordModifier5.ShiftModifier = false;
-            chord5.ChordModifier = chordModifier5;
-            chord5.Keys = "Ctrl+L";
-            inputBinding5.Chord = chord5;
-            clickCommand2.ContextType = null;
-            clickCommand2.ImageList = null;
-            clickCommand2.Name = "ActionCommand";
-            clickCommand2.OwnerType = typeof(Telerik.WinControls.RadItem);
-            clickCommand2.Text = "This command rises the Click event of a selected RadItem instance.";
-            clickCommand2.Type = "";
-            inputBinding5.Command = clickCommand2;
-            inputBinding5.CommandContext = this.rmiLogOff;
-            chordModifier6.AltModifier = true;
-            chordModifier6.ControlModifier = false;
-            chordModifier6.ShiftModifier = false;
-            chord6.ChordModifier = chordModifier6;
-            chord6.Keys = "Alt+X";
-            inputBinding6.Chord = chord6;
-            inputBinding6.Command = clickCommand2;
-            inputBinding6.CommandContext = this.rmiExit;
-            chordModifier7.AltModifier = false;
-            chordModifier7.ControlModifier = false;
-            chordModifier7.ShiftModifier = false;
-            chord7.ChordModifier = chordModifier7;
-            chord7.Keys = "F1";
-            inputBinding7.Chord = chord7;
-            inputBinding7.Command = clickCommand2;
-            inputBinding7.CommandContext = this.rmiContents;
-            chordModifier8.AltModifier = false;
-            chordModifier8.ControlModifier = true;
-            chordModifier8.ShiftModifier = false;
-            chord8.ChordModifier = chordModifier8;
-            chord8.Keys = "Ctrl+A";
-            inputBinding8.Chord = chord8;
-            inputBinding8.Command = clickCommand2;
-            inputBinding8.CommandContext = this.rmiAbout;
+            chordModifier1.AltModifier = false;
+            chordModifier1.ControlModifier = true;
+            chordModifier1.ShiftModifier = false;
+            chord1.ChordModifier = chordModifier1;
+            chord1.Keys = "Ctrl+L";
+            inputBinding1.Chord = chord1;
+            clickCommand1.ContextType = null;
+            clickCommand1.ImageList = null;
+            clickCommand1.Name = "ActionCommand";
+            clickCommand1.OwnerType = typeof(Telerik.WinControls.RadItem);
+            clickCommand1.Text = "This command rises the Click event of a selected RadItem instance.";
+            clickCommand1.Type = "";
+            inputBinding1.Command = clickCommand1;
+            inputBinding1.CommandContext = this.rmiLogOff;
+            chordModifier2.AltModifier = true;
+            chordModifier2.ControlModifier = false;
+            chordModifier2.ShiftModifier = false;
+            chord2.ChordModifier = chordModifier2;
+            chord2.Keys = "Alt+X";
+            inputBinding2.Chord = chord2;
+            inputBinding2.Command = clickCommand1;
+            inputBinding2.CommandContext = this.rmiExit;
+            chordModifier3.AltModifier = false;
+            chordModifier3.ControlModifier = false;
+            chordModifier3.ShiftModifier = false;
+            chord3.ChordModifier = chordModifier3;
+            chord3.Keys = "F1";
+            inputBinding3.Chord = chord3;
+            inputBinding3.Command = clickCommand1;
+            inputBinding3.CommandContext = this.rmiContents;
+            chordModifier4.AltModifier = false;
+            chordModifier4.ControlModifier = true;
+            chordModifier4.ShiftModifier = false;
+            chord4.ChordModifier = chordModifier4;
+            chord4.Keys = "Ctrl+A";
+            inputBinding4.Chord = chord4;
+            inputBinding4.Command = clickCommand1;
+            inputBinding4.CommandContext = this.rmiAbout;
             this.radMenu1.CommandBindings.AddRange(new Telerik.WinControls.Keyboard.InputBinding[] {
-            inputBinding5,
-            inputBinding6,
-            inputBinding7,
-            inputBinding8});
+            inputBinding1,
+            inputBinding2,
+            inputBinding3,
+            inputBinding4});
             this.radMenu1.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.rmiFile,
             this.rmiHelp});
             resources.ApplyResources(this.radMenu1, "radMenu1");
             this.radMenu1.Name = "radMenu1";
-            // 
-            // 
-            // 
-            this.radMenu1.RootElement.AccessibleDescription = resources.GetString("radMenu1.RootElement.AccessibleDescription");
-            this.radMenu1.RootElement.AccessibleName = resources.GetString("radMenu1.RootElement.AccessibleName");
-            this.radMenu1.RootElement.Alignment = ((System.Drawing.ContentAlignment)(resources.GetObject("radMenu1.RootElement.Alignment")));
-            this.radMenu1.RootElement.AngleTransform = ((float)(resources.GetObject("radMenu1.RootElement.AngleTransform")));
-            this.radMenu1.RootElement.FlipText = ((bool)(resources.GetObject("radMenu1.RootElement.FlipText")));
-            this.radMenu1.RootElement.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("radMenu1.RootElement.Margin")));
-            this.radMenu1.RootElement.Padding = ((System.Windows.Forms.Padding)(resources.GetObject("radMenu1.RootElement.Padding")));
-            this.radMenu1.RootElement.Text = resources.GetString("radMenu1.RootElement.Text");
-            this.radMenu1.RootElement.TextOrientation = ((System.Windows.Forms.Orientation)(resources.GetObject("radMenu1.RootElement.TextOrientation")));
-            // 
-            // radButton1
-            // 
-            resources.ApplyResources(this.radButton1, "radButton1");
-            this.radButton1.Name = "radButton1";
-            // 
-            // 
-            // 
-            this.radButton1.RootElement.AccessibleDescription = resources.GetString("radButton1.RootElement.AccessibleDescription");
-            this.radButton1.RootElement.AccessibleName = resources.GetString("radButton1.RootElement.AccessibleName");
-            this.radButton1.RootElement.Alignment = ((System.Drawing.ContentAlignment)(resources.GetObject("radButton1.RootElement.Alignment")));
-            this.radButton1.RootElement.AngleTransform = ((float)(resources.GetObject("radButton1.RootElement.AngleTransform")));
-            this.radButton1.RootElement.FlipText = ((bool)(resources.GetObject("radButton1.RootElement.FlipText")));
-            this.radButton1.RootElement.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("radButton1.RootElement.Margin")));
-            this.radButton1.RootElement.Padding = ((System.Windows.Forms.Padding)(resources.GetObject("radButton1.RootElement.Padding")));
-            this.radButton1.RootElement.Text = resources.GetString("radButton1.RootElement.Text");
-            this.radButton1.RootElement.TextOrientation = ((System.Windows.Forms.Orientation)(resources.GetObject("radButton1.RootElement.TextOrientation")));
-            this.radButton1.Click += new System.EventHandler(this.radButton1_Click);
             // 
             // AlmisViewer
             // 
@@ -1038,16 +920,9 @@ namespace ALMIS.Viewer
             // 
             // 
             // 
-            this.RootElement.AccessibleDescription = resources.GetString("AlmisViewer.RootElement.AccessibleDescription");
-            this.RootElement.AccessibleName = resources.GetString("AlmisViewer.RootElement.AccessibleName");
-            this.RootElement.Alignment = ((System.Drawing.ContentAlignment)(resources.GetObject("AlmisViewer.RootElement.Alignment")));
-            this.RootElement.AngleTransform = ((float)(resources.GetObject("AlmisViewer.RootElement.AngleTransform")));
+            this.RootElement.AccessibleDescription = null;
+            this.RootElement.AccessibleName = null;
             this.RootElement.ApplyShapeToControl = true;
-            this.RootElement.FlipText = ((bool)(resources.GetObject("AlmisViewer.RootElement.FlipText")));
-            this.RootElement.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("AlmisViewer.RootElement.Margin")));
-            this.RootElement.Padding = ((System.Windows.Forms.Padding)(resources.GetObject("AlmisViewer.RootElement.Padding")));
-            this.RootElement.Text = resources.GetString("AlmisViewer.RootElement.Text");
-            this.RootElement.TextOrientation = ((System.Windows.Forms.Orientation)(resources.GetObject("AlmisViewer.RootElement.TextOrientation")));
             this.ThemeName = "ControlDefault";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.AlmisViewer_Load);
@@ -1056,6 +931,7 @@ namespace ALMIS.Viewer
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel1)).EndInit();
             this.splitPanel1.ResumeLayout(false);
             this.splitPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rbtnExportToCsv)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnPrintPriview)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnExcel)).EndInit();
@@ -1086,7 +962,6 @@ namespace ALMIS.Viewer
             this.radPanel1.ResumeLayout(false);
             this.radPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radMenu1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

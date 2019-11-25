@@ -111,15 +111,8 @@
             // 
             // 
             // 
-            this.rbtnCancel.RootElement.AccessibleDescription = resources.GetString("rbtnCancel.RootElement.AccessibleDescription");
-            this.rbtnCancel.RootElement.AccessibleName = resources.GetString("rbtnCancel.RootElement.AccessibleName");
-            this.rbtnCancel.RootElement.Alignment = ((System.Drawing.ContentAlignment)(resources.GetObject("rbtnCancel.RootElement.Alignment")));
-            this.rbtnCancel.RootElement.AngleTransform = ((float)(resources.GetObject("rbtnCancel.RootElement.AngleTransform")));
-            this.rbtnCancel.RootElement.FlipText = ((bool)(resources.GetObject("rbtnCancel.RootElement.FlipText")));
-            this.rbtnCancel.RootElement.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("rbtnCancel.RootElement.Margin")));
-            this.rbtnCancel.RootElement.Padding = ((System.Windows.Forms.Padding)(resources.GetObject("rbtnCancel.RootElement.Padding")));
-            this.rbtnCancel.RootElement.Text = resources.GetString("rbtnCancel.RootElement.Text");
-            this.rbtnCancel.RootElement.TextOrientation = ((System.Windows.Forms.Orientation)(resources.GetObject("rbtnCancel.RootElement.TextOrientation")));
+            this.rbtnCancel.RootElement.AccessibleDescription = null;
+            this.rbtnCancel.RootElement.AccessibleName = null;
             this.rbtnCancel.Click += new System.EventHandler(this.rbtnCancel_Click);
             // 
             // chbSaveServerOptions
@@ -194,16 +187,9 @@
             // 
             // 
             // 
-            this.RootElement.AccessibleDescription = resources.GetString("Login.RootElement.AccessibleDescription");
-            this.RootElement.AccessibleName = resources.GetString("Login.RootElement.AccessibleName");
-            this.RootElement.Alignment = ((System.Drawing.ContentAlignment)(resources.GetObject("Login.RootElement.Alignment")));
-            this.RootElement.AngleTransform = ((float)(resources.GetObject("Login.RootElement.AngleTransform")));
+            this.RootElement.AccessibleDescription = null;
+            this.RootElement.AccessibleName = null;
             this.RootElement.ApplyShapeToControl = true;
-            this.RootElement.FlipText = ((bool)(resources.GetObject("Login.RootElement.FlipText")));
-            this.RootElement.Margin = ((System.Windows.Forms.Padding)(resources.GetObject("Login.RootElement.Margin")));
-            this.RootElement.Padding = ((System.Windows.Forms.Padding)(resources.GetObject("Login.RootElement.Padding")));
-            this.RootElement.Text = resources.GetString("Login.RootElement.Text");
-            this.RootElement.TextOrientation = ((System.Windows.Forms.Orientation)(resources.GetObject("Login.RootElement.TextOrientation")));
             this.ThemeName = "ControlDefault";
             this.Load += new System.EventHandler(this.Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.rbtnCancel)).EndInit();
