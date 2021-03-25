@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="&gt;&gt;rgbBuildTriggersFor.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadGroupBox, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadGroupBox, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="chbAuditAllInserted.Size" type="System.Drawing.Size, System.Drawing">
@@ -131,24 +131,21 @@
   <data name="&gt;&gt;rrbDateArchive.Name" xml:space="preserve">
     <value>rrbDateArchive</value>
   </data>
+  <data name="cbDatabase.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="rbtnRebuildAuditTriggers.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
+  <data name="cbDatabase.EditorControl.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
   <data name="&gt;&gt;rgbDeleteAuditLog.Name" xml:space="preserve">
     <value>rgbDeleteAuditLog</value>
-  </data>
-  <data name="&gt;&gt;rrbIntervalArchive.Parent" xml:space="preserve">
-    <value>radGroupBox1</value>
   </data>
   <data name="chbAllColumns.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 17</value>
   </data>
   <data name="rbtnArchiveAuditLogData.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 141</value>
-  </data>
-  <data name="rbtnReset.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>ImageAboveText</value>
   </data>
   <data name="rbtnUninstallAuditing.RootElement.KeyTip" xml:space="preserve">
     <value />
@@ -199,7 +196,7 @@
     <value>0, 13</value>
   </data>
   <data name="&gt;&gt;rbtnSearchPerson.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="rbtnDelete.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -216,9 +213,6 @@
   <data name="&gt;&gt;lblUserName.Parent" xml:space="preserve">
     <value>rpvUsers</value>
   </data>
-  <data name="rbtnSearchPerson.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
   <data name="rdtpDateDelete.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopLeft</value>
   </data>
@@ -228,6 +222,9 @@
   <data name="rdtpArchiveDate.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
+  <data name="dgvAuditUsers.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
   <data name="rbYearArchive.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -236,9 +233,6 @@
   </data>
   <data name="rgbDatabase.RootElement.FlipText" type="System.Boolean, mscorlib">
     <value>False</value>
-  </data>
-  <data name="rgbDatabase.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
   </data>
   <data name="cbDatabase.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -257,9 +251,6 @@
   </data>
   <data name="rtpArchiveTime.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
-  </data>
-  <data name="rdtpArchiveDate.RootElement.AngleTransform" type="System.Single, mscorlib">
-    <value>0</value>
   </data>
   <data name="rrbSingelTable.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 32</value>
@@ -285,14 +276,8 @@
   <data name="radGroupBox1.RootElement.ToolTipText" xml:space="preserve">
     <value />
   </data>
-  <data name="rbtnInstallPrerequirements.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
-  </data>
   <data name="&gt;&gt;rpvBuildTriggers.Name" xml:space="preserve">
     <value>rpvBuildTriggers</value>
-  </data>
-  <data name="rgbBuildTriggersFor.Text" xml:space="preserve">
-    <value>Build Triggers For</value>
   </data>
   <data name="&gt;&gt;lblPasswordInfo.Name" xml:space="preserve">
     <value>lblPasswordInfo</value>
@@ -309,6 +294,9 @@
   <data name="rtpTimeDelete.RootElement.FlipText" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
+  <data name="lblName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="&gt;&gt;lblTriggerInfo1.Name" xml:space="preserve">
     <value>lblTriggerInfo1</value>
   </data>
@@ -324,17 +312,23 @@
   <data name="rpvAlmisManager.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
+  <data name="chbAuditAllDeleted.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="chbChangePassword.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
   <data name="rpvPrerequirements.Size" type="System.Drawing.Size, System.Drawing">
     <value>688, 568</value>
   </data>
-  <data name="&gt;&gt;rbtnArchiveAuditLogData.Name" xml:space="preserve">
-    <value>rbtnArchiveAuditLogData</value>
+  <data name="&gt;&gt;dgvTables.Parent" xml:space="preserve">
+    <value>rpvAuditSetup</value>
   </data>
   <data name="radMenu1.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lblPasswordInfo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;rbtnReset.Name" xml:space="preserve">
     <value>rbtnReset</value>
@@ -407,11 +401,8 @@
         Iv8F9FwMcdwW1zwAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="rbtnReset.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
   <data name="&gt;&gt;rtpArchiveTime.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadTimePicker, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadTimePicker, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="rmiDisconnect.AccessibleName" xml:space="preserve">
     <value>Disconnect</value>
@@ -419,44 +410,23 @@
   <data name="rrbAllTables.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="rbtnDelete.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-</value>
+  <data name="&gt;&gt;txtName.Parent" xml:space="preserve">
+    <value>rpvUsers</value>
   </data>
-  <data name="rpvColumns.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 37</value>
+  <data name="lblDeletedDate.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
   <data name="&gt;&gt;chbAuditAllUpdated.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;radPageView2.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadPageView, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadPageView, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;lblName.Parent" xml:space="preserve">
     <value>rpvUsers</value>
+  </data>
+  <data name="&gt;&gt;txtName.ZOrder" xml:space="preserve">
+    <value>13</value>
   </data>
   <data name="rpvAlmisManager.RootElement.ToolTipText" xml:space="preserve">
     <value />
@@ -472,12 +442,6 @@
   </data>
   <data name="&gt;&gt;radGroupBox1.Name" xml:space="preserve">
     <value>radGroupBox1</value>
-  </data>
-  <data name="TriggerName.HeaderText" xml:space="preserve">
-    <value>TriggerName</value>
-  </data>
-  <data name="chbAccessAlmisViewer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 17</value>
   </data>
   <data name="chbChangePassword.Text" xml:space="preserve">
     <value>Check To Change Password</value>
@@ -497,11 +461,17 @@
   <data name="rtpArchiveTime.RootElement.AngleTransform" type="System.Single, mscorlib">
     <value>0</value>
   </data>
+  <data name="rbtnRebuildAuditTriggers.RootElement.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
+  </data>
   <data name="rrbDateArchive.RootElement.FlipText" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="lblCreateAuditingInfo.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 122</value>
+  </data>
+  <data name="rrbAllTables.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
   </data>
   <data name="&gt;&gt;lblTriggerInfo1.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -524,8 +494,18 @@
   <data name="rrbSingelTable.RootElement.KeyTip" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;rmiDisconnect.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  <data name="lblUninstallInfo.Text" xml:space="preserve">
+    <value>This option removes the audit system from the current database.
+This includes tables,stored procedures and triggers installed 
+by AlmisAudit.All selections for user tables and columns to audit
+will be lost and unrecoverable unless you have made proper backups.
+
+The existing audit log will be dropped as well. Any existing audit
+log data for this database will be destroyed and unrecoverable 
+unless you have made proper backups.</value>
+  </data>
+  <data name="rbtnRebuildAuditTriggers.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="&gt;&gt;rpvBuildTriggers.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -542,11 +522,14 @@
   <data name="&gt;&gt;lblSurname.Name" xml:space="preserve">
     <value>lblSurname</value>
   </data>
-  <data name="&gt;&gt;AuditInserts.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;lblPassword.ZOrder" xml:space="preserve">
     <value>10</value>
+  </data>
+  <data name="&gt;&gt;TableSchema.Name" xml:space="preserve">
+    <value>TableSchema</value>
+  </data>
+  <data name="&gt;&gt;rbtnConfirm.ZOrder" xml:space="preserve">
+    <value>11</value>
   </data>
   <data name="&gt;&gt;rrbDateDelete.Name" xml:space="preserve">
     <value>rrbDateDelete</value>
@@ -558,41 +541,13 @@
     <value>False</value>
   </data>
   <data name="&gt;&gt;rmiAbout.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;radGroupBox1.Parent" xml:space="preserve">
     <value>rpvArchiveLog</value>
   </data>
-  <data name="rmiDisconnect.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-        RK5CYII=
-</value>
-  </data>
-  <data name="rbtnEdit.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
+  <data name="&gt;&gt;rrbIntervalArchive.Parent" xml:space="preserve">
+    <value>radGroupBox1</value>
   </data>
   <data name="&gt;&gt;chbAuditAllInserted.Parent" xml:space="preserve">
     <value>rpvAuditSetup</value>
@@ -613,7 +568,7 @@
     <value>2</value>
   </data>
   <data name="&gt;&gt;rrbAllTables.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadRadioButton, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadRadioButton, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="lblDeletedDate.Location" type="System.Drawing.Point, System.Drawing">
     <value>243, 105</value>
@@ -639,17 +594,8 @@
   <data name="rmcbSelectTable.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
-  <data name="AlmisManager.RootElement.ToolTipText" xml:space="preserve">
-    <value />
-  </data>
   <data name="rbtnInstallPrerequirements.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
-  </data>
-  <data name="&gt;&gt;lblDeleteAuditLog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="rrbIntervalArchive.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
   </data>
   <data name="rbtnReset.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -670,17 +616,23 @@
         6yekkzMd4VhQbAAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="TableSchema.HeaderText" xml:space="preserve">
+    <value>TableSchema</value>
+  </data>
   <data name="&gt;&gt;rtpArchiveTime.ZOrder" xml:space="preserve">
     <value>5</value>
+  </data>
+  <data name="rbtnRestoreToDefault.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;rdtpDateDelete.Parent" xml:space="preserve">
+    <value>rgbDeleteAuditLog</value>
   </data>
   <data name="lblArchiveAuditLog.Size" type="System.Drawing.Size, System.Drawing">
     <value>157, 13</value>
   </data>
   <data name="rgbBuildTriggersFor.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 4</value>
-  </data>
-  <data name="rtpTimeDelete.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
   </data>
   <data name="AuditInserts.HeaderText" xml:space="preserve">
     <value>AuditInserts</value>
@@ -718,8 +670,8 @@
   <data name="rdtpDateDelete.Text" xml:space="preserve">
     <value>12.05.2013</value>
   </data>
-  <data name="lblPassword.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="&gt;&gt;rpvUninstallAudit.Parent" xml:space="preserve">
+    <value>rpvAlmisManager</value>
   </data>
   <data name="&gt;&gt;dgvTriggers.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -734,7 +686,7 @@
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
   <data name="&gt;&gt;rbtnInstallPrerequirements.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="txtSurname.Location" type="System.Drawing.Point, System.Drawing">
     <value>105, 82</value>
@@ -754,17 +706,11 @@
   <data name="dgvTables.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="&gt;&gt;Disabled.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="rbtnSearchPerson.Size" type="System.Drawing.Size, System.Drawing">
     <value>24, 20</value>
   </data>
-  <data name="lblColumnsInfo.TabIndex" type="System.Int32, mscorlib">
+  <data name="AlmisManager.RootElement.AngleTransform" type="System.Single, mscorlib">
     <value>0</value>
-  </data>
-  <data name="&gt;&gt;chbAccessAlmisViewer.Name" xml:space="preserve">
-    <value>chbAccessAlmisViewer</value>
   </data>
   <data name="&gt;&gt;rtpTimeDelete.Name" xml:space="preserve">
     <value>rtpTimeDelete</value>
@@ -796,6 +742,9 @@
   <data name="dgvColumns.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 27</value>
   </data>
+  <data name="radPageView2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 310</value>
+  </data>
   <data name="&gt;&gt;rbtnEdit.Name" xml:space="preserve">
     <value>rbtnEdit</value>
   </data>
@@ -820,11 +769,39 @@
   <data name="&gt;&gt;rbtnArchiveAuditLogData.Parent" xml:space="preserve">
     <value>rpvArchiveLog</value>
   </data>
-  <data name="radMenu1.RootElement.AngleTransform" type="System.Single, mscorlib">
-    <value>0</value>
+  <data name="rpvUsers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>688, 568</value>
   </data>
   <data name="&gt;&gt;AuditUpdates.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rmiDisconnect.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAABSBJREFUSEvF
+        lW1MU1cYx6GtFuZAQDcKeG8RitpCGW+VvmwUJAxkBSyIOMD5BhSYbsoUjYL4MpSMQGKCIwtuzC3BfXDu
+        i/uy8GEx2T4s0zl5Lyhv0lKgthVrX+69fXZaTnSNSty++EtO7s19/s/z3HOe55zj81rQyfncB5Jw3kRS
+        aOzU5ggpGorJFJ5wWhIerFdEcrDsv4OcudMpYWU6peCXB7tzp6f35Tun8iSgjfGHQcLXMbh+pVYbG/T9
+        VEqYBLu8OnoZQczlxP9qO7YHmOaDwJyrBablEDCdZ4H58TI86TwPc7uyYSrxLdCKQ+zauOALY7FBK7D7
+        8qDg0Qt5yf1UkwaY+jKgztSAZYeCtpS8u7BYnm6zH9oBdPMBYK60g62rFYzqzaDP3Oga2BRw5W4kJwCH
+        eTFovVlzSsE3zpMVQDdWgLXjHEzkpy7qpESVXs6PMMojEszycI0lN+6u/UgpuDoagf75Klir88FSIodh
+        cchVVBsuDvc8s3IyYrFSNU/X5oP1UjOMRK1kxuLX1GDzU2zy0JUWedhJFNjJXDwBTO9P4Pi4AM0mBUbj
+        17Sj+vliqTcGOVHgOFLO0G3HYSZTBIORnAdTyaGB2OyFUxHqa1Sur3hysMjm+vI00Ne74VGJAiZkhPN+
+        wloplnkzr4yqc2pUwHS1wBjhA4NR3D60bMu2ojEj+ozjVBW4rnXB44YqMCijoF/gd72PZLGx5BkPc+LO
+        Oj9UAH2xEUbXeRJoUYI3sPmFLKTy/E1qyW9Mez3QN3pgRkbCSDSXvkOwnp+FOVtY59yVDnRL3VICPkc3
+        lfh2MDa/lPmMmDTL7qx71qYai644jeojWPdukWw1Nj/DoOAXOypyUAdVwoQ4GIYIX2pMtFqJzcsyk8Jj
+        mTTbBKYfvi69RXL88WdvUBelWStVNqrgHZjTFIIW1WF445s9qCtYWOLFsCgooy+K29tP+C7eJVjX/iZY
+        NX2EbwLyW4Hee9G7CEuXQIGCTEWyQaogHqwtR2GMz4YBkmVHx0E8lnixsF/Vbb/cCubP62BmexqMxYW4
+        jxHb+AfJk0N8tgMlnUWJ4rB8CYMyut5RmQvUp9tBl5sEo2gWQxtW3ZhM5vlhyVPQknRTO1KB2rPFUzfn
+        Vxdg8eJpYHouwcInpR5fVI8hlEiAXdAs5GS4uSxjksoXg73tBIyLAmEYCUeEAS0zqeu8WtZYktbp0Khc
+        VIkUKFUsUDtlQNeogD6yE5hv22D+wM6lHxSvHe0j2Zs8Tu5daJCTe2y1ahdVmATWtga4J/DzFHxEGNiJ
+        joLVHiFiVsILms+O22IuTW9d3JczZNfk2Zz7s4HenQF01Vag0X561NYE+s8qHP0xq05hN08S1sP3Rd85
+        awuAKkoGa3sDTMSHeGYyGO33x6gwMAtLn2KS8jhGKS/Rkis+el/Gt1AHC+FxjRp0WeKbw6LgDNT23seH
+        Wcrzf6hKvOFJkrMBqNZ6MB4uh0lJuLuQLtQ5t9Hatt4h2ZrbJPvwXwTrNHrKUf/7Dwj89Yb0mN7xKM7z
+        e+HfGKQRQcYsYZetdhtNbUsASp0IzmMfge38YXjcWA2PGqrB8sVxMFSpYTyVdG9Mx58ku0OftDZkMob7
+        ivcDqsmcgr/LXKy4b0fHMr03E6hcIVDvhQG1JdJTWKqpGszHK02jm4l6lGD5O+FloEQBszKidC5d0GUq
+        Vtw0791621ye+Tsqcq8uNaJZJyMj3T+D5f8fdxA0OGhw8ZPt/obNrxMfn38ATFSW1RTf0DgAAAAASUVO
+        RK5CYII=
+</value>
   </data>
   <data name="&gt;&gt;rbtnRebuildAuditTriggers.Parent" xml:space="preserve">
     <value>rpvBuildTriggers</value>
@@ -847,17 +824,11 @@
   <data name="&gt;&gt;rdtpDateDelete.Name" xml:space="preserve">
     <value>rdtpDateDelete</value>
   </data>
-  <data name="rrbDateArchive.RootElement.ToolTipText" xml:space="preserve">
-    <value />
-  </data>
   <data name="rgbBuildTriggersFor.RootElement.FlipText" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="lblTriggerInfo2.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 14</value>
-  </data>
-  <data name="rbtnUninstallAuditing.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
   </data>
   <data name="cbDatabase.EditorControl.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopLeft</value>
@@ -875,13 +846,13 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;rrbIntervalArchive.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadRadioButton, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadRadioButton, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
-  <data name="rbtnReset.RootElement.KeyTip" xml:space="preserve">
-    <value />
+  <data name="rmiHelp.AccessibleDescription" xml:space="preserve">
+    <value>Help</value>
   </data>
   <data name="&gt;&gt;rpvUninstallAudit.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadPageViewPage, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadPageViewPage, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="rpvUninstallAudit.Size" type="System.Drawing.Size, System.Drawing">
     <value>688, 568</value>
@@ -926,14 +897,14 @@
   <data name="rrbDateArchive.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 35</value>
   </data>
-  <data name="rbtnSearchPerson.RootElement.ToolTipText" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;lblPasswordInfo.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="rbtnArchiveAuditLogData.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
+  </data>
+  <data name="lblInfoForAuditTables.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
   </data>
   <data name="dgvColumns.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
@@ -950,11 +921,90 @@
   <data name="lblSurname.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 13</value>
   </data>
+  <data name="rpvUsers.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        QmCC
+</value>
+  </data>
   <data name="rtpArchiveTime.RootElement.ToolTipText" xml:space="preserve">
     <value />
   </data>
-  <data name="rbtnSearchPerson.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="&gt;&gt;rbtnArchiveAuditLogData.Name" xml:space="preserve">
+    <value>rbtnArchiveAuditLogData</value>
   </data>
   <data name="rrbDateArchive.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 18</value>
@@ -972,7 +1022,7 @@
     <value>Horizontal</value>
   </data>
   <data name="&gt;&gt;rbtnDeleteAuditLog.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;rpvBuildTriggers.Parent" xml:space="preserve">
     <value>rpvAlmisManager</value>
@@ -980,17 +1030,20 @@
   <data name="AuditColumn.HeaderText" xml:space="preserve">
     <value>AuditColumn</value>
   </data>
+  <data name="rbtnUninstallAuditing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>362, 24</value>
+  </data>
   <data name="rrbDateDelete.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 18</value>
   </data>
-  <data name="&gt;&gt;dgvTables.Parent" xml:space="preserve">
-    <value>rpvAuditSetup</value>
+  <data name="&gt;&gt;radMenu1.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="rbtnUninstallAuditing.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
   <data name="&gt;&gt;rbtnConfirm.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="rbtnDelete.Location" type="System.Drawing.Point, System.Drawing">
     <value>229, 251</value>
@@ -1065,13 +1118,10 @@
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;rpvUsers.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadPageViewPage, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadPageViewPage, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;lblColumnsInfo.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="rrbSingelTable.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
   </data>
   <data name="rgbBuildTriggersFor.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -1082,11 +1132,11 @@
   <data name="cbDatabase.EditorControl.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
-  <data name="&gt;&gt;lblDeleteAuditLog.Parent" xml:space="preserve">
-    <value>rgbDeleteAuditLog</value>
-  </data>
   <data name="&gt;&gt;chbAllColumns.Parent" xml:space="preserve">
     <value>rpvColumns</value>
+  </data>
+  <data name="rrbIntervalDelete.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="&gt;&gt;rbtnSearchPerson.Parent" xml:space="preserve">
     <value>rpvUsers</value>
@@ -1113,10 +1163,13 @@
     <value>Horizontal</value>
   </data>
   <data name="&gt;&gt;rpvAuditSetup.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadPageViewPage, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadPageViewPage, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="rgbDatabase.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
   </data>
   <data name="&gt;&gt;radMenu1.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadMenu, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadMenu, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="radGroupBox1.HeaderText" xml:space="preserve">
     <value>Archive audit log data older than</value>
@@ -1126,6 +1179,9 @@
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
+  </data>
+  <data name="rbtnConfirm.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="rpvPrerequirements.Text" xml:space="preserve">
     <value>Prerequirements</value>
@@ -1142,6 +1198,9 @@
   <data name="&gt;&gt;cbDatabase.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="rrbIntervalArchive.RootElement.ToolTipText" xml:space="preserve">
+    <value />
+  </data>
   <data name="rdtpArchiveDate.Text" xml:space="preserve">
     <value>12.05.2013</value>
   </data>
@@ -1150,6 +1209,12 @@
   </data>
   <data name="&gt;&gt;rbYearArchive.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="radPageView2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="cbDatabase.EditorControl.RootElement.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;lblPrerequirementsMsg.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -1173,16 +1238,13 @@
     <value>688, 568</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadForm, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadForm, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
-  <data name="&gt;&gt;rmcbSelectTable.Parent" xml:space="preserve">
-    <value>rgbBuildTriggersFor</value>
+  <data name="rgbBuildTriggersFor.RootElement.ToolTipText" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;rtpArchiveTime.Parent" xml:space="preserve">
     <value>radGroupBox1</value>
-  </data>
-  <data name="&gt;&gt;chbAuditAllUpdated.ZOrder" xml:space="preserve">
-    <value>4</value>
   </data>
   <data name="&gt;&gt;rmcbSelectTable.Name" xml:space="preserve">
     <value>rmcbSelectTable</value>
@@ -1196,8 +1258,14 @@
   <data name="&gt;&gt;chbAllColumns.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="chbAuditAllInserted.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 287</value>
+  </data>
   <data name="rgbDeleteAuditLog.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 217</value>
+  </data>
+  <data name="&gt;&gt;lblInfoForAuditTables.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;rbtnEdit.Parent" xml:space="preserve">
     <value>rpvUsers</value>
@@ -1250,14 +1318,11 @@
   <data name="rbtnDelete.RootElement.FlipText" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="cbDatabase.EditorControl.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
   <data name="chbAuditAllUpdated.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
   <data name="&gt;&gt;rbtnArchiveAuditLogData.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="lblInfoForAuditTables.Size" type="System.Drawing.Size, System.Drawing">
     <value>305, 21</value>
@@ -1271,9 +1336,6 @@
   <data name="&gt;&gt;chbAllColumns.Name" xml:space="preserve">
     <value>chbAllColumns</value>
   </data>
-  <data name="radMenu1.RootElement.FlipText" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="rbtnArchiveAuditLogData.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
     <value>Horizontal</value>
   </data>
@@ -1282,9 +1344,6 @@
   </data>
   <data name="&gt;&gt;rpvTriggers.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="rbtnRebuildAuditTriggers.RootElement.KeyTip" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;DataType.Name" xml:space="preserve">
     <value>DataType</value>
@@ -1340,7 +1399,7 @@
     <value>1</value>
   </data>
   <data name="&gt;&gt;cbDatabase.NestedRadGridView.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.MultiColumnComboGridView, Telerik.WinControls.GridView, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.MultiColumnComboGridView, Telerik.WinControls.GridView, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;TableSchema1.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1353,9 +1412,6 @@
   </data>
   <data name="&gt;&gt;rbtnSearchPerson.Name" xml:space="preserve">
     <value>rbtnSearchPerson</value>
-  </data>
-  <data name="rdtpArchiveDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 20</value>
   </data>
   <data name="rbtnUninstallAuditing.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
     <value>Horizontal</value>
@@ -1375,14 +1431,11 @@
   <data name="rrbSingelTable.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
-  <data name="rbtnEdit.RootElement.AngleTransform" type="System.Single, mscorlib">
-    <value>0</value>
-  </data>
   <data name="rpvArchiveLog.Size" type="System.Drawing.Size, System.Drawing">
     <value>688, 568</value>
   </data>
-  <data name="&gt;&gt;cbDatabase.Name" xml:space="preserve">
-    <value>cbDatabase</value>
+  <data name="rbtnRebuildAuditTriggers.RootElement.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="rbtnDelete.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -1402,9 +1455,6 @@
   <data name="rpvAlmisManager.Size" type="System.Drawing.Size, System.Drawing">
     <value>920, 576</value>
   </data>
-  <data name="lblArchiveAuditLog.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="AlmisManager.RootElement.KeyTip" xml:space="preserve">
     <value />
   </data>
@@ -1413,9 +1463,6 @@
   </data>
   <data name="chbAllColumns.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="radPageView2.RootElement.KeyTip" xml:space="preserve">
-    <value />
   </data>
   <data name="rrbDateArchive.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1426,9 +1473,6 @@
   <data name="&gt;&gt;rpvColumns.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="rgbDatabase.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 39</value>
-  </data>
   <data name="rtpTimeDelete.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
   </data>
@@ -1437,6 +1481,9 @@
   </data>
   <data name="&gt;&gt;rtpArchiveTime.Name" xml:space="preserve">
     <value>rtpArchiveTime</value>
+  </data>
+  <data name="dgvTriggers.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
   </data>
   <data name="rrbDateDelete.RootElement.KeyTip" xml:space="preserve">
     <value />
@@ -1459,14 +1506,14 @@
   <data name="radMenu1.Size" type="System.Drawing.Size, System.Drawing">
     <value>914, 20</value>
   </data>
-  <data name="rbMonthArchive.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
   <data name="rbtnConfirm.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 54</value>
   </data>
-  <data name="lblUninstallInfo.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="rgbDeleteAuditLog.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;rmiFile.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="rmiContents.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1518,8 +1565,8 @@
   <data name="rmcbSelectTable.Size" type="System.Drawing.Size, System.Drawing">
     <value>226, 22</value>
   </data>
-  <data name="txtName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>105, 52</value>
+  <data name="rbtnReset.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
   </data>
   <data name="rbtnEdit.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
     <value>ImageAboveText</value>
@@ -1554,9 +1601,6 @@
   <data name="rgbDatabase.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 18, 2, 2</value>
   </data>
-  <data name="rgbDatabase.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
   <data name="rbtnUninstallAuditing.RootElement.FlipText" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
@@ -1570,7 +1614,10 @@
     <value>0</value>
   </data>
   <data name="&gt;&gt;rmiContents.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="AuditTable.HeaderText" xml:space="preserve">
+    <value>AuditTable</value>
   </data>
   <data name="&gt;&gt;txtSurname.Parent" xml:space="preserve">
     <value>rpvUsers</value>
@@ -1593,8 +1640,8 @@
   <data name="rbtnReset.ImageAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
-  <data name="rbtnEdit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 54</value>
+  <data name="lblName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="rbtnEdit.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -1626,8 +1673,8 @@
   <data name="rbtnInstallPrerequirements.RootElement.FlipText" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="rbtnReset.RootElement.ToolTipText" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;cbDatabase.Name" xml:space="preserve">
+    <value>cbDatabase</value>
   </data>
   <data name="rtpArchiveTime.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
     <value>Horizontal</value>
@@ -1653,44 +1700,29 @@
   <data name="&gt;&gt;lblPrerequirementsMsg.Parent" xml:space="preserve">
     <value>rpvPrerequirements</value>
   </data>
-  <data name="rpvUninstallAudit.Text" xml:space="preserve">
-    <value>Uninstall Audit</value>
-  </data>
-  <data name="&gt;&gt;txtPassword2.Parent" xml:space="preserve">
-    <value>rpvUsers</value>
-  </data>
-  <data name="&gt;&gt;chbAuditAll.Name" xml:space="preserve">
-    <value>chbAuditAll</value>
-  </data>
   <data name="rbtnSearchPerson.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
-  <data name="rbtnRebuildAuditTriggers.RootElement.FlipText" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="rmcbSelectTable.RootElement.KeyTip" xml:space="preserve">
+  <data name="rbtnReset.RootElement.ToolTipText" xml:space="preserve">
     <value />
   </data>
   <data name="rgbBuildTriggersFor.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopLeft</value>
   </data>
   <data name="&gt;&gt;rpvAlmisManager.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadPageView, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadPageView, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="rrbIntervalArchive.Size" type="System.Drawing.Size, System.Drawing">
     <value>57, 18</value>
   </data>
   <data name="&gt;&gt;rgbDatabase.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadGroupBox, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadGroupBox, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="rgbDatabase.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
     <value>Horizontal</value>
   </data>
   <data name="rbMonthArchive.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 17</value>
-  </data>
-  <data name="&gt;&gt;rbtnDeleteAuditLog.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="cbDatabase.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
     <value>Horizontal</value>
@@ -1717,7 +1749,7 @@
     <value>rbYearArchive</value>
   </data>
   <data name="&gt;&gt;rrbIntervalDelete.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadRadioButton, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadRadioButton, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;lblCreateAuditingInfo.Name" xml:space="preserve">
     <value>lblCreateAuditingInfo</value>
@@ -1725,11 +1757,17 @@
   <data name="cbDatabase.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
+  <data name="&gt;&gt;rrbDateArchive.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadRadioButton, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
   <data name="rbtnRestoreToDefault.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
   <data name="&gt;&gt;rbtnEdit.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="rtpArchiveTime.RootElement.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="rbtnDelete.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -1751,9 +1789,6 @@
   </data>
   <data name="rbtnDelete.RootElement.KeyTip" xml:space="preserve">
     <value />
-  </data>
-  <data name="radGroupBox1.RootElement.AngleTransform" type="System.Single, mscorlib">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;chbAuditAllDeleted.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -1785,6 +1820,9 @@
   <data name="rrbSingelTable.RootElement.FlipText" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
+  <data name="lblPrerequirementsMsg.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="lblUninstallInfo.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -1797,17 +1835,11 @@
   <data name="&gt;&gt;gvUsername.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lblSurname.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="rbtnArchiveAuditLogData.RootElement.ToolTipText" xml:space="preserve">
-    <value />
+  <data name="rgbDatabase.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="txtPassword2.Size" type="System.Drawing.Size, System.Drawing">
     <value>136, 20</value>
-  </data>
-  <data name="&gt;&gt;lblSurname.ZOrder" xml:space="preserve">
-    <value>16</value>
   </data>
   <data name="&gt;&gt;lblTriggerInfo2.Parent" xml:space="preserve">
     <value>rpvTriggers</value>
@@ -1824,6 +1856,9 @@
   <data name="&gt;&gt;rpvColumns.Parent" xml:space="preserve">
     <value>radPageView2</value>
   </data>
+  <data name="&gt;&gt;rrbIntervalDelete.Name" xml:space="preserve">
+    <value>rrbIntervalDelete</value>
+  </data>
   <data name="gvName.HeaderText" xml:space="preserve">
     <value>Name</value>
   </data>
@@ -1833,17 +1868,8 @@
   <data name="&gt;&gt;rpvTriggers.Parent" xml:space="preserve">
     <value>radPageView2</value>
   </data>
-  <data name="lblDeletedDate.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;lblUninstallInfo.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="rgbDatabase.HeaderText" xml:space="preserve">
-    <value>Build audit log prerequirements in database</value>
-  </data>
-  <data name="rtpArchiveTime.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
+  <data name="&gt;&gt;Disabled.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lblCreateAuditingInfo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1851,14 +1877,11 @@
   <data name="rbtnConfirm.RootElement.AngleTransform" type="System.Single, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;nudDelete.Parent" xml:space="preserve">
-    <value>rgbDeleteAuditLog</value>
+  <data name="rbtnConfirm.RootElement.KeyTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="cbDatabase.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;lblDeletedDate.Name" xml:space="preserve">
-    <value>lblDeletedDate</value>
+  <data name="&gt;&gt;rmcbSelectTable.Parent" xml:space="preserve">
+    <value>rgbBuildTriggersFor</value>
   </data>
   <data name="AlmisManager.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -1866,14 +1889,8 @@
   <data name="&gt;&gt;gvUsername.Name" xml:space="preserve">
     <value>gvUsername</value>
   </data>
-  <data name="txtUsername.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
   <data name="rbMonthArchive.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
-  </data>
-  <data name="cbDatabase.EditorControl.RootElement.KeyTip" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;lblName.ZOrder" xml:space="preserve">
     <value>17</value>
@@ -1899,20 +1916,17 @@
   <data name="&gt;&gt;TableName.Name" xml:space="preserve">
     <value>TableName</value>
   </data>
-  <data name="rbtnReset.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
   <data name="rbtnDeleteAuditLog.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="dgvAuditUsers.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
+  <data name="rbtnRestoreToDefault.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 34</value>
+  </data>
   <data name="lblTriggerInfo2.Text" xml:space="preserve">
     <value>Enablig or Disabling a trigger takes affect immediately.</value>
-  </data>
-  <data name="rbtnEdit.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
   </data>
   <data name="&gt;&gt;ColumnName.Name" xml:space="preserve">
     <value>ColumnName</value>
@@ -2016,14 +2030,14 @@
   <data name="rgbBuildTriggersFor.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
+  <data name="&gt;&gt;dgvAuditUsers.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
   <data name="rpvBuildTriggers.Text" xml:space="preserve">
     <value>Build Triggers</value>
   </data>
   <data name="dgvTriggers.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 30</value>
-  </data>
-  <data name="rrbDateArchive.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
   </data>
   <data name="&gt;&gt;rbMonthDelete.Name" xml:space="preserve">
     <value>rbMonthDelete</value>
@@ -2053,7 +2067,7 @@
     <value>cbDatabase.NestedRadGridView</value>
   </data>
   <data name="&gt;&gt;rpvArchiveLog.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadPageViewPage, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadPageViewPage, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="txtName.Size" type="System.Drawing.Size, System.Drawing">
     <value>161, 20</value>
@@ -2061,92 +2075,14 @@
   <data name="txtSurname.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="rtpArchiveTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>291, 35</value>
-  </data>
   <data name="&gt;&gt;dgvColumns.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="chbChangePassword.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="rpvAuditSetup.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-        YII=
-</value>
+  <data name="&gt;&gt;lblPasswordInfo.Parent" xml:space="preserve">
+    <value>rpvUsers</value>
   </data>
   <data name="&gt;&gt;Table_Name.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2154,17 +2090,14 @@
   <data name="rbtnRebuildAuditTriggers.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 168</value>
   </data>
-  <data name="chbAuditAllInserted.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="txtName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 52</value>
   </data>
   <data name="cbDatabase.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 21</value>
   </data>
   <data name="rbMonthDelete.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
-  </data>
-  <data name="rmcbSelectTable.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
-    <value>Horizontal</value>
   </data>
   <data name="&gt;&gt;chbAuditAll.Parent" xml:space="preserve">
     <value>rpvAuditSetup</value>
@@ -2271,14 +2204,25 @@
   <data name="rbtnUninstallAuditing.Text" xml:space="preserve">
     <value>Uninstall Auditing</value>
   </data>
+  <data name="rbtnSearchPerson.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAplJREFUOE+V
+        kmtIU2EYx10zoQ/lhy5SKImJFloapfVhLiXRQlNSxLJSSqQkvPRBrKBM1BI18xKUiqXGoCkOGTq1nU3L
+        eVlz87KZYtvS6TQvrYsICeG/d+cc1iIq/MEfHp73+T3n6vAPtjg6OmYFnQgeSsvIXEtLz/jOC+KruFxu
+        OjlzYkb+jpvf4SO6TvkbdKu0qKeUaJAp0aPWoV3ahQM+BwfJzC5m9E+cfA/5D0sVKlRKevHa+BGLq2t0
+        5Po5ukf1KOHp5a0gs5sYxQ4Oh3O1QShCQWsfKNMyusyf0T3/hY61lk4v475YgZo6Acj4OcayI+DY8bcl
+        zRQeqY2oHp/D8/cLqNcv0rHWVaT3UGVAuYgij+IrZTUbmy9eTvmR+VKGLMUk8odnUKwzo3TMjELtLO5o
+        ppHaq8fpFjUu1bYiJu78CuvZcE5MTkVSgxTJ1DtkD04hZ8iEXLLo3rAJt9XTyBgwIl4yiqS6DsQlJK6z
+        ng1OWET01xuCV7hGjaFgZAaPx+dRM7lAp5LUeWRhSqcWWYIO8IJDZ1jvFzt2ugjLBGJcb9OgYsSEpg9L
+        kMxa0EYiNC6hVDOFVLEKZS9E2LrNuYrVbPB9/I8uP6ioRalIhhLFBFom59FrtqCHLGiemENh9xjKyAsM
+        i4xZJfP7GI2BH3IqeqVN3gfthAGFlc9Q3dyBFqUOcq0eslE9RANaVDVJEBF7YY1871jWoyFyFC0bTWY0
+        tcrg5eP3ydXdU3U24Qpu5RXjZm4RouKT1ne7uVt/oEBGY+AHBoWuCMVSGKZm0d7Vj5DwqG+kz2OO6duM
+        JIkgcbc2fsPVY7/lbtETIvahkVw5OPyMvfx/trvs6c/OL0dO8VME8E5uTGbZa13i6uFtIfUGZQeHn/91
+        jFOvQ6g4AAAAAElFTkSuQmCC
+</value>
+  </data>
   <data name="radPageView2.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopLeft</value>
-  </data>
-  <data name="lblPassword.Text" xml:space="preserve">
-    <value>Password:</value>
-  </data>
-  <data name="&gt;&gt;gvSurname.Name" xml:space="preserve">
-    <value>gvSurname</value>
   </data>
   <data name="rrbSingelTable.Size" type="System.Drawing.Size, System.Drawing">
     <value>81, 18</value>
@@ -2292,6 +2236,9 @@
   <data name="rmcbSelectTable.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
+  <data name="rbtnEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 54</value>
+  </data>
   <data name="rbtnDelete.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 54</value>
   </data>
@@ -2301,8 +2248,17 @@
   <data name="rrbSingelTable.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopLeft</value>
   </data>
+  <data name="&gt;&gt;rmiDisconnect.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
   <data name="rbtnDelete.RootElement.ToolTipText" xml:space="preserve">
     <value />
+  </data>
+  <data name="rgbDeleteAuditLog.Text" xml:space="preserve">
+    <value>Delete audit log data older than</value>
+  </data>
+  <data name="&gt;&gt;radPageView2.Parent" xml:space="preserve">
+    <value>rpvAuditSetup</value>
   </data>
   <data name="chbChangePassword.Location" type="System.Drawing.Point, System.Drawing">
     <value>28, 116</value>
@@ -2338,6 +2294,9 @@
   <data name="rbtnDelete.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopLeft</value>
   </data>
+  <data name="&gt;&gt;txtSurname.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
   <data name="&gt;&gt;dgvAuditUsers.Name" xml:space="preserve">
     <value>dgvAuditUsers</value>
   </data>
@@ -2354,22 +2313,19 @@
     <value>Exit</value>
   </data>
   <data name="&gt;&gt;rmcbSelectTable.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadDropDownList, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadDropDownList, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="rrbDateDelete.Text" xml:space="preserve">
     <value>Date</value>
   </data>
-  <data name="rbtnConfirm.RootElement.KeyTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;lblColumnsInfo.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="lblTriggerInfo1.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 0</value>
   </data>
   <data name="rpvAlmisManager.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
-  </data>
-  <data name="rbtnInstallPrerequirements.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
-    <value>Horizontal</value>
   </data>
   <data name="chbAuditAll.Size" type="System.Drawing.Size, System.Drawing">
     <value>105, 17</value>
@@ -2383,8 +2339,8 @@
   <data name="rdtpArchiveDate.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopLeft</value>
   </data>
-  <data name="rbtnDeleteAuditLog.RootElement.ToolTipText" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;txtUsername.ZOrder" xml:space="preserve">
+    <value>14</value>
   </data>
   <data name="rbtnSearchPerson.RootElement.FlipText" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -2402,7 +2358,7 @@
     <value>AuditInserts</value>
   </data>
   <data name="&gt;&gt;rbtnRebuildAuditTriggers.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="radPageView2.RootElement.ToolTipText" xml:space="preserve">
     <value />
@@ -2431,9 +2387,6 @@
   <data name="rrbDateDelete.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
-  <data name="&gt;&gt;rbtnSearchPerson.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
   <data name="rpvAlmisManager.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -2443,7 +2396,7 @@
   <data name="rbtnConfirm.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopLeft</value>
   </data>
-  <data name="lblName.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;lblCreateAuditingInfo.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="lblSurname.Text" xml:space="preserve">
@@ -2458,17 +2411,11 @@
   <data name="rbYearDelete.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 17</value>
   </data>
-  <data name="cbDatabase.EditorControl.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
   <data name="rrbIntervalDelete.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
     <value>Horizontal</value>
   </data>
-  <data name="&gt;&gt;radMenu1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblTriggerInfo2.Name" xml:space="preserve">
-    <value>lblTriggerInfo2</value>
+  <data name="rgbBuildTriggersFor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>346, 100</value>
   </data>
   <data name="lblSurname.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2507,7 +2454,7 @@
     <value>rbtnRestoreToDefault</value>
   </data>
   <data name="&gt;&gt;rrbDateDelete.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadRadioButton, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadRadioButton, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;rbtnDelete.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -2537,7 +2484,7 @@
     <value>TableSchema</value>
   </data>
   <data name="&gt;&gt;rpvTriggers.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadPageViewPage, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadPageViewPage, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="rmiAbout.AccessibleName" xml:space="preserve">
     <value>About</value>
@@ -2551,14 +2498,14 @@
   <data name="rmcbSelectTable.Location" type="System.Drawing.Point, System.Drawing">
     <value>115, 32</value>
   </data>
+  <data name="&gt;&gt;nudDelete.Name" xml:space="preserve">
+    <value>nudDelete</value>
+  </data>
+  <data name="rpvUninstallAudit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 4</value>
+  </data>
   <data name="&gt;&gt;lblArchivedDate.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="rrbDateDelete.RootElement.FlipText" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;rgbBuildTriggersFor.Parent" xml:space="preserve">
-    <value>rpvBuildTriggers</value>
   </data>
   <data name="rbtnInstallPrerequirements.RootElement.AngleTransform" type="System.Single, mscorlib">
     <value>0</value>
@@ -2581,6 +2528,9 @@
   <data name="rrbAllTables.RootElement.FlipText" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
+  <data name="rrbIntervalArchive.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
   <data name="rdtpArchiveDate.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
@@ -2590,26 +2540,32 @@
   <data name="lblRePassword.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="nudDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 72</value>
+  </data>
   <data name="rpvTriggers.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 37</value>
   </data>
   <data name="lblTriggerInfo1.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="rrbIntervalDelete.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+  <data name="rbtnArchiveAuditLogData.RootElement.ToolTipText" xml:space="preserve">
     <value />
   </data>
   <data name="&gt;&gt;rbtnConfirm.Name" xml:space="preserve">
     <value>rbtnConfirm</value>
   </data>
   <data name="&gt;&gt;cbDatabase.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadMultiColumnComboBox, Telerik.WinControls.GridView, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadMultiColumnComboBox, Telerik.WinControls.GridView, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;txtPassword1.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="radGroupBox1.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+  <data name="rrbSingelTable.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
+  </data>
+  <data name="lblUserName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="lblDeleteAuditLog.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -2635,14 +2591,14 @@
   <data name="rtpTimeDelete.Location" type="System.Drawing.Point, System.Drawing">
     <value>291, 35</value>
   </data>
-  <data name="rtpArchiveTime.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="radGroupBox1.RootElement.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;rbtnReset.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
-  <data name="AlmisManager.RootElement.AngleTransform" type="System.Single, mscorlib">
-    <value>0</value>
+  <data name="rtpArchiveTime.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="rbtnReset.Location" type="System.Drawing.Point, System.Drawing">
     <value>162, 251</value>
@@ -2656,11 +2612,14 @@
   <data name="rdtpArchiveDate.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
+  <data name="&gt;&gt;rpvArchiveLog.Parent" xml:space="preserve">
+    <value>rpvAlmisManager</value>
+  </data>
   <data name="&gt;&gt;rrbIntervalArchive.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="&gt;&gt;ColumnName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="radMenu1.RootElement.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;gvSurname.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2680,14 +2639,35 @@
   <data name="rbtnEdit.Location" type="System.Drawing.Point, System.Drawing">
     <value>95, 251</value>
   </data>
-  <data name="rtpTimeDelete.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
-  </data>
   <data name="rmiContents.AccessibleName" xml:space="preserve">
     <value>Contents</value>
   </data>
-  <data name="&gt;&gt;rrbDateArchive.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadRadioButton, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  <data name="rbtnDelete.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
   </data>
   <data name="&gt;&gt;lblUserName.Name" xml:space="preserve">
     <value>lblUserName</value>
@@ -2695,8 +2675,8 @@
   <data name="&gt;&gt;lblSurname.Parent" xml:space="preserve">
     <value>rpvUsers</value>
   </data>
-  <data name="&gt;&gt;rbtnConfirm.ZOrder" xml:space="preserve">
-    <value>11</value>
+  <data name="rrbDateDelete.RootElement.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="rpvUsers.Text" xml:space="preserve">
     <value>Users</value>
@@ -2710,9 +2690,6 @@
   <data name="cbDatabase.RootElement.ToolTipText" xml:space="preserve">
     <value />
   </data>
-  <data name="lblInfoForAuditTables.Text" xml:space="preserve">
-    <value>Audit log tables have not been created</value>
-  </data>
   <data name="rgbDeleteAuditLog.Size" type="System.Drawing.Size, System.Drawing">
     <value>423, 131</value>
   </data>
@@ -2723,16 +2700,16 @@
     <value>MiddleCenter</value>
   </data>
   <data name="&gt;&gt;rtpTimeDelete.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadTimePicker, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadTimePicker, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
-  <data name="rbtnInstallPrerequirements.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="&gt;&gt;rgbDeleteAuditLog.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadGroupBox, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="rrbAllTables.RootElement.ToolTipText" xml:space="preserve">
     <value />
   </data>
-  <data name="chbAuditAllInserted.Location" type="System.Drawing.Point, System.Drawing">
-    <value>188, 287</value>
+  <data name="rbtnInstallPrerequirements.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
   </data>
   <data name="rgbDeleteAuditLog.RootElement.AngleTransform" type="System.Single, mscorlib">
     <value>0</value>
@@ -2740,11 +2717,17 @@
   <data name="radPageView2.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
+  <data name="lblTriggerInfo2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 13</value>
+  </data>
   <data name="&gt;&gt;AuditColumn.Name" xml:space="preserve">
     <value>AuditColumn</value>
   </data>
   <data name="radMenu1.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopLeft</value>
+  </data>
+  <data name="dgvTables.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
   </data>
   <data name="rbtnArchiveAuditLogData.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -2764,20 +2747,17 @@
   <data name="&gt;&gt;chbAuditAllDeleted.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="rbtnRebuildAuditTriggers.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="rbtnConfirm.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
-  <data name="&gt;&gt;txtName.Parent" xml:space="preserve">
-    <value>rpvUsers</value>
-  </data>
-  <data name="gvSurname.HeaderText" xml:space="preserve">
-    <value>Surname</value>
+  <data name="TriggerName.HeaderText" xml:space="preserve">
+    <value>TriggerName</value>
   </data>
   <data name="&gt;&gt;radPageView2.Name" xml:space="preserve">
     <value>radPageView2</value>
-  </data>
-  <data name="radPageView2.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
   </data>
   <data name="cbDatabase.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -2785,23 +2765,26 @@
   <data name="&gt;&gt;rbtnUninstallAuditing.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="radMenu1.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
-    <value>Horizontal</value>
-  </data>
   <data name="&gt;&gt;rbtnUninstallAuditing.Parent" xml:space="preserve">
     <value>rpvUninstallAudit</value>
   </data>
   <data name="rbtnArchiveAuditLogData.Text" xml:space="preserve">
     <value>Archive Audit Log Data</value>
   </data>
-  <data name="rgbDatabase.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
-  </data>
-  <data name="&gt;&gt;rmiExit.Name" xml:space="preserve">
-    <value>rmiExit</value>
+  <data name="&gt;&gt;chbAuditAll.Name" xml:space="preserve">
+    <value>chbAuditAll</value>
   </data>
   <data name="rrbIntervalDelete.RootElement.FlipText" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="rtpTimeDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;nudDelete.Parent" xml:space="preserve">
+    <value>rgbDeleteAuditLog</value>
+  </data>
+  <data name="chbAllColumns.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="chbAuditAllUpdated.Text" xml:space="preserve">
     <value>Audit All Updated</value>
@@ -2812,14 +2795,11 @@
   <data name="radPageView2.Size" type="System.Drawing.Size, System.Drawing">
     <value>673, 258</value>
   </data>
-  <data name="lblArchiveAuditLog.Location" type="System.Drawing.Point, System.Drawing">
-    <value>79, 106</value>
-  </data>
   <data name="rbtnRestoreToDefault.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
-  <data name="&gt;&gt;lblCreateAuditingInfo.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;lblSurname.ZOrder" xml:space="preserve">
+    <value>16</value>
   </data>
   <data name="dgvTriggers.Size" type="System.Drawing.Size, System.Drawing">
     <value>643, 177</value>
@@ -2833,23 +2813,32 @@
   <data name="rgbBuildTriggersFor.RootElement.AngleTransform" type="System.Single, mscorlib">
     <value>0</value>
   </data>
+  <data name="rpvArchiveLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 4</value>
+  </data>
+  <data name="&gt;&gt;rbtnRebuildAuditTriggers.Name" xml:space="preserve">
+    <value>rbtnRebuildAuditTriggers</value>
+  </data>
   <data name="&gt;&gt;rdtpArchiveDate.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
   <data name="rrbAllTables.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 18</value>
   </data>
+  <data name="cbDatabase.NestedRadGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
   <data name="&gt;&gt;txtPassword2.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="rrbSingelTable.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
+  <data name="rpvColumns.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 37</value>
   </data>
   <data name="rbtnReset.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 54</value>
   </data>
   <data name="&gt;&gt;rdtpArchiveDate.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadDateTimePicker, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadDateTimePicker, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="chbAuditAllUpdated.Size" type="System.Drawing.Size, System.Drawing">
     <value>118, 17</value>
@@ -2888,7 +2877,7 @@
     <value>radGroupBox1</value>
   </data>
   <data name="&gt;&gt;rpvBuildTriggers.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadPageViewPage, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadPageViewPage, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="radMenu1.RootElement.KeyTip" xml:space="preserve">
     <value />
@@ -2909,13 +2898,10 @@
     <value />
   </data>
   <data name="&gt;&gt;radGroupBox1.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadGroupBox, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
-  </data>
-  <data name="rbtnRestoreToDefault.RootElement.FlipText" type="System.Boolean, mscorlib">
-    <value>False</value>
+    <value>Telerik.WinControls.UI.RadGroupBox, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;rrbSingelTable.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadRadioButton, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadRadioButton, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;rpvUsers.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -2938,8 +2924,8 @@
   <data name="&gt;&gt;radMenu1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="rbtnRebuildAuditTriggers.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="lblArchiveAuditLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 106</value>
   </data>
   <data name="&gt;&gt;chbChangePassword.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -2968,29 +2954,29 @@
   <data name="lblPassword.Location" type="System.Drawing.Point, System.Drawing">
     <value>40, 148</value>
   </data>
-  <data name="rbtnUninstallAuditing.Size" type="System.Drawing.Size, System.Drawing">
-    <value>362, 24</value>
+  <data name="rbtnEdit.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
-  <data name="rbtnDeleteAuditLog.RootElement.AngleTransform" type="System.Single, mscorlib">
-    <value>0</value>
+  <data name="rbtnDeleteAuditLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>423, 24</value>
   </data>
   <data name="dgvAuditUsers.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
-  <data name="&gt;&gt;TableSchema.Name" xml:space="preserve">
-    <value>TableSchema</value>
+  <data name="&gt;&gt;ColumnName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="rrbAllTables.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="&gt;&gt;rpvColumns.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadPageViewPage, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadPageViewPage, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;cbDatabase.Parent" xml:space="preserve">
     <value>rgbDatabase</value>
   </data>
-  <data name="radPageView2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
+  <data name="rtpArchiveTime.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="rrbIntervalArchive.RootElement.FlipText" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -3163,6 +3149,9 @@
   <data name="&gt;&gt;rrbAllTables.Name" xml:space="preserve">
     <value>rrbAllTables</value>
   </data>
+  <data name="rrbDateArchive.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
   <data name="rpvAlmisManager.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
     <value>Horizontal</value>
   </data>
@@ -3172,8 +3161,11 @@
   <data name="rpvAuditSetup.Text" xml:space="preserve">
     <value>Audit Setup</value>
   </data>
-  <data name="lblTriggerInfo2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>288, 13</value>
+  <data name="rbtnUninstallAuditing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 143</value>
+  </data>
+  <data name="rbtnInstallPrerequirements.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;TriggerName.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3192,23 +3184,29 @@ the changes you maded on the previous page (Audit Setup)</value>
   <data name="rbtnSearchPerson.Location" type="System.Drawing.Point, System.Drawing">
     <value>272, 22</value>
   </data>
-  <data name="&gt;&gt;rgbDeleteAuditLog.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadGroupBox, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  <data name="rpvUninstallAudit.Text" xml:space="preserve">
+    <value>Uninstall Audit</value>
   </data>
-  <data name="AuditTable.HeaderText" xml:space="preserve">
-    <value>AuditTable</value>
+  <data name="rbtnInstallPrerequirements.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
   </data>
   <data name="lblTriggerInfo1.Text" xml:space="preserve">
     <value>Audit triggers for the table, once created, can be viewed or disabled from this page.</value>
   </data>
   <data name="&gt;&gt;rmiHelp.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>914, 602</value>
   </data>
+  <data name="&gt;&gt;rpvAlmisManager.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
   <data name="rpvArchiveLog.Text" xml:space="preserve">
     <value>Archive Or Delete Log</value>
+  </data>
+  <data name="chbAuditAllInserted.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="rbtnArchiveAuditLogData.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -3234,8 +3232,8 @@ the changes you maded on the previous page (Audit Setup)</value>
   <data name="lblName.Size" type="System.Drawing.Size, System.Drawing">
     <value>39, 13</value>
   </data>
-  <data name="rgbBuildTriggersFor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>346, 100</value>
+  <data name="rdtpArchiveDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 20</value>
   </data>
   <data name="cbDatabase.EditorControl.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
     <value>Horizontal</value>
@@ -3249,11 +3247,14 @@ the changes you maded on the previous page (Audit Setup)</value>
   <data name="chbAccessAlmisViewer.Location" type="System.Drawing.Point, System.Drawing">
     <value>130, 215</value>
   </data>
-  <data name="&gt;&gt;rmiExit.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  <data name="&gt;&gt;rgbDeleteAuditLog.Parent" xml:space="preserve">
+    <value>rpvArchiveLog</value>
   </data>
-  <data name="&gt;&gt;rpvArchiveLog.Parent" xml:space="preserve">
-    <value>rpvAlmisManager</value>
+  <data name="&gt;&gt;lblSurname.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radPageView2.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="rmcbSelectTable.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -3274,13 +3275,13 @@ the changes you maded on the previous page (Audit Setup)</value>
     <value>lblDeleteAuditLog</value>
   </data>
   <data name="&gt;&gt;rbtnRestoreToDefault.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="rbtnDeleteAuditLog.RootElement.FlipText" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="rpvUninstallAudit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>228, 4</value>
+  <data name="&gt;&gt;txtPassword2.Parent" xml:space="preserve">
+    <value>rpvUsers</value>
   </data>
   <data name="&gt;&gt;rbMonthDelete.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -7116,11 +7117,11 @@ the changes you maded on the previous page (Audit Setup)</value>
   <data name="&gt;&gt;AuditTable.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;rbtnRebuildAuditTriggers.Name" xml:space="preserve">
-    <value>rbtnRebuildAuditTriggers</value>
+  <data name="&gt;&gt;rbtnSearchPerson.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
-  <data name="&gt;&gt;lblInfoForAuditTables.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="cbDatabase.EditorControl.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="rtpArchiveTime.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -7137,8 +7138,8 @@ the changes you maded on the previous page (Audit Setup)</value>
   <data name="radGroupBox1.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
-  <data name="rbtnConfirm.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="rgbDatabase.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 39</value>
   </data>
   <data name="rrbAllTables.RootElement.AngleTransform" type="System.Single, mscorlib">
     <value>0</value>
@@ -7146,21 +7147,89 @@ the changes you maded on the previous page (Audit Setup)</value>
   <data name="rgbDatabase.RootElement.AngleTransform" type="System.Single, mscorlib">
     <value>0</value>
   </data>
-  <data name="rgbDatabase.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
+  <data name="rpvAuditSetup.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        YII=
+</value>
   </data>
   <data name="rmiHelp.AccessibleName" xml:space="preserve">
     <value>Help</value>
   </data>
-  <data name="lblUninstallInfo.Text" xml:space="preserve">
-    <value>This option removes the audit system from the current database.
-This includes tables,stored procedures and triggers installed 
-by AlmisAudit.All selections for user tables and columns to audit
-will be lost and unrecoverable unless you have made proper backups.
-
-The existing audit log will be dropped as well. Any existing audit
-log data for this database will be destroyed and unrecoverable 
-unless you have made proper backups.</value>
+  <data name="rbtnReset.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="cbDatabase.NestedRadGridView.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -7177,25 +7246,11 @@ unless you have made proper backups.</value>
   <data name="lblUserName.Location" type="System.Drawing.Point, System.Drawing">
     <value>25, 25</value>
   </data>
-  <data name="rbtnSearchPerson.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAplJREFUOE+V
-        kmtIU2EYx10zoQ/lhy5SKImJFloapfVhLiXRQlNSxLJSSqQkvPRBrKBM1BI18xKUiqXGoCkOGTq1nU3L
-        eVlz87KZYtvS6TQvrYsICeG/d+cc1iIq/MEfHp73+T3n6vAPtjg6OmYFnQgeSsvIXEtLz/jOC+KruFxu
-        OjlzYkb+jpvf4SO6TvkbdKu0qKeUaJAp0aPWoV3ahQM+BwfJzC5m9E+cfA/5D0sVKlRKevHa+BGLq2t0
-        5Po5ukf1KOHp5a0gs5sYxQ4Oh3O1QShCQWsfKNMyusyf0T3/hY61lk4v475YgZo6Acj4OcayI+DY8bcl
-        zRQeqY2oHp/D8/cLqNcv0rHWVaT3UGVAuYgij+IrZTUbmy9eTvmR+VKGLMUk8odnUKwzo3TMjELtLO5o
-        ppHaq8fpFjUu1bYiJu78CuvZcE5MTkVSgxTJ1DtkD04hZ8iEXLLo3rAJt9XTyBgwIl4yiqS6DsQlJK6z
-        ng1OWET01xuCV7hGjaFgZAaPx+dRM7lAp5LUeWRhSqcWWYIO8IJDZ1jvFzt2ugjLBGJcb9OgYsSEpg9L
-        kMxa0EYiNC6hVDOFVLEKZS9E2LrNuYrVbPB9/I8uP6ioRalIhhLFBFom59FrtqCHLGiemENh9xjKyAsM
-        i4xZJfP7GI2BH3IqeqVN3gfthAGFlc9Q3dyBFqUOcq0eslE9RANaVDVJEBF7YY1871jWoyFyFC0bTWY0
-        tcrg5eP3ydXdU3U24Qpu5RXjZm4RouKT1ne7uVt/oEBGY+AHBoWuCMVSGKZm0d7Vj5DwqG+kz2OO6duM
-        JIkgcbc2fsPVY7/lbtETIvahkVw5OPyMvfx/trvs6c/OL0dO8VME8E5uTGbZa13i6uFtIfUGZQeHn/91
-        jFOvQ6g4AAAAAElFTkSuQmCC
-</value>
+  <data name="rbtnDeleteAuditLog.RootElement.ToolTipText" xml:space="preserve">
+    <value />
   </data>
-  <data name="cbDatabase.NestedRadGridView.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="lblInfoForAuditTables.Text" xml:space="preserve">
+    <value>Audit log tables have not been created</value>
   </data>
   <data name="rrbIntervalDelete.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -7206,14 +7261,14 @@ unless you have made proper backups.</value>
   <data name="&gt;&gt;rbMonthArchive.Parent" xml:space="preserve">
     <value>radGroupBox1</value>
   </data>
-  <data name="txtPassword1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 20</value>
+  <data name="rbtnSearchPerson.RootElement.ToolTipText" xml:space="preserve">
+    <value />
   </data>
   <data name="lblUninstallInfo.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 4</value>
   </data>
   <data name="&gt;&gt;rbtnEdit.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;rpvPrerequirements.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -7227,14 +7282,20 @@ unless you have made proper backups.</value>
   <data name="&gt;&gt;lblColumnsInfo.Parent" xml:space="preserve">
     <value>rpvColumns</value>
   </data>
+  <data name="rrbDateDelete.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="rrbAllTables.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
+  </data>
+  <data name="rgbDeleteAuditLog.HeaderText" xml:space="preserve">
+    <value>Delete audit log data older than</value>
   </data>
   <data name="&gt;&gt;lblPasswordInfo.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="cbDatabase.EditorControl.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="&gt;&gt;rmiExit.Name" xml:space="preserve">
+    <value>rmiExit</value>
   </data>
   <data name="rrbSingelTable.RootElement.AngleTransform" type="System.Single, mscorlib">
     <value>0</value>
@@ -7248,17 +7309,17 @@ unless you have made proper backups.</value>
   <data name="cbDatabase.EditorControl.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="rbtnRebuildAuditTriggers.RootElement.AngleTransform" type="System.Single, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="radGroupBox1.RootElement.FlipText" type="System.Boolean, mscorlib">
+  <data name="rbtnRestoreToDefault.RootElement.FlipText" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="&gt;&gt;chbChangePassword.Parent" xml:space="preserve">
+    <value>rpvUsers</value>
   </data>
   <data name="rgbBuildTriggersFor.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 18, 2, 2</value>
   </data>
-  <data name="cbDatabase.EditorControl.RootElement.FlipText" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="rbtnEdit.RootElement.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
   </data>
   <data name="dgvTables.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 54</value>
@@ -7266,14 +7327,14 @@ unless you have made proper backups.</value>
   <data name="rbtnUninstallAuditing.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
+  <data name="dgvColumns.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
   <data name="rrbDateDelete.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;gvName.Name" xml:space="preserve">
     <value>gvName</value>
-  </data>
-  <data name="AlmisManager.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
   </data>
   <data name="&gt;&gt;lblArchiveAuditLog.Parent" xml:space="preserve">
     <value>radGroupBox1</value>
@@ -7281,14 +7342,14 @@ unless you have made proper backups.</value>
   <data name="lblColumnsInfo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="rrbIntervalArchive.RootElement.ToolTipText" xml:space="preserve">
+  <data name="rbtnReset.RootElement.KeyTip" xml:space="preserve">
     <value />
   </data>
   <data name="rgbDeleteAuditLog.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
-  <data name="&gt;&gt;lblUninstallInfo.Name" xml:space="preserve">
-    <value>lblUninstallInfo</value>
+  <data name="AlmisManager.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
   </data>
   <data name="rbtnDelete.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -7299,14 +7360,14 @@ unless you have made proper backups.</value>
   <data name="&gt;&gt;rbYearDelete.Parent" xml:space="preserve">
     <value>rgbDeleteAuditLog</value>
   </data>
-  <data name="chbAllColumns.Location" type="System.Drawing.Point, System.Drawing">
-    <value>557, 3</value>
+  <data name="rbtnDeleteAuditLog.RootElement.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;TableSchema1.Name" xml:space="preserve">
     <value>TableSchema1</value>
   </data>
   <data name="&gt;&gt;rdtpDateDelete.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadDateTimePicker, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadDateTimePicker, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="lblTriggerInfo1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -7344,9 +7405,6 @@ unless you have made proper backups.</value>
   <data name="&gt;&gt;nupArchive.Parent" xml:space="preserve">
     <value>radGroupBox1</value>
   </data>
-  <data name="rbtnReset.RootElement.AngleTransform" type="System.Single, mscorlib">
-    <value>0</value>
-  </data>
   <data name="rbtnDeleteAuditLog.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
@@ -7356,11 +7414,14 @@ unless you have made proper backups.</value>
   <data name="radMenu1.Text" xml:space="preserve">
     <value>radMenu1</value>
   </data>
-  <data name="rgbDeleteAuditLog.HeaderText" xml:space="preserve">
-    <value>Delete audit log data older than</value>
+  <data name="lblColumnsInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;lblPassword.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rdtpArchiveDate.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="&gt;&gt;AuditColumn.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -7374,14 +7435,14 @@ unless you have made proper backups.</value>
   <data name="rbtnConfirm.Text" xml:space="preserve">
     <value>OK</value>
   </data>
-  <data name="lblName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="cbDatabase.EditorControl.RootElement.KeyTip" xml:space="preserve">
+    <value />
   </data>
   <data name="rbtnEdit.ImageAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
-  <data name="&gt;&gt;txtName.ZOrder" xml:space="preserve">
-    <value>13</value>
+  <data name="rgbDatabase.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="rbtnUninstallAuditing.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -7401,8 +7462,11 @@ unless you have made proper backups.</value>
   <data name="rgbDeleteAuditLog.RootElement.ToolTipText" xml:space="preserve">
     <value />
   </data>
-  <data name="rtpArchiveTime.RootElement.FlipText" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="chbAuditAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 287</value>
+  </data>
+  <data name="rbtnSearchPerson.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="&gt;&gt;lblRePassword.Parent" xml:space="preserve">
     <value>rpvUsers</value>
@@ -7423,7 +7487,10 @@ unless you have made proper backups.</value>
     <value>0</value>
   </data>
   <data name="&gt;&gt;rbtnUninstallAuditing.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;lblUninstallInfo.Name" xml:space="preserve">
+    <value>lblUninstallInfo</value>
   </data>
   <data name="&gt;&gt;rpvUninstallAudit.ZOrder" xml:space="preserve">
     <value>4</value>
@@ -7440,19 +7507,22 @@ unless you have made proper backups.</value>
   <data name="ColumnName.HeaderText" xml:space="preserve">
     <value>ColumnName</value>
   </data>
+  <data name="rdtpDateDelete.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
   <data name="rbtnDeleteAuditLog.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
     <value>Horizontal</value>
   </data>
   <data name="&gt;&gt;rmiAbout.Name" xml:space="preserve">
     <value>rmiAbout</value>
   </data>
-  <data name="rpvUsers.Location" type="System.Drawing.Point, System.Drawing">
-    <value>228, 4</value>
+  <data name="rrbSingelTable.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
-  <data name="rpvArchiveLog.Location" type="System.Drawing.Point, System.Drawing">
-    <value>228, 4</value>
+  <data name="&gt;&gt;chbAccessAlmisViewer.Name" xml:space="preserve">
+    <value>chbAccessAlmisViewer</value>
   </data>
-  <data name="rdtpArchiveDate.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+  <data name="rrbDateArchive.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
   <data name="cbDatabase.EditorControl.MasterTemplate.Caption" xml:space="preserve">
@@ -7463,6 +7533,9 @@ unless you have made proper backups.</value>
   </data>
   <data name="&gt;&gt;chbAuditAllDeleted.Name" xml:space="preserve">
     <value>chbAuditAllDeleted</value>
+  </data>
+  <data name="gvUsername.HeaderText" xml:space="preserve">
+    <value>Username</value>
   </data>
   <data name="cbDatabase.RootElement.KeyTip" xml:space="preserve">
     <value />
@@ -7476,14 +7549,14 @@ unless you have made proper backups.</value>
   <data name="dgvTriggers.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
-  <data name="&gt;&gt;rmiFile.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  <data name="gvSurname.HeaderText" xml:space="preserve">
+    <value>Surname</value>
   </data>
   <data name="rbtnDeleteAuditLog.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="lblUninstallInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>365, 104</value>
+  <data name="chbAllColumns.Location" type="System.Drawing.Point, System.Drawing">
+    <value>557, 3</value>
   </data>
   <data name="rgbDatabase.RootElement.KeyTip" xml:space="preserve">
     <value />
@@ -7494,7 +7567,7 @@ unless you have made proper backups.</value>
   <data name="AlmisManager.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="rdtpDateDelete.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
+  <data name="radGroupBox1.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
   <data name="rbtnInstallPrerequirements.RootElement.ToolTipText" xml:space="preserve">
@@ -7515,20 +7588,20 @@ unless you have made proper backups.</value>
   <data name="&gt;&gt;radMenu1.Name" xml:space="preserve">
     <value>radMenu1</value>
   </data>
-  <data name="radPageView2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 310</value>
+  <data name="rbtnEdit.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
-  <data name="rbtnRestoreToDefault.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="radGroupBox1.RootElement.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="rgbBuildTriggersFor.RootElement.ToolTipText" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;chbAuditAllUpdated.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="rbYearArchive.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="rbtnArchiveAuditLogData.RootElement.KeyTip" xml:space="preserve">
-    <value />
+  <data name="rgbBuildTriggersFor.Text" xml:space="preserve">
+    <value>Build Triggers For</value>
   </data>
   <data name="radMenu1.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -7537,22 +7610,28 @@ unless you have made proper backups.</value>
     <value>rdtpArchiveDate</value>
   </data>
   <data name="&gt;&gt;rbtnDelete.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.RadButton, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
-  <data name="&gt;&gt;rdtpDateDelete.Parent" xml:space="preserve">
-    <value>rgbDeleteAuditLog</value>
+  <data name="&gt;&gt;nudDelete.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="rtpTimeDelete.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="&gt;&gt;rbYearDelete.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="rtpTimeDelete.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="AlmisManager.RootElement.ToolTipText" xml:space="preserve">
+    <value />
   </data>
   <data name="rbtnDelete.RootElement.AngleTransform" type="System.Single, mscorlib">
     <value>0</value>
   </data>
   <data name="rbtnRestoreToDefault.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopLeft</value>
+  </data>
+  <data name="rpvUsers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 4</value>
   </data>
   <data name="chbAuditAllDeleted.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -7575,87 +7654,14 @@ unless you have made proper backups.</value>
   <data name="rbtnConfirm.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="rrbIntervalArchive.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
+  <data name="rrbIntervalArchive.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="rpvUsers.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-        QmCC
-</value>
+  <data name="&gt;&gt;rpvPrerequirements.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadPageViewPage, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  </data>
+  <data name="&gt;&gt;rgbBuildTriggersFor.Parent" xml:space="preserve">
+    <value>rpvBuildTriggers</value>
   </data>
   <data name="&gt;&gt;lblTriggerInfo2.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -7681,6 +7687,9 @@ unless you have made proper backups.</value>
   <data name="chbAuditAllDeleted.Location" type="System.Drawing.Point, System.Drawing">
     <value>575, 286</value>
   </data>
+  <data name="rbtnRebuildAuditTriggers.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
   <data name="&gt;&gt;rmcbSelectTable.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
@@ -7696,11 +7705,11 @@ unless you have made proper backups.</value>
   <data name="rbtnUninstallAuditing.RootElement.AngleTransform" type="System.Single, mscorlib">
     <value>0</value>
   </data>
-  <data name="rbtnUninstallAuditing.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 143</value>
+  <data name="rbtnReset.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
-  <data name="&gt;&gt;lblSurname.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;lblDeletedDate.Name" xml:space="preserve">
+    <value>lblDeletedDate</value>
   </data>
   <data name="&gt;&gt;txtName.Name" xml:space="preserve">
     <value>txtName</value>
@@ -7714,8 +7723,8 @@ unless you have made proper backups.</value>
   <data name="rbtnSearchPerson.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
-  <data name="&gt;&gt;txtUsername.ZOrder" xml:space="preserve">
-    <value>14</value>
+  <data name="radMenu1.RootElement.FlipText" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="rpvAlmisManager.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -7723,14 +7732,17 @@ unless you have made proper backups.</value>
   <data name="rbtnArchiveAuditLogData.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
+  <data name="&gt;&gt;chbAuditAllInserted.Name" xml:space="preserve">
+    <value>chbAuditAllInserted</value>
+  </data>
   <data name="&gt;&gt;rtpTimeDelete.Parent" xml:space="preserve">
     <value>rgbDeleteAuditLog</value>
   </data>
   <data name="&gt;&gt;radPageView2.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="nudDelete.Location" type="System.Drawing.Point, System.Drawing">
-    <value>83, 72</value>
+  <data name="rtpTimeDelete.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
   </data>
   <data name="chbAccessAlmisViewer.Text" xml:space="preserve">
     <value>Access Almis Viewer</value>
@@ -7744,38 +7756,38 @@ unless you have made proper backups.</value>
   <data name="rbtnEdit.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="chbAllColumns.Text" xml:space="preserve">
-    <value>All Columns</value>
+  <data name="rdtpDateDelete.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="&gt;&gt;lblName.Name" xml:space="preserve">
     <value>lblName</value>
   </data>
-  <data name="rrbDateArchive.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
+  <data name="lblUninstallInfo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="rdtpArchiveDate.RootElement.ToolTipText" xml:space="preserve">
     <value />
   </data>
-  <data name="chbAuditAll.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 287</value>
+  <data name="cbDatabase.EditorControl.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
-  <data name="&gt;&gt;rgbDeleteAuditLog.Parent" xml:space="preserve">
-    <value>rpvArchiveLog</value>
+  <data name="chbAllColumns.Text" xml:space="preserve">
+    <value>All Columns</value>
   </data>
   <data name="radMenu1.RootElement.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
-  <data name="lblUserName.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;gvSurname.Name" xml:space="preserve">
+    <value>gvSurname</value>
   </data>
-  <data name="rbtnRebuildAuditTriggers.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
+  <data name="rbtnUninstallAuditing.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="rbtnReset.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopLeft</value>
   </data>
-  <data name="&gt;&gt;rpvUninstallAudit.Parent" xml:space="preserve">
-    <value>rpvAlmisManager</value>
+  <data name="rmcbSelectTable.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
   </data>
   <data name="&gt;&gt;rbtnInstallPrerequirements.Parent" xml:space="preserve">
     <value>rpvPrerequirements</value>
@@ -7789,20 +7801,20 @@ unless you have made proper backups.</value>
   <data name="rmiFile.AccessibleName" xml:space="preserve">
     <value>File</value>
   </data>
-  <data name="&gt;&gt;lblColumnsInfo.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;lblUninstallInfo.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="AlmisManager.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="&gt;&gt;rrbIntervalDelete.Name" xml:space="preserve">
-    <value>rrbIntervalDelete</value>
+  <data name="&gt;&gt;lblDeleteAuditLog.Parent" xml:space="preserve">
+    <value>rgbDeleteAuditLog</value>
   </data>
   <data name="cbDatabase.EditorControl.RootElement.AngleTransform" type="System.Single, mscorlib">
     <value>0</value>
   </data>
-  <data name="rgbDeleteAuditLog.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
+  <data name="txtPassword1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 20</value>
   </data>
   <data name="radGroupBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>423, 131</value>
@@ -7816,20 +7828,20 @@ unless you have made proper backups.</value>
   <data name="rdtpArchiveDate.Location" type="System.Drawing.Point, System.Drawing">
     <value>83, 35</value>
   </data>
-  <data name="&gt;&gt;chbAuditAllInserted.Name" xml:space="preserve">
-    <value>chbAuditAllInserted</value>
+  <data name="radPageView2.RootElement.KeyTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="rmiHelp.AccessibleDescription" xml:space="preserve">
-    <value>Help</value>
+  <data name="&gt;&gt;rmiExit.Type" xml:space="preserve">
+    <value>Telerik.WinControls.UI.RadMenuItem, Telerik.WinControls.UI, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
-  <data name="chbAuditAllDeleted.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;lblTriggerInfo2.Name" xml:space="preserve">
+    <value>lblTriggerInfo2</value>
   </data>
   <data name="rbtnConfirm.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="&gt;&gt;rpvAlmisManager.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="rbtnReset.RootElement.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;txtUsername.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -7846,11 +7858,11 @@ unless you have made proper backups.</value>
   <data name="lblDeletedDate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;nudDelete.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;lblDeleteAuditLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="rpvUsers.Size" type="System.Drawing.Size, System.Drawing">
-    <value>688, 568</value>
+  <data name="lblArchiveAuditLog.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="rbtnSearchPerson.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -7858,8 +7870,8 @@ unless you have made proper backups.</value>
   <data name="rbMonthArchive.Location" type="System.Drawing.Point, System.Drawing">
     <value>206, 74</value>
   </data>
-  <data name="&gt;&gt;chbChangePassword.Parent" xml:space="preserve">
-    <value>rpvUsers</value>
+  <data name="rdtpArchiveDate.RootElement.AngleTransform" type="System.Single, mscorlib">
+    <value>0</value>
   </data>
   <data name="lblPasswordInfo.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -7871,28 +7883,28 @@ unless you have made proper backups.</value>
     <value>False</value>
   </data>
   <data name="&gt;&gt;rgvAuditUsers.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.MasterGridViewTemplate, Telerik.WinControls.GridView, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+    <value>Telerik.WinControls.UI.MasterGridViewTemplate, Telerik.WinControls.GridView, Version=2019.3.1022.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
   </data>
   <data name="&gt;&gt;txtPassword1.Parent" xml:space="preserve">
     <value>rpvUsers</value>
   </data>
-  <data name="&gt;&gt;txtSurname.ZOrder" xml:space="preserve">
-    <value>12</value>
+  <data name="rbtnArchiveAuditLogData.RootElement.KeyTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="lblPrerequirementsMsg.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="lblPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
   <data name="chbAccessAlmisViewer.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="rgbDeleteAuditLog.Text" xml:space="preserve">
-    <value>Delete audit log data older than</value>
+  <data name="lblPassword.Text" xml:space="preserve">
+    <value>Password:</value>
   </data>
-  <data name="lblPasswordInfo.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;AuditInserts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lblPasswordInfo.Parent" xml:space="preserve">
-    <value>rpvUsers</value>
+  <data name="rrbDateArchive.RootElement.ToolTipText" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;nudDelete.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -7903,14 +7915,14 @@ unless you have made proper backups.</value>
   <data name="&gt;&gt;rpvUsers.Name" xml:space="preserve">
     <value>rpvUsers</value>
   </data>
-  <data name="&gt;&gt;rpvPrerequirements.Type" xml:space="preserve">
-    <value>Telerik.WinControls.UI.RadPageViewPage, Telerik.WinControls.UI, Version=2016.2.608.20, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>
+  <data name="rbtnRebuildAuditTriggers.RootElement.KeyTip" xml:space="preserve">
+    <value />
   </data>
   <data name="rbtnUninstallAuditing.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
-  <data name="rbtnRestoreToDefault.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 34</value>
+  <data name="txtUsername.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="rrbIntervalArchive.Text" xml:space="preserve">
     <value>Interval</value>
@@ -7918,14 +7930,17 @@ unless you have made proper backups.</value>
   <data name="rbtnRebuildAuditTriggers.RootElement.ToolTipText" xml:space="preserve">
     <value />
   </data>
+  <data name="lblUninstallInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>365, 104</value>
+  </data>
   <data name="&gt;&gt;lblTriggerInfo2.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;radPageView2.Parent" xml:space="preserve">
-    <value>rpvAuditSetup</value>
+  <data name="rgbDatabase.HeaderText" xml:space="preserve">
+    <value>Build audit log prerequirements in database</value>
   </data>
-  <data name="&gt;&gt;nudDelete.Name" xml:space="preserve">
-    <value>nudDelete</value>
+  <data name="rgbDatabase.RootElement.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="&gt;&gt;chbAccessAlmisViewer.Parent" xml:space="preserve">
     <value>rpvUsers</value>
@@ -7936,20 +7951,20 @@ unless you have made proper backups.</value>
   <data name="rdtpDateDelete.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
     <value>Horizontal</value>
   </data>
-  <data name="rdtpDateDelete.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
+  <data name="radMenu1.RootElement.TextOrientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
   </data>
   <data name="&gt;&gt;rbMonthArchive.Name" xml:space="preserve">
     <value>rbMonthArchive</value>
   </data>
-  <data name="rbtnDeleteAuditLog.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 24</value>
+  <data name="&gt;&gt;rbtnDeleteAuditLog.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;dgvAuditUsers.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="rmcbSelectTable.RootElement.KeyTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="gvUsername.HeaderText" xml:space="preserve">
-    <value>Username</value>
+  <data name="chbAccessAlmisViewer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 17</value>
   </data>
   <data name="rrbSingelTable.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -7957,20 +7972,17 @@ unless you have made proper backups.</value>
   <data name="rpvAlmisManager.RootElement.KeyTip" xml:space="preserve">
     <value />
   </data>
-  <data name="rrbDateDelete.RootElement.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="rbMonthArchive.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
-  <data name="&gt;&gt;lblUninstallInfo.Parent" xml:space="preserve">
-    <value>rpvUninstallAudit</value>
-  </data>
-  <data name="TableSchema.HeaderText" xml:space="preserve">
-    <value>TableSchema</value>
+  <data name="rbtnSearchPerson.RootElement.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="&gt;&gt;lblArchiveAuditLog.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="chbAllColumns.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="&gt;&gt;lblUninstallInfo.Parent" xml:space="preserve">
+    <value>rpvUninstallAudit</value>
   </data>
   <data name="&gt;&gt;lblInfoForAuditTables.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -7996,14 +8008,14 @@ unless you have made proper backups.</value>
   <data name="AlmisManager.RootElement.FlipText" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="lblInfoForAuditTables.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt, style=Bold</value>
+  <data name="rtpArchiveTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 35</value>
   </data>
   <data name="rbtnEdit.RootElement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="rrbAllTables.RootElement.Alignment" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
+  <data name="lblSurname.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="rdtpDateDelete.RootElement.KeyTip" xml:space="preserve">
     <value />
@@ -8014,13 +8026,16 @@ unless you have made proper backups.</value>
   <metadata name="gvName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="AuditColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="AuditInserts.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="Disabled.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="TriggerName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="TableName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="ColumnName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -8044,9 +8059,6 @@ unless you have made proper backups.</value>
   <metadata name="TableSchema1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="gvUsername.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <metadata name="AuditDeletes.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -8056,10 +8068,10 @@ unless you have made proper backups.</value>
   <metadata name="gvSurname.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="TableName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="gvUsername.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="AuditColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="TriggerName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="gvCanAccess.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

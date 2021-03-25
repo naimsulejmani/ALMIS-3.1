@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALMIS.BusinessEntities", "ALMIS.BusinessEntities\ALMIS.BusinessEntities.csproj", "{46A7C89B-B2EA-46F8-8996-1EEAA08691D9}"
 EndProject
@@ -76,5 +76,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67E9E7D0-DEB8-43BC-BBFA-EBC8A87A0B56}
 	EndGlobalSection
 EndGlobal

@@ -117,10 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cbDatabase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 24</value>
+  </data>
   <data name="rmiContents.HintText" xml:space="preserve">
     <value>F1</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="rmiContents.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAABtJJREFUSEuV
@@ -244,6 +247,9 @@
   <data name="rmiAbout.Text" xml:space="preserve">
     <value>&amp;Rreth Programit</value>
   </data>
+  <data name="lblPrerequirementsMsg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 19</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="rbtnInstallPrerequirements.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -256,6 +262,9 @@
   </data>
   <data name="rgbDatabase.Text" xml:space="preserve">
     <value>Ndërto parakushtet për databazën</value>
+  </data>
+  <data name="lblInfoForAuditTables.Size" type="System.Drawing.Size, System.Drawing">
+    <value>381, 28</value>
   </data>
   <data name="rpvPrerequirements.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -335,20 +344,41 @@
   <data name="TableName.HeaderText" xml:space="preserve">
     <value>Tabela</value>
   </data>
+  <data name="TableName.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
   <data name="TableSchema.HeaderText" xml:space="preserve">
     <value>Skema e tabelës</value>
+  </data>
+  <data name="TableSchema.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="AuditTable.HeaderText" xml:space="preserve">
     <value>Audit Tabelën</value>
   </data>
+  <data name="AuditTable.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
   <data name="AuditInserts.HeaderText" xml:space="preserve">
     <value>Audito Insertimin</value>
+  </data>
+  <data name="AuditInserts.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="AuditUpdates.HeaderText" xml:space="preserve">
     <value>Audito Modifikimin</value>
   </data>
+  <data name="AuditUpdates.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
   <data name="AuditDeletes.HeaderText" xml:space="preserve">
     <value>Audito Fshierjen</value>
+  </data>
+  <data name="AuditDeletes.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="dgvTables.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
   </data>
   <data name="rbtnRestoreToDefault.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -376,23 +406,35 @@
   <data name="ColumnName.HeaderText" xml:space="preserve">
     <value>Kolona</value>
   </data>
+  <data name="ColumnName.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
   <data name="AuditColumn.HeaderText" xml:space="preserve">
     <value>Audito Kolonën</value>
+  </data>
+  <data name="AuditColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="DataType.HeaderText" xml:space="preserve">
     <value>Tipi i të dhënave</value>
   </data>
+  <data name="DataType.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="dgvColumns.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
   <data name="chbAllColumns.Location" type="System.Drawing.Point, System.Drawing">
-    <value>526, 4</value>
+    <value>506, 4</value>
   </data>
   <data name="chbAllColumns.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 17</value>
+    <value>132, 23</value>
   </data>
   <data name="chbAllColumns.Text" xml:space="preserve">
     <value>Të gjitha kolonat</value>
   </data>
   <data name="lblColumnsInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>466, 13</value>
+    <value>551, 19</value>
   </data>
   <data name="lblColumnsInfo.Text" xml:space="preserve">
     <value>Zgjidh kolonën në këtë tabelë për auditim. Kolonat menjëherë ruhen nëse i ndrohet vlera</value>
@@ -406,23 +448,38 @@
   <data name="TableSchema1.HeaderText" xml:space="preserve">
     <value>Skema e tabelës</value>
   </data>
+  <data name="TableSchema1.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
   <data name="Table_Name.HeaderText" xml:space="preserve">
     <value>Tabela</value>
+  </data>
+  <data name="Table_Name.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="TriggerName.HeaderText" xml:space="preserve">
     <value>Trigeri</value>
   </data>
+  <data name="TriggerName.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
   <data name="Disabled.HeaderText" xml:space="preserve">
     <value>Deaktivizuar</value>
   </data>
+  <data name="Disabled.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="dgvTriggers.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
   <data name="lblTriggerInfo2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>404, 13</value>
+    <value>480, 19</value>
   </data>
   <data name="lblTriggerInfo2.Text" xml:space="preserve">
     <value>Aktivizimi dhe deaktivizimi i trigerit afektohet menjëherë pasi ti ndrohet vlera.</value>
   </data>
   <data name="lblTriggerInfo1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>540, 13</value>
+    <value>636, 19</value>
   </data>
   <data name="lblTriggerInfo1.Text" xml:space="preserve">
     <value>Audito trigerat për tabelë, pasi krijohen njëherë, ata mund të shihen dhe të deaktivizohen në këtë faqe.</value>
@@ -437,34 +494,37 @@
     <value>659, 258</value>
   </data>
   <data name="chbAuditAllDeleted.Location" type="System.Drawing.Point, System.Drawing">
-    <value>519, 286</value>
+    <value>519, 280</value>
   </data>
   <data name="chbAuditAllDeleted.Size" type="System.Drawing.Size, System.Drawing">
-    <value>154, 17</value>
+    <value>181, 23</value>
   </data>
   <data name="chbAuditAllDeleted.Text" xml:space="preserve">
     <value>Audito të gjitha Fshierjet</value>
   </data>
   <data name="chbAuditAllUpdated.Location" type="System.Drawing.Point, System.Drawing">
-    <value>332, 286</value>
+    <value>332, 280</value>
   </data>
   <data name="chbAuditAllUpdated.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 17</value>
+    <value>203, 23</value>
   </data>
   <data name="chbAuditAllUpdated.Text" xml:space="preserve">
     <value>Audito të gjitha Modifikimet</value>
   </data>
   <data name="chbAuditAllInserted.Location" type="System.Drawing.Point, System.Drawing">
-    <value>168, 287</value>
+    <value>168, 281</value>
   </data>
   <data name="chbAuditAllInserted.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 17</value>
+    <value>192, 23</value>
   </data>
   <data name="chbAuditAllInserted.Text" xml:space="preserve">
     <value>Audito të gjitha Insertimet</value>
   </data>
+  <data name="chbAuditAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 281</value>
+  </data>
   <data name="chbAuditAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 17</value>
+    <value>172, 23</value>
   </data>
   <data name="chbAuditAll.Text" xml:space="preserve">
     <value>Audito të gjitha Tabelat</value>
@@ -563,7 +623,7 @@
     <value>Rikonstruo Audit Trigerat</value>
   </data>
   <data name="lblCreateAuditingInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>315, 52</value>
+    <value>374, 76</value>
   </data>
   <data name="lblCreateAuditingInfo.Text" xml:space="preserve">
     <value>Kliko në butonin më poshtë për të krijuar ose ti fshirë audit 
@@ -575,7 +635,7 @@ lartë si dhe nga ndryshimet paraprake në faqen e kaluar
     <value>119, 32</value>
   </data>
   <data name="rmcbSelectTable.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 20</value>
+    <value>222, 24</value>
   </data>
   <data name="rmcbSelectTable.Text" xml:space="preserve">
     <value>-- Zgjidh tabelën --</value>
@@ -688,29 +748,41 @@ lartë si dhe nga ndryshimet paraprake në faqen e kaluar
   <data name="rbtnDeleteAuditLog.Text" xml:space="preserve">
     <value>Fshiej të dhënat e Audit Log-ut</value>
   </data>
+  <data name="lblDeletedDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 19</value>
+  </data>
   <data name="lblDeleteAuditLog.Location" type="System.Drawing.Point, System.Drawing">
     <value>70, 105</value>
   </data>
   <data name="lblDeleteAuditLog.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 13</value>
+    <value>199, 19</value>
   </data>
   <data name="lblDeleteAuditLog.Text" xml:space="preserve">
     <value>Fshierja e logut më të vjetër se:</value>
   </data>
   <data name="rbYearDelete.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 17</value>
+    <value>54, 23</value>
   </data>
   <data name="rbYearDelete.Text" xml:space="preserve">
     <value>Vite</value>
   </data>
   <data name="rbMonthDelete.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 17</value>
+    <value>61, 23</value>
   </data>
   <data name="rbMonthDelete.Text" xml:space="preserve">
     <value>Muaj</value>
   </data>
+  <data name="nudDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 22</value>
+  </data>
+  <data name="rtpTimeDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 24</value>
+  </data>
+  <data name="rdtpDateDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 24</value>
+  </data>
   <data name="rdtpDateDelete.Text" xml:space="preserve">
-    <value>5/12/2013</value>
+    <value>12.05.13</value>
   </data>
   <data name="rrbIntervalDelete.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 18</value>
@@ -733,29 +805,41 @@ lartë si dhe nga ndryshimet paraprake në faqen e kaluar
   <data name="rbtnArchiveAuditLogData.Text" xml:space="preserve">
     <value>Arkivo të dhënat e Audit Log-ut</value>
   </data>
+  <data name="lblArchivedDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 19</value>
+  </data>
   <data name="lblArchiveAuditLog.Location" type="System.Drawing.Point, System.Drawing">
     <value>68, 106</value>
   </data>
   <data name="lblArchiveAuditLog.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 13</value>
+    <value>198, 19</value>
   </data>
   <data name="lblArchiveAuditLog.Text" xml:space="preserve">
     <value>Arkivimi i logut më të vjetër se:</value>
   </data>
   <data name="rbYearArchive.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 17</value>
+    <value>54, 23</value>
   </data>
   <data name="rbYearArchive.Text" xml:space="preserve">
     <value>Vite</value>
   </data>
   <data name="rbMonthArchive.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 17</value>
+    <value>61, 23</value>
   </data>
   <data name="rbMonthArchive.Text" xml:space="preserve">
     <value>Muaj</value>
   </data>
+  <data name="nupArchive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 22</value>
+  </data>
+  <data name="rtpArchiveTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 24</value>
+  </data>
+  <data name="rdtpArchiveDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 24</value>
+  </data>
   <data name="rdtpArchiveDate.Text" xml:space="preserve">
-    <value>5/12/2013</value>
+    <value>12.05.13</value>
   </data>
   <data name="rrbIntervalArchive.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 18</value>
@@ -856,7 +940,7 @@ lartë si dhe nga ndryshimet paraprake në faqen e kaluar
     <value>Deinstalo Auditimin</value>
   </data>
   <data name="lblUninstallInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>354, 104</value>
+    <value>423, 152</value>
   </data>
   <data name="lblUninstallInfo.Text" xml:space="preserve">
     <value>Ky ospion fshinë auditimin e sistemit nga databaza. Kjo përfshinë
@@ -1043,10 +1127,13 @@ keni ruajtur në backup të sigurtë.</value>
     <value>Deinstalo Auditimin</value>
   </data>
   <data name="chbChangePassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 17</value>
+    <value>228, 23</value>
   </data>
   <data name="chbChangePassword.Text" xml:space="preserve">
     <value>Kliko për ta ndërruar fjalëkalimin</value>
+  </data>
+  <data name="lblPasswordInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 19</value>
   </data>
   <data name="rbtnDelete.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1103,17 +1190,35 @@ keni ruajtur në backup të sigurtë.</value>
   <data name="gvUsername.HeaderText" xml:space="preserve">
     <value>Shfrytëzuesi</value>
   </data>
+  <data name="gvUsername.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
   <data name="gvName.HeaderText" xml:space="preserve">
     <value>Emri</value>
+  </data>
+  <data name="gvName.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="gvSurname.HeaderText" xml:space="preserve">
     <value>Mbiemri</value>
   </data>
+  <data name="gvSurname.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
   <data name="gvCanAccess.HeaderText" xml:space="preserve">
     <value>Qasja</value>
   </data>
+  <data name="gvCanAccess.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="dgvAuditUsers.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="txtPassword2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
   <data name="lblRePassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 13</value>
+    <value>91, 19</value>
   </data>
   <data name="lblRePassword.Text" xml:space="preserve">
     <value>Ri-Fjalëkalimi:</value>
@@ -1157,8 +1262,11 @@ keni ruajtur në backup të sigurtë.</value>
         jFOvQ6g4AAAAAElFTkSuQmCC
 </value>
   </data>
+  <data name="txtPassword1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
   <data name="lblPassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 13</value>
+    <value>74, 19</value>
   </data>
   <data name="lblPassword.Text" xml:space="preserve">
     <value>Fjalëkalimi:</value>
@@ -1191,26 +1299,35 @@ keni ruajtur në backup të sigurtë.</value>
   <data name="rbtnConfirm.Text" xml:space="preserve">
     <value>Ruaj</value>
   </data>
+  <data name="txtSurname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="txtName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="txtUsername.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
   <data name="chbAccessAlmisViewer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 17</value>
+    <value>166, 23</value>
   </data>
   <data name="chbAccessAlmisViewer.Text" xml:space="preserve">
     <value>Qasje në Almis Viewer</value>
   </data>
   <data name="lblSurname.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 13</value>
+    <value>63, 19</value>
   </data>
   <data name="lblSurname.Text" xml:space="preserve">
     <value>Mbiemri:</value>
   </data>
   <data name="lblName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 13</value>
+    <value>39, 19</value>
   </data>
   <data name="lblName.Text" xml:space="preserve">
     <value>Emri:</value>
   </data>
   <data name="lblUserName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 13</value>
+    <value>85, 19</value>
   </data>
   <data name="lblUserName.Text" xml:space="preserve">
     <value>Shfrytëzuesi:</value>
@@ -1305,6 +1422,9 @@ keni ruajtur në backup të sigurtë.</value>
   </data>
   <data name="rmiHelp.Text" xml:space="preserve">
     <value>&amp;Ndihma</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

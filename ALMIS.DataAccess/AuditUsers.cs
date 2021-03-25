@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.SqlClient;
 using BE = ALMIS.BusinessEntities.AuditUsers;
 
 namespace ALMIS.DataAccess
@@ -91,7 +92,7 @@ namespace ALMIS.DataAccess
                         result = ToObject(reader);
                     }
                 }
-                catch
+                catch(SqlException ex)
                 {
                     return result;
                 }

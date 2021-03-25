@@ -223,18 +223,8 @@
             this.cbDatabase.EditorControl.MasterTemplate.ViewDefinition = tableViewDefinition1;
             this.cbDatabase.EditorControl.Name = "NestedRadGridView";
             this.cbDatabase.EditorControl.ReadOnly = true;
-            // 
-            // 
-            // 
-            this.cbDatabase.EditorControl.RootElement.AccessibleDescription = null;
-            this.cbDatabase.EditorControl.RootElement.AccessibleName = null;
             this.cbDatabase.EditorControl.ShowGroupPanel = false;
             this.cbDatabase.Name = "cbDatabase";
-            // 
-            // 
-            // 
-            this.cbDatabase.RootElement.AccessibleDescription = null;
-            this.cbDatabase.RootElement.AccessibleName = null;
             this.cbDatabase.TabStop = false;
             // 
             // rmiContents
@@ -275,12 +265,7 @@
             this.rpvAlmisManager.Controls.Add(this.rpvUninstallAudit);
             this.rpvAlmisManager.Controls.Add(this.rpvUsers);
             this.rpvAlmisManager.Name = "rpvAlmisManager";
-            // 
-            // 
-            // 
-            this.rpvAlmisManager.RootElement.AccessibleDescription = null;
-            this.rpvAlmisManager.RootElement.AccessibleName = null;
-            this.rpvAlmisManager.SelectedPage = this.rpvPrerequirements;
+            this.rpvAlmisManager.SelectedPage = this.rpvUsers;
             this.rpvAlmisManager.ViewMode = Telerik.WinControls.UI.PageViewMode.Backstage;
             this.rpvAlmisManager.SelectedPageChanged += new System.EventHandler(this.rpvAlmisManager_SelectedPageChanged);
             ((Telerik.WinControls.UI.StripViewItemContainer)(this.rpvAlmisManager.GetChildAt(0).GetChildAt(0))).MinSize = new System.Drawing.Size(100, 0);
@@ -305,11 +290,6 @@
             // 
             resources.ApplyResources(this.rbtnInstallPrerequirements, "rbtnInstallPrerequirements");
             this.rbtnInstallPrerequirements.Name = "rbtnInstallPrerequirements";
-            // 
-            // 
-            // 
-            this.rbtnInstallPrerequirements.RootElement.AccessibleDescription = null;
-            this.rbtnInstallPrerequirements.RootElement.AccessibleName = null;
             this.rbtnInstallPrerequirements.Click += new System.EventHandler(this.rbtnInstallPrerequirements_Click);
             // 
             // rgbDatabase
@@ -318,11 +298,6 @@
             this.rgbDatabase.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping;
             this.rgbDatabase.Controls.Add(this.cbDatabase);
             this.rgbDatabase.Name = "rgbDatabase";
-            // 
-            // 
-            // 
-            this.rgbDatabase.RootElement.AccessibleDescription = null;
-            this.rgbDatabase.RootElement.AccessibleName = null;
             // 
             // lblInfoForAuditTables
             // 
@@ -413,11 +388,6 @@
             // 
             resources.ApplyResources(this.rbtnRestoreToDefault, "rbtnRestoreToDefault");
             this.rbtnRestoreToDefault.Name = "rbtnRestoreToDefault";
-            // 
-            // 
-            // 
-            this.rbtnRestoreToDefault.RootElement.AccessibleDescription = null;
-            this.rbtnRestoreToDefault.RootElement.AccessibleName = null;
             this.rbtnRestoreToDefault.Click += new System.EventHandler(this.rbtnRestoreToDefault_Click);
             // 
             // radPageView2
@@ -426,11 +396,6 @@
             this.radPageView2.Controls.Add(this.rpvColumns);
             this.radPageView2.Controls.Add(this.rpvTriggers);
             this.radPageView2.Name = "radPageView2";
-            // 
-            // 
-            // 
-            this.radPageView2.RootElement.AccessibleDescription = null;
-            this.radPageView2.RootElement.AccessibleName = null;
             this.radPageView2.SelectedPage = this.rpvColumns;
             this.radPageView2.SelectedPageChanged += new System.EventHandler(this.radPageView2_SelectedPageChanged);
             // 
@@ -607,11 +572,6 @@
             // 
             resources.ApplyResources(this.rbtnRebuildAuditTriggers, "rbtnRebuildAuditTriggers");
             this.rbtnRebuildAuditTriggers.Name = "rbtnRebuildAuditTriggers";
-            // 
-            // 
-            // 
-            this.rbtnRebuildAuditTriggers.RootElement.AccessibleDescription = null;
-            this.rbtnRebuildAuditTriggers.RootElement.AccessibleName = null;
             this.rbtnRebuildAuditTriggers.Click += new System.EventHandler(this.rbtnRebuildAuditTriggers_Click);
             // 
             // lblCreateAuditingInfo
@@ -628,11 +588,6 @@
             this.rgbBuildTriggersFor.Controls.Add(this.rrbSingelTable);
             this.rgbBuildTriggersFor.Name = "rgbBuildTriggersFor";
             // 
-            // 
-            // 
-            this.rgbBuildTriggersFor.RootElement.AccessibleDescription = null;
-            this.rgbBuildTriggersFor.RootElement.AccessibleName = null;
-            // 
             // rmcbSelectTable
             // 
             resources.ApplyResources(this.rmcbSelectTable, "rmcbSelectTable");
@@ -642,11 +597,6 @@
             resources.ApplyResources(radListDataItem1, "radListDataItem1");
             this.rmcbSelectTable.Items.Add(radListDataItem1);
             this.rmcbSelectTable.Name = "rmcbSelectTable";
-            // 
-            // 
-            // 
-            this.rmcbSelectTable.RootElement.AccessibleDescription = null;
-            this.rmcbSelectTable.RootElement.AccessibleName = null;
             this.rmcbSelectTable.SelectedIndexChanged += new Telerik.WinControls.UI.Data.PositionChangedEventHandler(this.rmcbSelectTable_SelectedIndexChanged);
             this.rmcbSelectTable.Click += new System.EventHandler(this.rmcbSelectTable_Click);
             // 
@@ -655,22 +605,12 @@
             resources.ApplyResources(this.rrbAllTables, "rrbAllTables");
             this.rrbAllTables.CheckState = System.Windows.Forms.CheckState.Checked;
             this.rrbAllTables.Name = "rrbAllTables";
-            // 
-            // 
-            // 
-            this.rrbAllTables.RootElement.AccessibleDescription = null;
-            this.rrbAllTables.RootElement.AccessibleName = null;
             this.rrbAllTables.ToggleState = Telerik.WinControls.Enumerations.ToggleState.On;
             // 
             // rrbSingelTable
             // 
             resources.ApplyResources(this.rrbSingelTable, "rrbSingelTable");
             this.rrbSingelTable.Name = "rrbSingelTable";
-            // 
-            // 
-            // 
-            this.rrbSingelTable.RootElement.AccessibleDescription = null;
-            this.rrbSingelTable.RootElement.AccessibleName = null;
             // 
             // rpvArchiveLog
             // 
@@ -687,11 +627,6 @@
             // 
             resources.ApplyResources(this.rbtnDeleteAuditLog, "rbtnDeleteAuditLog");
             this.rbtnDeleteAuditLog.Name = "rbtnDeleteAuditLog";
-            // 
-            // 
-            // 
-            this.rbtnDeleteAuditLog.RootElement.AccessibleDescription = null;
-            this.rbtnDeleteAuditLog.RootElement.AccessibleName = null;
             this.rbtnDeleteAuditLog.Click += new System.EventHandler(this.rbtnDeleteAuditLog_Click);
             // 
             // rgbDeleteAuditLog
@@ -708,11 +643,6 @@
             this.rgbDeleteAuditLog.Controls.Add(this.rrbIntervalDelete);
             this.rgbDeleteAuditLog.Controls.Add(this.rrbDateDelete);
             this.rgbDeleteAuditLog.Name = "rgbDeleteAuditLog";
-            // 
-            // 
-            // 
-            this.rgbDeleteAuditLog.RootElement.AccessibleDescription = null;
-            this.rgbDeleteAuditLog.RootElement.AccessibleName = null;
             // 
             // lblDeletedDate
             // 
@@ -768,11 +698,6 @@
             this.rtpTimeDelete.MaxValue = new System.DateTime(9999, 12, 31, 23, 59, 59, 0);
             this.rtpTimeDelete.MinValue = new System.DateTime(((long)(0)));
             this.rtpTimeDelete.Name = "rtpTimeDelete";
-            // 
-            // 
-            // 
-            this.rtpTimeDelete.RootElement.AccessibleDescription = null;
-            this.rtpTimeDelete.RootElement.AccessibleName = null;
             this.rtpTimeDelete.TabStop = false;
             this.rtpTimeDelete.Value = new System.DateTime(2013, 5, 12, 23, 10, 19, 0);
             // 
@@ -781,11 +706,6 @@
             resources.ApplyResources(this.rdtpDateDelete, "rdtpDateDelete");
             this.rdtpDateDelete.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.rdtpDateDelete.Name = "rdtpDateDelete";
-            // 
-            // 
-            // 
-            this.rdtpDateDelete.RootElement.AccessibleDescription = null;
-            this.rdtpDateDelete.RootElement.AccessibleName = null;
             this.rdtpDateDelete.TabStop = false;
             this.rdtpDateDelete.Value = new System.DateTime(2013, 5, 12, 23, 10, 8, 700);
             // 
@@ -793,11 +713,6 @@
             // 
             resources.ApplyResources(this.rrbIntervalDelete, "rrbIntervalDelete");
             this.rrbIntervalDelete.Name = "rrbIntervalDelete";
-            // 
-            // 
-            // 
-            this.rrbIntervalDelete.RootElement.AccessibleDescription = null;
-            this.rrbIntervalDelete.RootElement.AccessibleName = null;
             this.rrbIntervalDelete.ToggleStateChanged += new Telerik.WinControls.UI.StateChangedEventHandler(this.rrbIntervalDelete_ToggleStateChanged);
             // 
             // rrbDateDelete
@@ -805,11 +720,6 @@
             resources.ApplyResources(this.rrbDateDelete, "rrbDateDelete");
             this.rrbDateDelete.CheckState = System.Windows.Forms.CheckState.Checked;
             this.rrbDateDelete.Name = "rrbDateDelete";
-            // 
-            // 
-            // 
-            this.rrbDateDelete.RootElement.AccessibleDescription = null;
-            this.rrbDateDelete.RootElement.AccessibleName = null;
             this.rrbDateDelete.ToggleState = Telerik.WinControls.Enumerations.ToggleState.On;
             this.rrbDateDelete.ToggleStateChanged += new Telerik.WinControls.UI.StateChangedEventHandler(this.rrbDateDelete_ToggleStateChanged);
             // 
@@ -817,11 +727,6 @@
             // 
             resources.ApplyResources(this.rbtnArchiveAuditLogData, "rbtnArchiveAuditLogData");
             this.rbtnArchiveAuditLogData.Name = "rbtnArchiveAuditLogData";
-            // 
-            // 
-            // 
-            this.rbtnArchiveAuditLogData.RootElement.AccessibleDescription = null;
-            this.rbtnArchiveAuditLogData.RootElement.AccessibleName = null;
             this.rbtnArchiveAuditLogData.Click += new System.EventHandler(this.rbtnArchiveAuditLogData_Click);
             // 
             // radGroupBox1
@@ -838,11 +743,6 @@
             this.radGroupBox1.Controls.Add(this.rrbIntervalArchive);
             this.radGroupBox1.Controls.Add(this.rrbDateArchive);
             this.radGroupBox1.Name = "radGroupBox1";
-            // 
-            // 
-            // 
-            this.radGroupBox1.RootElement.AccessibleDescription = null;
-            this.radGroupBox1.RootElement.AccessibleName = null;
             // 
             // lblArchivedDate
             // 
@@ -897,11 +797,6 @@
             this.rtpArchiveTime.MaxValue = new System.DateTime(9999, 12, 31, 23, 59, 59, 0);
             this.rtpArchiveTime.MinValue = new System.DateTime(((long)(0)));
             this.rtpArchiveTime.Name = "rtpArchiveTime";
-            // 
-            // 
-            // 
-            this.rtpArchiveTime.RootElement.AccessibleDescription = null;
-            this.rtpArchiveTime.RootElement.AccessibleName = null;
             this.rtpArchiveTime.TabStop = false;
             this.rtpArchiveTime.Value = new System.DateTime(2013, 5, 12, 23, 10, 19, 0);
             // 
@@ -910,11 +805,6 @@
             resources.ApplyResources(this.rdtpArchiveDate, "rdtpArchiveDate");
             this.rdtpArchiveDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.rdtpArchiveDate.Name = "rdtpArchiveDate";
-            // 
-            // 
-            // 
-            this.rdtpArchiveDate.RootElement.AccessibleDescription = null;
-            this.rdtpArchiveDate.RootElement.AccessibleName = null;
             this.rdtpArchiveDate.TabStop = false;
             this.rdtpArchiveDate.Value = new System.DateTime(2013, 5, 12, 23, 10, 8, 700);
             this.rdtpArchiveDate.ValueChanged += new System.EventHandler(this.rdtpArchiveDate_ValueChanged);
@@ -923,11 +813,6 @@
             // 
             resources.ApplyResources(this.rrbIntervalArchive, "rrbIntervalArchive");
             this.rrbIntervalArchive.Name = "rrbIntervalArchive";
-            // 
-            // 
-            // 
-            this.rrbIntervalArchive.RootElement.AccessibleDescription = null;
-            this.rrbIntervalArchive.RootElement.AccessibleName = null;
             this.rrbIntervalArchive.ToggleStateChanged += new Telerik.WinControls.UI.StateChangedEventHandler(this.rrbIntervalArchive_ToggleStateChanged);
             // 
             // rrbDateArchive
@@ -935,11 +820,6 @@
             resources.ApplyResources(this.rrbDateArchive, "rrbDateArchive");
             this.rrbDateArchive.CheckState = System.Windows.Forms.CheckState.Checked;
             this.rrbDateArchive.Name = "rrbDateArchive";
-            // 
-            // 
-            // 
-            this.rrbDateArchive.RootElement.AccessibleDescription = null;
-            this.rrbDateArchive.RootElement.AccessibleName = null;
             this.rrbDateArchive.ToggleState = Telerik.WinControls.Enumerations.ToggleState.On;
             this.rrbDateArchive.ToggleStateChanged += new Telerik.WinControls.UI.StateChangedEventHandler(this.rrbDateArchive_ToggleStateChanged);
             // 
@@ -956,11 +836,6 @@
             // 
             resources.ApplyResources(this.rbtnUninstallAuditing, "rbtnUninstallAuditing");
             this.rbtnUninstallAuditing.Name = "rbtnUninstallAuditing";
-            // 
-            // 
-            // 
-            this.rbtnUninstallAuditing.RootElement.AccessibleDescription = null;
-            this.rbtnUninstallAuditing.RootElement.AccessibleName = null;
             this.rbtnUninstallAuditing.Click += new System.EventHandler(this.rbtnUninstallAuditing_Click);
             // 
             // lblUninstallInfo
@@ -1010,22 +885,12 @@
             // 
             resources.ApplyResources(this.rbtnDelete, "rbtnDelete");
             this.rbtnDelete.Name = "rbtnDelete";
-            // 
-            // 
-            // 
-            this.rbtnDelete.RootElement.AccessibleDescription = null;
-            this.rbtnDelete.RootElement.AccessibleName = null;
             this.rbtnDelete.Click += new System.EventHandler(this.rbtnDelete_Click);
             // 
             // rbtnEdit
             // 
             resources.ApplyResources(this.rbtnEdit, "rbtnEdit");
             this.rbtnEdit.Name = "rbtnEdit";
-            // 
-            // 
-            // 
-            this.rbtnEdit.RootElement.AccessibleDescription = null;
-            this.rbtnEdit.RootElement.AccessibleName = null;
             this.rbtnEdit.Click += new System.EventHandler(this.rbtnEdit_Click);
             // 
             // dgvAuditUsers
@@ -1091,22 +956,12 @@
             // 
             resources.ApplyResources(this.rbtnReset, "rbtnReset");
             this.rbtnReset.Name = "rbtnReset";
-            // 
-            // 
-            // 
-            this.rbtnReset.RootElement.AccessibleDescription = null;
-            this.rbtnReset.RootElement.AccessibleName = null;
             this.rbtnReset.Click += new System.EventHandler(this.radButton2_Click);
             // 
             // rbtnSearchPerson
             // 
             resources.ApplyResources(this.rbtnSearchPerson, "rbtnSearchPerson");
             this.rbtnSearchPerson.Name = "rbtnSearchPerson";
-            // 
-            // 
-            // 
-            this.rbtnSearchPerson.RootElement.AccessibleDescription = null;
-            this.rbtnSearchPerson.RootElement.AccessibleName = null;
             this.rbtnSearchPerson.Click += new System.EventHandler(this.rbtnSearchPerson_Click);
             // 
             // txtPassword1
@@ -1125,11 +980,6 @@
             // 
             resources.ApplyResources(this.rbtnConfirm, "rbtnConfirm");
             this.rbtnConfirm.Name = "rbtnConfirm";
-            // 
-            // 
-            // 
-            this.rbtnConfirm.RootElement.AccessibleDescription = null;
-            this.rbtnConfirm.RootElement.AccessibleName = null;
             this.rbtnConfirm.Click += new System.EventHandler(this.rbtnConfirm_Click);
             // 
             // txtSurname
@@ -1258,8 +1108,6 @@
             // 
             // 
             // 
-            this.RootElement.AccessibleDescription = null;
-            this.RootElement.AccessibleName = null;
             this.RootElement.ApplyShapeToControl = true;
             this.ThemeName = "ControlDefault";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -1274,6 +1122,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.rbtnInstallPrerequirements)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rgbDatabase)).EndInit();
             this.rgbDatabase.ResumeLayout(false);
+            this.rgbDatabase.PerformLayout();
             this.rpvAuditSetup.ResumeLayout(false);
             this.rpvAuditSetup.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTables)).EndInit();
